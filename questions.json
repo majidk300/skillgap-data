@@ -1,1 +1,704 @@
-
+{
+"categories": [
+{
+"category": "JavaScript/TypeScript",
+"questions": [
+{
+"id": 1,
+"difficulty": "beginner",
+"question": "Which keyword declares a variable?",
+"options": [
+"var",
+"int",
+"define",
+"letit"
+],
+"correctAnswer": "var",
+"explanation": "var declares variables in JS."
+},
+{
+"id": 2,
+"difficulty": "beginner",
+"question": "Which symbol is used for arrow functions?",
+"options": [
+"=>",
+"->",
+"::",
+"==>"
+],
+"correctAnswer": "=>",
+"explanation": "=> defines arrow functions."
+},
+{
+"id": 3,
+"difficulty": "medium",
+"question": "Which method converts JSON string to object?",
+"options": [
+"parse()",
+"stringify()",
+"convert()",
+"decode()"
+],
+"correctAnswer": "parse()",
+"explanation": "JSON.parse converts string to object."
+},
+{
+"id": 4,
+"difficulty": "medium",
+"question": "TypeScript is a superset of?",
+"options": [
+"Java",
+"Python",
+"JavaScript",
+"C++"
+],
+"correctAnswer": "JavaScript",
+"explanation": "TypeScript extends JavaScript."
+},
+{
+"id": 5,
+"difficulty": "hard",
+"question": "Which feature ensures type safety?",
+"options": [
+"Interfaces",
+"Promises",
+"Closures",
+"Callbacks"
+],
+"correctAnswer": "Interfaces",
+"explanation": "Interfaces enforce type checking."
+}
+]
+},
+{
+"category": "Python",
+"questions": [
+{
+"id": 1,
+"difficulty": "beginner",
+"question": "Which keyword defines function?",
+"options": [
+"func",
+"def",
+"function",
+"define"
+],
+"correctAnswer": "def",
+"explanation": "def creates functions."
+},
+{
+"id": 2,
+"difficulty": "beginner",
+"question": "Which is immutable?",
+"options": [
+"list",
+"tuple",
+"dict",
+"set"
+],
+"correctAnswer": "tuple",
+"explanation": "Tuple cannot change."
+},
+{
+"id": 3,
+"difficulty": "medium",
+"question": "Which handles exceptions?",
+"options": [
+"try",
+"catch",
+"except",
+"throw"
+],
+"correctAnswer": "except",
+"explanation": "except handles errors."
+},
+{
+"id": 4,
+"difficulty": "medium",
+"question": "Which stores key-value pairs?",
+"options": [
+"list",
+"dict",
+"tuple",
+"set"
+],
+"correctAnswer": "dict",
+"explanation": "Dictionary stores pairs."
+},
+{
+"id": 5,
+"difficulty": "hard",
+"question": "Which creates anonymous function?",
+"options": [
+"def",
+"lambda",
+"func",
+"anon"
+],
+"correctAnswer": "lambda",
+"explanation": "lambda defines small functions."
+}
+]
+},
+{
+"category": "Java",
+"questions": [
+{
+"id": 1,
+"difficulty": "beginner",
+"question": "Which keyword inherits class?",
+"options": [
+"extends",
+"implements",
+"inherits",
+"super"
+],
+"correctAnswer": "extends",
+"explanation": "extends for inheritance."
+},
+{
+"id": 2,
+"difficulty": "beginner",
+"question": "Which is not primitive?",
+"options": [
+"int",
+"float",
+"String",
+"boolean"
+],
+"correctAnswer": "String",
+"explanation": "String is class."
+},
+{
+"id": 3,
+"difficulty": "medium",
+"question": "Which is unchecked exception?",
+"options": [
+"IOException",
+"SQLException",
+"NullPointerException",
+"FileNotFoundException"
+],
+"correctAnswer": "NullPointerException",
+"explanation": "Runtime exception."
+},
+{
+"id": 4,
+"difficulty": "medium",
+"question": "Which collection avoids duplicates?",
+"options": [
+"List",
+"Set",
+"Map",
+"Queue"
+],
+"correctAnswer": "Set",
+"explanation": "Set stores unique."
+},
+{
+"id": 5,
+"difficulty": "hard",
+"question": "Where are objects stored?",
+"options": [
+"Stack",
+"Heap",
+"Register",
+"Cache"
+],
+"correctAnswer": "Heap",
+"explanation": "Objects live in heap."
+}
+]
+},
+{
+"category": "React",
+"questions": [
+{
+"id": 1,
+"difficulty": "beginner",
+"question": "React is a?",
+"options": [
+"Framework",
+"Library",
+"Language",
+"Tool"
+],
+"correctAnswer": "Library",
+"explanation": "React is JS library."
+},
+{
+"id": 2,
+"difficulty": "beginner",
+"question": "Which hook manages state?",
+"options": [
+"useData",
+"useState",
+"useEffect",
+"useRef"
+],
+"correctAnswer": "useState",
+"explanation": "useState handles state."
+},
+{
+"id": 3,
+"difficulty": "medium",
+"question": "JSX stands for?",
+"options": [
+"JS XML",
+"JavaScript XML",
+"JSON XML",
+"Java XML"
+],
+"correctAnswer": "JavaScript XML",
+"explanation": "JSX is syntax extension."
+},
+{
+"id": 4,
+"difficulty": "medium",
+"question": "Which hook runs on lifecycle?",
+"options": [
+"useState",
+"useEffect",
+"useRef",
+"useMemo"
+],
+"correctAnswer": "useEffect",
+"explanation": "useEffect handles effects."
+},
+{
+"id": 5,
+"difficulty": "hard",
+"question": "Virtual DOM improves?",
+"options": [
+"Security",
+"Speed",
+"Memory",
+"Design"
+],
+"correctAnswer": "Speed",
+"explanation": "Efficient rendering."
+}
+]
+},
+{
+"category": "Node.js",
+"questions": [
+{
+"id": 1,
+"difficulty": "beginner",
+"question": "Node.js runs on?",
+"options": [
+"Browser",
+"Server",
+"Mobile",
+"OS"
+],
+"correctAnswer": "Server",
+"explanation": "Server-side JS."
+},
+{
+"id": 2,
+"difficulty": "beginner",
+"question": "Which module handles files?",
+"options": [
+"fs",
+"http",
+"path",
+"os"
+],
+"correctAnswer": "fs",
+"explanation": "fs for filesystem."
+},
+{
+"id": 3,
+"difficulty": "medium",
+"question": "Node is?",
+"options": [
+"Blocking",
+"Single-threaded",
+"Multi-threaded",
+"Sync"
+],
+"correctAnswer": "Single-threaded",
+"explanation": "Uses event loop."
+},
+{
+"id": 4,
+"difficulty": "medium",
+"question": "Which handles requests?",
+"options": [
+"http",
+"url",
+"fs",
+"dns"
+],
+"correctAnswer": "http",
+"explanation": "http creates server."
+},
+{
+"id": 5,
+"difficulty": "hard",
+"question": "Event loop manages?",
+"options": [
+"Memory",
+"Async tasks",
+"Threads",
+"Files"
+],
+"correctAnswer": "Async tasks",
+"explanation": "Handles callbacks."
+}
+]
+},
+{
+"category": "SQL/Databases",
+"questions": [
+{
+"id": 1,
+"difficulty": "beginner",
+"question": "SQL stands for?",
+"options": [
+"Structured Query Language",
+"Simple Query Language",
+"System Query Language",
+"Server Query Language"
+],
+"correctAnswer": "Structured Query Language",
+"explanation": "Standard DB language."
+},
+{
+"id": 2,
+"difficulty": "beginner",
+"question": "Which fetches data?",
+"options": [
+"GET",
+"SELECT",
+"FETCH",
+"READ"
+],
+"correctAnswer": "SELECT",
+"explanation": "SELECT retrieves records."
+},
+{
+"id": 3,
+"difficulty": "medium",
+"question": "Primary key ensures?",
+"options": [
+"Speed",
+"Uniqueness",
+"Indexing",
+"Relations"
+],
+"correctAnswer": "Uniqueness",
+"explanation": "Unique record."
+},
+{
+"id": 4,
+"difficulty": "medium",
+"question": "JOIN is used to?",
+"options": [
+"Delete",
+"Combine tables",
+"Sort",
+"Insert"
+],
+"correctAnswer": "Combine tables",
+"explanation": "Merges data."
+},
+{
+"id": 5,
+"difficulty": "hard",
+"question": "Normalization reduces?",
+"options": [
+"Data",
+"Redundancy",
+"Speed",
+"Security"
+],
+"correctAnswer": "Redundancy",
+"explanation": "Avoids duplication."
+}
+]
+},
+{
+"category": "Git/Version Control",
+"questions": [
+{
+"id": 1,
+"difficulty": "beginner",
+"question": "Git is used for?",
+"options": [
+"Coding",
+"Version control",
+"Testing",
+"Hosting"
+],
+"correctAnswer": "Version control",
+"explanation": "Tracks changes."
+},
+{
+"id": 2,
+"difficulty": "beginner",
+"question": "Which saves changes?",
+"options": [
+"push",
+"commit",
+"pull",
+"merge"
+],
+"correctAnswer": "commit",
+"explanation": "Commit saves snapshot."
+},
+{
+"id": 3,
+"difficulty": "medium",
+"question": "Which uploads code?",
+"options": [
+"push",
+"clone",
+"fetch",
+"checkout"
+],
+"correctAnswer": "push",
+"explanation": "Push sends to remote."
+},
+{
+"id": 4,
+"difficulty": "medium",
+"question": "Branch is?",
+"options": [
+"Copy",
+"Version line",
+"Folder",
+"Tag"
+],
+"correctAnswer": "Version line",
+"explanation": "Parallel development."
+},
+{
+"id": 5,
+"difficulty": "hard",
+"question": "Merge resolves?",
+"options": [
+"Conflicts",
+"Commits",
+"Branches",
+"Repos"
+],
+"correctAnswer": "Conflicts",
+"explanation": "Combines branches."
+}
+]
+},
+{
+"category": "AWS/Cloud",
+"questions": [
+{
+"id": 1,
+"difficulty": "beginner",
+"question": "AWS is?",
+"options": [
+"OS",
+"Cloud service",
+"Language",
+"Database"
+],
+"correctAnswer": "Cloud service",
+"explanation": "Amazon cloud platform."
+},
+{
+"id": 2,
+"difficulty": "beginner",
+"question": "EC2 provides?",
+"options": [
+"Storage",
+"Virtual servers",
+"Database",
+"DNS"
+],
+"correctAnswer": "Virtual servers",
+"explanation": "Compute service."
+},
+{
+"id": 3,
+"difficulty": "medium",
+"question": "S3 is used for?",
+"options": [
+"Compute",
+"Storage",
+"Network",
+"Security"
+],
+"correctAnswer": "Storage",
+"explanation": "Object storage."
+},
+{
+"id": 4,
+"difficulty": "medium",
+"question": "Cloud advantage?",
+"options": [
+"Scalability",
+"Manual setup",
+"High cost",
+"Limited access"
+],
+"correctAnswer": "Scalability",
+"explanation": "Easily scale resources."
+},
+{
+"id": 5,
+"difficulty": "hard",
+"question": "IAM manages?",
+"options": [
+"Servers",
+"Users & permissions",
+"Storage",
+"Billing"
+],
+"correctAnswer": "Users & permissions",
+"explanation": "Access control."
+}
+]
+},
+{
+"category": "Docker/Kubernetes",
+"questions": [
+{
+"id": 1,
+"difficulty": "beginner",
+"question": "Docker is used for?",
+"options": [
+"Virtual machines",
+"Containers",
+"Databases",
+"Servers"
+],
+"correctAnswer": "Containers",
+"explanation": "Runs apps in containers."
+},
+{
+"id": 2,
+"difficulty": "beginner",
+"question": "Docker image is?",
+"options": [
+"Running app",
+"Blueprint",
+"Server",
+"Network"
+],
+"correctAnswer": "Blueprint",
+"explanation": "Template for containers."
+},
+{
+"id": 3,
+"difficulty": "medium",
+"question": "Kubernetes manages?",
+"options": [
+"Files",
+"Containers",
+"Networks",
+"Users"
+],
+"correctAnswer": "Containers",
+"explanation": "Orchestrates containers."
+},
+{
+"id": 4,
+"difficulty": "medium",
+"question": "Pod is?",
+"options": [
+"Server",
+"Smallest unit",
+"Image",
+"Volume"
+],
+"correctAnswer": "Smallest unit",
+"explanation": "Basic deploy unit."
+},
+{
+"id": 5,
+"difficulty": "hard",
+"question": "Scaling means?",
+"options": [
+"Backup",
+"Increase instances",
+"Delete pods",
+"Build images"
+],
+"correctAnswer": "Increase instances",
+"explanation": "Handles load."
+}
+]
+},
+{
+"category": "Testing/QA",
+"questions": [
+{
+"id": 1,
+"difficulty": "beginner",
+"question": "Testing finds?",
+"options": [
+"Features",
+"Bugs",
+"Design",
+"Speed"
+],
+"correctAnswer": "Bugs",
+"explanation": "Detects errors."
+},
+{
+"id": 2,
+"difficulty": "beginner",
+"question": "Unit testing tests?",
+"options": [
+"Whole system",
+"Modules",
+"Single function",
+"UI"
+],
+"correctAnswer": "Single function",
+"explanation": "Smallest unit."
+},
+{
+"id": 3,
+"difficulty": "medium",
+"question": "Automation testing uses?",
+"options": [
+"Tools",
+"Manual steps",
+"Docs",
+"Reviews"
+],
+"correctAnswer": "Tools",
+"explanation": "Scripts for testing."
+},
+{
+"id": 4,
+"difficulty": "medium",
+"question": "Regression testing checks?",
+"options": [
+"New bugs",
+"Old features",
+"Performance",
+"Security"
+],
+"correctAnswer": "Old features",
+"explanation": "Ensures nothing breaks."
+},
+{
+"id": 5,
+"difficulty": "hard",
+"question": "CI testing runs?",
+"options": [
+"Manually",
+"On deployment",
+"Automatically",
+"Weekly"
+],
+"correctAnswer": "Automatically",
+"explanation": "Runs in pipelines."
+}
+]
+}
+]
+}
