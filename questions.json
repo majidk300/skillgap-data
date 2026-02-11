@@ -83,6 +83,86 @@
             "options": ["object", "array", "list", "undefined"],
             "correctAnswer": "object",
             "explanation": "Arrays are objects in JavaScript, typeof returns 'object'."
+          },
+          {
+            "id": 11,
+            "difficulty": "entry",
+            "question": "How do you convert a string to an integer?",
+            "options": ["parseInt()", "parseFloat()", "toString()", "Number()"],
+            "correctAnswer": "parseInt()",
+            "explanation": "parseInt() parses a string and returns an integer."
+          },
+          {
+            "id": 12,
+            "difficulty": "entry",
+            "question": "What does NaN stand for?",
+            "options": ["Not a Number", "Null and Null", "Number and Null", "Not a Null"],
+            "correctAnswer": "Not a Number",
+            "explanation": "NaN represents a value that is not a valid number."
+          },
+          {
+            "id": 13,
+            "difficulty": "entry",
+            "question": "Which symbol is used for template literals?",
+            "options": ["``", "''", "\"\"", "[]"],
+            "correctAnswer": "``",
+            "explanation": "Backticks (`) are used for template literals in ES6."
+          },
+          {
+            "id": 14,
+            "difficulty": "entry",
+            "question": "What is the correct way to check if a variable is an array?",
+            "options": ["Array.isArray()", "typeof", "instanceof", "isArray()"],
+            "correctAnswer": "Array.isArray()",
+            "explanation": "Array.isArray() is the reliable way to check if a value is an array."
+          },
+          {
+            "id": 15,
+            "difficulty": "entry",
+            "question": "Which keyword is used to define a function?",
+            "options": ["function", "def", "func", "define"],
+            "correctAnswer": "function",
+            "explanation": "The function keyword is used to define functions in JavaScript."
+          },
+          {
+            "id": 16,
+            "difficulty": "entry",
+            "question": "What is the result of 2 + '2' in JavaScript?",
+            "options": ["'22'", "4", "22", "Error"],
+            "correctAnswer": "'22'",
+            "explanation": "JavaScript performs type coercion, converting number to string and concatenating."
+          },
+          {
+            "id": 17,
+            "difficulty": "entry",
+            "question": "Which event occurs when a user clicks on an element?",
+            "options": ["onclick", "onhover", "onchange", "onsubmit"],
+            "correctAnswer": "onclick",
+            "explanation": "The onclick event occurs when an element is clicked."
+          },
+          {
+            "id": 18,
+            "difficulty": "entry",
+            "question": "How do you write an if statement in JavaScript?",
+            "options": ["if (x == 5)", "if x == 5 then", "if (x == 5) then", "if x = 5"],
+            "correctAnswer": "if (x == 5)",
+            "explanation": "JavaScript if statements use parentheses for the condition."
+          },
+          {
+            "id": 19,
+            "difficulty": "entry",
+            "question": "What is the output of console.log(typeof 42)?",
+            "options": ["number", "string", "integer", "float"],
+            "correctAnswer": "number",
+            "explanation": "typeof 42 returns 'number' as 42 is a numeric value."
+          },
+          {
+            "id": 20,
+            "difficulty": "entry",
+            "question": "Which method joins array elements into a string?",
+            "options": ["join()", "concat()", "merge()", "combine()"],
+            "correctAnswer": "join()",
+            "explanation": "join() combines all array elements into a string with optional separator."
           }
         ],
         "intermediate": [
@@ -165,6 +245,86 @@
             "options": ["Async operation handler", "Synchronous function", "Callback", "Event listener"],
             "correctAnswer": "Async operation handler",
             "explanation": "Promise represents eventual completion of async operation."
+          },
+          {
+            "id": 11,
+            "difficulty": "intermediate",
+            "question": "What does the 'async' keyword do?",
+            "options": ["Declares async function", "Makes function sync", "Pauses function", "Ends function"],
+            "correctAnswer": "Declares async function",
+            "explanation": "async declares function that returns a Promise."
+          },
+          {
+            "id": 12,
+            "difficulty": "intermediate",
+            "question": "What is destructuring assignment?",
+            "options": ["Unpack values from arrays", "Unpack properties from objects", "Both A and B", "Variable declaration"],
+            "correctAnswer": "Both A and B",
+            "explanation": "Destructuring unpacks values from arrays or objects."
+          },
+          {
+            "id": 13,
+            "difficulty": "intermediate",
+            "question": "What is the purpose of the 'finally' block?",
+            "options": ["Always executes", "Error handling", "Success case", "Break loop"],
+            "correctAnswer": "Always executes",
+            "explanation": "finally block executes regardless of promise outcome."
+          },
+          {
+            "id": 14,
+            "difficulty": "intermediate",
+            "question": "What is a module in JavaScript?",
+            "options": ["Reusable code block", "Function", "Variable", "Loop"],
+            "correctAnswer": "Reusable code block",
+            "explanation": "Modules encapsulate code for better organization and reuse."
+          },
+          {
+            "id": 15,
+            "difficulty": "intermediate",
+            "question": "Which statement imports a default export?",
+            "options": ["import x from", "import {x} from", "import * as x", "import x ="],
+            "correctAnswer": "import x from",
+            "explanation": "Default imports use import name from module syntax."
+          },
+          {
+            "id": 16,
+            "difficulty": "intermediate",
+            "question": "What is the difference between let and var?",
+            "options": ["let block-scoped", "var function-scoped", "Same", "Both A and B"],
+            "correctAnswer": "Both A and B",
+            "explanation": "let is block-scoped; var is function-scoped."
+          },
+          {
+            "id": 17,
+            "difficulty": "intermediate",
+            "question": "What is a higher-order function?",
+            "options": ["Takes/returns functions", "Complex function", "Recursive function", "Arrow function"],
+            "correctAnswer": "Takes/returns functions",
+            "explanation": "Higher-order functions operate on other functions."
+          },
+          {
+            "id": 18,
+            "difficulty": "intermediate",
+            "question": "What is the this context in arrow functions?",
+            "options": ["Lexical this", "Global this", "Own this", "Undefined"],
+            "correctAnswer": "Lexical this",
+            "explanation": "Arrow functions inherit this from parent scope."
+          },
+          {
+            "id": 19,
+            "difficulty": "intermediate",
+            "question": "What is a Set in JavaScript?",
+            "options": ["Unique values collection", "Array-like", "Key-value pairs", "String"],
+            "correctAnswer": "Unique values collection",
+            "explanation": "Set stores unique values of any type."
+          },
+          {
+            "id": 20,
+            "difficulty": "intermediate",
+            "question": "What is a WeakMap?",
+            "options": ["Weak references keys", "Strong references", "Primitive keys", "Value collection"],
+            "correctAnswer": "Weak references keys",
+            "explanation": "WeakMap keys are weakly referenced (garbage-collectible)."
           }
         ],
         "senior": [
@@ -247,6 +407,86 @@
             "options": ["Weak references", "Garbage collection hooks", "Memory management", "All of the above"],
             "correctAnswer": "All of the above",
             "explanation": "WeakRef holds weak reference; FinalizationRegistry cleans up."
+          },
+          {
+            "id": 11,
+            "difficulty": "senior",
+            "question": "What is the difference between deep and shallow copy?",
+            "options": ["Deep copies nested", "Shallow copies references", "Both A and B", "Same"],
+            "correctAnswer": "Both A and B",
+            "explanation": "Deep copy recursively copies all nested objects."
+          },
+          {
+            "id": 12,
+            "difficulty": "senior",
+            "question": "How does the 'as const' assertion work?",
+            "options": ["Makes readonly", "Literal types", "Widening prevention", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "as const creates readonly literal types and prevents widening."
+          },
+          {
+            "id": 13,
+            "difficulty": "senior",
+            "question": "What is the satisfies operator?",
+            "options": ["Type checking", "Inference", "Both", "Assignment"],
+            "correctAnswer": "Both",
+            "explanation": "satisfies checks type while preserving inferred type."
+          },
+          {
+            "id": 14,
+            "difficulty": "senior",
+            "question": "What are template literal types?",
+            "options": ["String literal manipulation", "Type concatenation", "Union generation", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "Template literal types create string literal unions."
+          },
+          {
+            "id": 15,
+            "difficulty": "senior",
+            "question": "What is the infer keyword?",
+            "options": ["Type inference in conditional", "Variable declaration", "Type guard", "Assertion"],
+            "correctAnswer": "Type inference in conditional",
+            "explanation": "infer extracts types within conditional types."
+          },
+          {
+            "id": 16,
+            "difficulty": "senior",
+            "question": "What are conditional types?",
+            "options": ["T extends U ? X : Y", "Type conditions", "Generic constraints", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "Conditional types select types based on conditions."
+          },
+          {
+            "id": 17,
+            "difficulty": "senior",
+            "question": "What is the difference between 'any' and 'unknown'?",
+            "options": ["any: no checking", "unknown: safe any", "Both A and B", "Same"],
+            "correctAnswer": "Both A and B",
+            "explanation": "any disables checking; unknown requires type narrowing."
+          },
+          {
+            "id": 18,
+            "difficulty": "senior",
+            "question": "What is the brand pattern?",
+            "options": ["Nominal typing", "Structural typing", "Type branding", "Both A and C"],
+            "correctAnswer": "Both A and C",
+            "explanation": "Brand pattern simulates nominal typing in TypeScript."
+          },
+          {
+            "id": 19,
+            "difficulty": "senior",
+            "question": "How do you create a singleton in TypeScript?",
+            "options": ["Private constructor", "Static instance", "Both A and B", "Global variable"],
+            "correctAnswer": "Both A and B",
+            "explanation": "Singleton uses private constructor and static getInstance."
+          },
+          {
+            "id": 20,
+            "difficulty": "senior",
+            "question": "What is covariance and contravariance?",
+            "options": ["Type compatibility", "Function assignment", "Parameter/return types", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "Covariance/contravariance govern type compatibility in functions."
           }
         ],
         "expert": [
@@ -329,675 +569,87 @@
             "options": ["Performance visualization", "Call stack", "CPU profiling", "All of the above"],
             "correctAnswer": "All of the above",
             "explanation": "Flame graphs show CPU time distribution."
-          }
-        ]
-      }
-    },
-    {
-      "category": "Python",
-      "questions": {
-        "entry": [
-          {
-            "id": 1,
-            "difficulty": "entry",
-            "question": "Which keyword defines function in Python?",
-            "options": ["def", "func", "function", "define"],
-            "correctAnswer": "def",
-            "explanation": "def keyword creates functions in Python."
           },
           {
-            "id": 2,
-            "difficulty": "entry",
-            "question": "Which data type is immutable?",
-            "options": ["tuple", "list", "dict", "set"],
-            "correctAnswer": "tuple",
-            "explanation": "Tuples cannot be changed after creation."
-          },
-          {
-            "id": 3,
-            "difficulty": "entry",
-            "question": "What is the output of print(2 ** 3)?",
-            "options": ["8", "6", "9", "5"],
-            "correctAnswer": "8",
-            "explanation": "** is the exponentiation operator."
-          },
-          {
-            "id": 4,
-            "difficulty": "entry",
-            "question": "Which method adds item to list?",
-            "options": ["append()", "add()", "insert()", "push()"],
-            "correctAnswer": "append()",
-            "explanation": "append() adds element to end of list."
-          },
-          {
-            "id": 5,
-            "difficulty": "entry",
-            "question": "What is PEP 8?",
-            "options": ["Style guide", "Python library", "Framework", "Compiler"],
-            "correctAnswer": "Style guide",
-            "explanation": "PEP 8 is Python's official style guide."
-          },
-          {
-            "id": 6,
-            "difficulty": "entry",
-            "question": "How do you get user input?",
-            "options": ["input()", "read()", "get()", "scan()"],
-            "correctAnswer": "input()",
-            "explanation": "input() reads user input as string."
-          },
-          {
-            "id": 7,
-            "difficulty": "entry",
-            "question": "What is the correct file extension for Python?",
-            "options": [".py", ".python", ".p", ".pt"],
-            "correctAnswer": ".py",
-            "explanation": "Python files use .py extension."
-          },
-          {
-            "id": 8,
-            "difficulty": "entry",
-            "question": "Which statement prints to console?",
-            "options": ["print()", "console.log()", "echo", "System.out.println()"],
-            "correctAnswer": "print()",
-            "explanation": "print() outputs to console in Python."
-          },
-          {
-            "id": 9,
-            "difficulty": "entry",
-            "question": "What is the result of len('Hello')?",
-            "options": ["5", "4", "6", "Error"],
-            "correctAnswer": "5",
-            "explanation": "len() returns number of characters."
-          },
-          {
-            "id": 10,
-            "difficulty": "entry",
-            "question": "How do you create a comment?",
-            "options": ["#", "//", "/*", "'"],
-            "correctAnswer": "#",
-            "explanation": "# is used for single-line comments."
-          }
-        ],
-        "intermediate": [
-          {
-            "id": 1,
-            "difficulty": "intermediate",
-            "question": "Which keyword handles exceptions in Python?",
-            "options": ["except", "catch", "handle", "error"],
-            "correctAnswer": "except",
-            "explanation": "except block catches exceptions in try/except."
-          },
-          {
-            "id": 2,
-            "difficulty": "intermediate",
-            "question": "What is list comprehension?",
-            "options": ["Concise list creation", "Loop syntax", "Function type", "Module"],
-            "correctAnswer": "Concise list creation",
-            "explanation": "List comprehension creates lists in one line."
-          },
-          {
-            "id": 3,
-            "difficulty": "intermediate",
-            "question": "What is the difference between is and ==?",
-            "options": ["is compares identity", "== compares equality", "Both", "Same"],
-            "correctAnswer": "Both",
-            "explanation": "is: same object; ==: equal value."
-          },
-          {
-            "id": 4,
-            "difficulty": "intermediate",
-            "question": "What is a decorator?",
-            "options": ["Function modifier", "Design pattern", "Class method", "Variable"],
-            "correctAnswer": "Function modifier",
-            "explanation": "Decorators modify function behavior."
-          },
-          {
-            "id": 5,
-            "difficulty": "intermediate",
-            "question": "What is the purpose of __init__?",
-            "options": ["Class constructor", "Initialize method", "Create object", "All of the above"],
-            "correctAnswer": "All of the above",
-            "explanation": "__init__ initializes new class instances."
-          },
-          {
-            "id": 6,
-            "difficulty": "intermediate",
-            "question": "What are *args and **kwargs?",
-            "options": ["Variable arguments", "Keyword arguments", "Both", "Positional only"],
-            "correctAnswer": "Both",
-            "explanation": "*args: positional; **kwargs: keyword arguments."
-          },
-          {
-            "id": 7,
-            "difficulty": "intermediate",
-            "question": "What is a lambda function?",
-            "options": ["Anonymous function", "Named function", "Class method", "Built-in"],
-            "correctAnswer": "Anonymous function",
-            "explanation": "Lambda is a small anonymous function."
-          },
-          {
-            "id": 8,
-            "difficulty": "intermediate",
-            "question": "How does inheritance work in Python?",
-            "options": ["Parent class", "Child class", "super()", "All of the above"],
-            "correctAnswer": "All of the above",
-            "explanation": "Classes inherit from parent classes using super()."
-          },
-          {
-            "id": 9,
-            "difficulty": "intermediate",
-            "question": "What is method overriding?",
-            "options": ["Redefine parent method", "Same name, new behavior", "Polymorphism", "All of the above"],
-            "correctAnswer": "All of the above",
-            "explanation": "Child class redefines parent class method."
-          },
-          {
-            "id": 10,
-            "difficulty": "intermediate",
-            "question": "What is encapsulation?",
-            "options": ["Hide internal state", "Public/private", "Property decorator", "All of the above"],
-            "correctAnswer": "All of the above",
-            "explanation": "Encapsulation restricts direct access to data."
-          }
-        ],
-        "senior": [
-          {
-            "id": 1,
-            "difficulty": "senior",
-            "question": "What is the Global Interpreter Lock (GIL)?",
-            "options": ["Mutex on Python interpreter", "Thread safety", "Performance limitation", "All of the above"],
-            "correctAnswer": "All of the above",
-            "explanation": "GIL allows only one thread to execute at a time."
-          },
-          {
-            "id": 2,
-            "difficulty": "senior",
-            "question": "How does memory management work in Python?",
-            "options": ["Reference counting", "Garbage collection", "Memory pools", "All of the above"],
-            "correctAnswer": "All of the above",
-            "explanation": "Python uses both reference counting and generational GC."
-          },
-          {
-            "id": 3,
-            "difficulty": "senior",
-            "question": "What is a metaclass?",
-            "options": ["Class of class", "Create classes", "Customize class creation", "All of the above"],
-            "correctAnswer": "All of the above",
-            "explanation": "Metaclasses are classes that create classes."
-          },
-          {
-            "id": 4,
-            "difficulty": "senior",
-            "question": "What are descriptors?",
-            "options": ["Attribute access control", "__get__/__set__", "Property implementation", "All of the above"],
-            "correctAnswer": "All of the above",
-            "explanation": "Descriptors manage attribute access in classes."
-          },
-          {
-            "id": 5,
-            "difficulty": "senior",
-            "question": "What is the difference between __new__ and __init__?",
-            "options": ["__new__ creates instance", "__init__ initializes", "Both A and B", "Same"],
-            "correctAnswer": "Both A and B",
-            "explanation": "__new__ is constructor, __init__ is initializer."
-          },
-          {
-            "id": 6,
-            "difficulty": "senior",
-            "question": "What are context managers?",
-            "options": ["with statement", "Enter/exit protocols", "Resource management", "All of the above"],
-            "correctAnswer": "All of the above",
-            "explanation": "Context managers define __enter__ and __exit__ methods."
-          },
-          {
-            "id": 7,
-            "difficulty": "senior",
-            "question": "What is the asyncio module?",
-            "options": ["Asynchronous I/O", "Event loop", "Coroutines", "All of the above"],
-            "correctAnswer": "All of the above",
-            "explanation": "asyncio provides async/await concurrency."
-          },
-          {
-            "id": 8,
-            "difficulty": "senior",
-            "question": "What are coroutines?",
-            "options": ["Async functions", "await/async", "Cooperative multitasking", "All of the above"],
-            "correctAnswer": "All of the above",
-            "explanation": "Coroutines are functions that can pause/resume."
-          },
-          {
-            "id": 9,
-            "difficulty": "senior",
-            "question": "What is the difference between threading and multiprocessing?",
-            "options": ["Threads share memory", "Processes separate memory", "GIL impact", "All of the above"],
-            "correctAnswer": "All of the above",
-            "explanation": "Threads: lightweight, GIL-bound; Processes: separate memory, no GIL."
-          },
-          {
-            "id": 10,
-            "difficulty": "senior",
-            "question": "What is the concurrent.futures module?",
-            "options": ["High-level async", "ThreadPoolExecutor", "ProcessPoolExecutor", "All of the above"],
-            "correctAnswer": "All of the above",
-            "explanation": "concurrent.futures provides thread/process pools."
-          }
-        ],
-        "expert": [
-          {
-            "id": 1,
+            "id": 11,
             "difficulty": "expert",
-            "question": "How does Python's bytecode compiler work?",
-            "options": ["AST generation", "Bytecode generation", "PEAK optimization", "All of the above"],
+            "question": "What is the role of libuv in Node.js?",
+            "options": ["Async I/O", "Event loop", "Thread pool", "All of the above"],
             "correctAnswer": "All of the above",
-            "explanation": "Python compiles source to AST to bytecode."
+            "explanation": "libuv provides async I/O and event loop."
           },
           {
-            "id": 2,
+            "id": 12,
             "difficulty": "expert",
-            "question": "What is the Python/C API?",
-            "options": ["C extension interface", "Embedding Python", "Creating modules", "All of the above"],
+            "question": "How does the thread pool work in libuv?",
+            "options": ["4 threads default", "File I/O", "DNS lookup", "All of the above"],
             "correctAnswer": "All of the above",
-            "explanation": "Python/C API allows C extensions and embedding."
+            "explanation": "libuv thread pool handles blocking operations."
           },
           {
-            "id": 3,
+            "id": 13,
             "difficulty": "expert",
-            "question": "What is Cython?",
-            "options": ["Python with C types", "C extensions", "Performance optimization", "All of the above"],
+            "question": "What is the difference between async_hooks and AsyncLocalStorage?",
+            "options": ["Async hooks low-level", "AsyncLocalStorage high-level", "Context propagation", "All of the above"],
             "correctAnswer": "All of the above",
-            "explanation": "Cython compiles Python-like code to C."
+            "explanation": "AsyncLocalStorage simplifies async context tracking."
           },
           {
-            "id": 4,
+            "id": 14,
             "difficulty": "expert",
-            "question": "What is the difference between PyPy and CPython?",
-            "options": ["PyPy: JIT compiler", "CPython: interpreter", "Performance", "All of the above"],
+            "question": "How does the Node.js module system work?",
+            "options": ["Module caching", "Circular dependencies", "Module wrapping", "All of the above"],
             "correctAnswer": "All of the above",
-            "explanation": "PyPy uses JIT; CPython is reference implementation."
+            "explanation": "Node.js wraps modules in function and caches them."
           },
           {
-            "id": 5,
+            "id": 15,
             "difficulty": "expert",
-            "question": "What is the asyncio event loop implementation?",
-            "options": ["Selector/Proactor", "Task scheduling", "Future/promise", "All of the above"],
+            "question": "What is the resolution algorithm for require?",
+            "options": ["File modules", "Core modules", "node_modules", "All of the above"],
             "correctAnswer": "All of the above",
-            "explanation": "asyncio uses different event loop implementations."
+            "explanation": "require resolves core, file, or node_modules."
           },
           {
-            "id": 6,
+            "id": 16,
             "difficulty": "expert",
-            "question": "How does Python's Garbage Collector work?",
-            "options": ["Generational GC", "Cycle detection", "Thresholds", "All of the above"],
+            "question": "How does the V8 Turbofan compiler work?",
+            "options": ["Sea of Nodes", "Optimization pipeline", "Type specialization", "All of the above"],
             "correctAnswer": "All of the above",
-            "explanation": "Python GC handles reference cycles in generations."
+            "explanation": "Turbofan uses advanced optimization techniques."
           },
           {
-            "id": 7,
+            "id": 17,
             "difficulty": "expert",
-            "question": "What is the Garbage Collection threshold?",
-            "options": ["Generation 0 threshold", "Collection frequency", "gc module", "All of the above"],
+            "question": "What is the WebAssembly System Interface?",
+            "options": ["WASI", "System calls", "Wasm outside browser", "All of the above"],
             "correctAnswer": "All of the above",
-            "explanation": "GC thresholds trigger collections when exceeded."
+            "explanation": "WASI provides system interface for WebAssembly."
           },
           {
-            "id": 8,
+            "id": 18,
             "difficulty": "expert",
-            "question": "What is the difference between CPython and Jython?",
-            "options": ["CPython: C", "Jython: Java", "Platform", "All of the above"],
+            "question": "How does WebAssembly interact with JavaScript?",
+            "options": ["Linear memory", "Imported functions", "Exported functions", "All of the above"],
             "correctAnswer": "All of the above",
-            "explanation": "CPython implemented in C; Jython in Java on JVM."
+            "explanation": "JS and Wasm communicate via imports/exports and shared memory."
           },
           {
-            "id": 9,
+            "id": 19,
             "difficulty": "expert",
-            "question": "What is IronPython?",
-            "options": [".NET implementation", "C#", "CLR", "All of the above"],
+            "question": "What is the difference between ahead-of-time and just-in-time compilation?",
+            "options": ["AOT: pre-compiled", "JIT: runtime", "Performance trade-offs", "All of the above"],
             "correctAnswer": "All of the above",
-            "explanation": "IronPython is Python for .NET/CLR."
+            "explanation": "AOT vs JIT compilation strategies."
           },
           {
-            "id": 10,
+            "id": 20,
             "difficulty": "expert",
-            "question": "What is the Python data model?",
-            "options": ["Objects protocol", "Dunder methods", "Attribute access", "All of the above"],
+            "question": "What is the ECMAScript proposal process?",
+            "options": ["Stage 0 to 4", "TC39 committee", "Specification", "All of the above"],
             "correctAnswer": "All of the above",
-            "explanation": "Data model defines object behavior through protocols."
-          }
-        ]
-      }
-    },
-    {
-      "category": "Java",
-      "questions": {
-        "entry": [
-          {
-            "id": 1,
-            "difficulty": "entry",
-            "question": "Which keyword is used to inherit a class in Java?",
-            "options": ["extends", "implements", "inherits", "super"],
-            "correctAnswer": "extends",
-            "explanation": "extends is used for class inheritance in Java."
-          },
-          {
-            "id": 2,
-            "difficulty": "entry",
-            "question": "Which of these is not a primitive data type?",
-            "options": ["String", "int", "boolean", "double"],
-            "correctAnswer": "String",
-            "explanation": "String is a class, not a primitive type."
-          },
-          {
-            "id": 3,
-            "difficulty": "entry",
-            "question": "What does JVM stand for?",
-            "options": ["Java Virtual Machine", "Java Variable Method", "Java Visual Machine", "Java Version Manager"],
-            "correctAnswer": "Java Virtual Machine",
-            "explanation": "JVM executes Java bytecode."
-          },
-          {
-            "id": 4,
-            "difficulty": "entry",
-            "question": "Which keyword creates an object?",
-            "options": ["new", "create", "object", "instantiate"],
-            "correctAnswer": "new",
-            "explanation": "new instantiates a class to create an object."
-          },
-          {
-            "id": 5,
-            "difficulty": "entry",
-            "question": "What is the correct main method signature?",
-            "options": ["public static void main(String[] args)", "public void main", "static void main", "public static main"],
-            "correctAnswer": "public static void main(String[] args)",
-            "explanation": "This is the standard entry point for Java applications."
-          },
-          {
-            "id": 6,
-            "difficulty": "entry",
-            "question": "What is the size of int in Java?",
-            "options": ["32 bits", "16 bits", "64 bits", "8 bits"],
-            "correctAnswer": "32 bits",
-            "explanation": "int is a 32-bit signed integer in Java."
-          },
-          {
-            "id": 7,
-            "difficulty": "entry",
-            "question": "Which package contains the Scanner class?",
-            "options": ["java.util", "java.io", "java.lang", "java.scanner"],
-            "correctAnswer": "java.util",
-            "explanation": "Scanner is in java.util package."
-          },
-          {
-            "id": 8,
-            "difficulty": "entry",
-            "question": "What is the default value of a boolean variable?",
-            "options": ["false", "true", "null", "0"],
-            "correctAnswer": "false",
-            "explanation": "Boolean instance variables default to false."
-          },
-          {
-            "id": 9,
-            "difficulty": "entry",
-            "question": "Which operator is used for concatenation?",
-            "options": ["+", "&", "||", ".concat"],
-            "correctAnswer": "+",
-            "explanation": "+ concatenates strings in Java."
-          },
-          {
-            "id": 10,
-            "difficulty": "entry",
-            "question": "What is the range of byte data type?",
-            "options": ["-128 to 127", "-32768 to 32767", "-2147483648 to 2147483647", "0 to 65535"],
-            "correctAnswer": "-128 to 127",
-            "explanation": "byte is 8-bit signed integer from -128 to 127."
-          }
-        ],
-        "intermediate": [
-          {
-            "id": 1,
-            "difficulty": "intermediate",
-            "question": "Which is an unchecked exception?",
-            "options": ["NullPointerException", "IOException", "SQLException", "FileNotFoundException"],
-            "correctAnswer": "NullPointerException",
-            "explanation": "NullPointerException is a runtime exception (unchecked)."
-          },
-          {
-            "id": 2,
-            "difficulty": "intermediate",
-            "question": "Which collection avoids duplicates?",
-            "options": ["Set", "List", "Map", "Queue"],
-            "correctAnswer": "Set",
-            "explanation": "Set stores unique elements only."
-          },
-          {
-            "id": 3,
-            "difficulty": "intermediate",
-            "question": "What is polymorphism?",
-            "options": ["Many forms", "Single form", "Data hiding", "Encapsulation"],
-            "correctAnswer": "Many forms",
-            "explanation": "Polymorphism allows objects to take multiple forms."
-          },
-          {
-            "id": 4,
-            "difficulty": "intermediate",
-            "question": "What is the difference between abstract class and interface?",
-            "options": ["Abstract has implementation", "Interface all abstract", "Multiple inheritance", "All of the above"],
-            "correctAnswer": "All of the above",
-            "explanation": "Abstract classes can have implemented methods; interfaces historically all abstract."
-          },
-          {
-            "id": 5,
-            "difficulty": "intermediate",
-            "question": "What is method overriding?",
-            "options": ["Child redefines parent method", "Same method signature", "Runtime polymorphism", "All of the above"],
-            "correctAnswer": "All of the above",
-            "explanation": "Overriding provides specific implementation in subclass."
-          },
-          {
-            "id": 6,
-            "difficulty": "intermediate",
-            "question": "What is the final keyword used for?",
-            "options": ["Constant variable", "Prevent inheritance", "Prevent overriding", "All of the above"],
-            "correctAnswer": "All of the above",
-            "explanation": "final prevents modification, inheritance, and overriding."
-          },
-          {
-            "id": 7,
-            "difficulty": "intermediate",
-            "question": "What is the static block?",
-            "options": ["Initialize static members", "Executed when class loads", "One-time execution", "All of the above"],
-            "correctAnswer": "All of the above",
-            "explanation": "Static block runs once when class is loaded."
-          },
-          {
-            "id": 8,
-            "difficulty": "intermediate",
-            "question": "What is the try-with-resources?",
-            "options": ["Auto-close resources", "Java 7 feature", "Implements AutoCloseable", "All of the above"],
-            "correctAnswer": "All of the above",
-            "explanation": "try-with-resources automatically closes resources."
-          },
-          {
-            "id": 9,
-            "difficulty": "intermediate",
-            "question": "What is the difference between throw and throws?",
-            "options": ["throw: throw exception", "throws: declare exceptions", "Both A and B", "Same"],
-            "correctAnswer": "Both A and B",
-            "explanation": "throw explicitly throws; throws declares possible exceptions."
-          },
-          {
-            "id": 10,
-            "difficulty": "intermediate",
-            "question": "What is the Collection Framework?",
-            "options": ["Data structures", "Algorithms", "Interfaces/classes", "All of the above"],
-            "correctAnswer": "All of the above",
-            "explanation": "Collection Framework provides unified architecture for storing/processing collections."
-          }
-        ],
-        "senior": [
-          {
-            "id": 1,
-            "difficulty": "senior",
-            "question": "Where are objects stored in Java?",
-            "options": ["Heap", "Stack", "Method area", "Register"],
-            "correctAnswer": "Heap",
-            "explanation": "Objects are allocated on the heap memory."
-          },
-          {
-            "id": 2,
-            "difficulty": "senior",
-            "question": "What is the Java Memory Model?",
-            "options": ["Heap/Stack/Method area", "PC registers", "Native method stacks", "All of the above"],
-            "correctAnswer": "All of the above",
-            "explanation": "JMM defines runtime memory areas in JVM."
-          },
-          {
-            "id": 3,
-            "difficulty": "senior",
-            "question": "What is the difference between HashMap and ConcurrentHashMap?",
-            "options": ["ConcurrentHashMap thread-safe", "Segmented locking", "Better performance", "All of the above"],
-            "correctAnswer": "All of the above",
-            "explanation": "ConcurrentHashMap allows concurrent reads/writes without full lock."
-          },
-          {
-            "id": 4,
-            "difficulty": "senior",
-            "question": "What are the garbage collection algorithms?",
-            "options": ["Mark-Sweep", "Mark-Compact", "Generational", "All of the above"],
-            "correctAnswer": "All of the above",
-            "explanation": "JVM uses various GC algorithms for different generations."
-          },
-          {
-            "id": 5,
-            "difficulty": "senior",
-            "question": "What is the difference between minor and major GC?",
-            "options": ["Minor: young generation", "Major: old generation", "Stop-the-world", "All of the above"],
-            "correctAnswer": "All of the above",
-            "explanation": "Minor GC collects young space; Major/Old GC collects tenured space."
-          },
-          {
-            "id": 6,
-            "difficulty": "senior",
-            "question": "What is the G1 garbage collector?",
-            "options": ["Garbage-First", "Region-based", "Low pause", "All of the above"],
-            "correctAnswer": "All of the above",
-            "explanation": "G1 is a parallel, concurrent, generational GC."
-          },
-          {
-            "id": 7,
-            "difficulty": "senior",
-            "question": "What is the ZGC?",
-            "options": ["Scalable low-latency GC", "Concurrent", "Large heap", "All of the above"],
-            "correctAnswer": "All of the above",
-            "explanation": "ZGC is a scalable low-latency garbage collector."
-          },
-          {
-            "id": 8,
-            "difficulty": "senior",
-            "question": "What is the Shenandoah GC?",
-            "options": ["Low-pause GC", "Concurrent compaction", "OpenJDK", "All of the above"],
-            "correctAnswer": "All of the above",
-            "explanation": "Shenandoah reduces GC pause times with concurrent compaction."
-          },
-          {
-            "id": 9,
-            "difficulty": "senior",
-            "question": "What is the Java Flight Recorder?",
-            "options": ["Profiling tool", "Low overhead", "Event collection", "All of the above"],
-            "correctAnswer": "All of the above",
-            "explanation": "JFR collects diagnostic and profiling data."
-          },
-          {
-            "id": 10,
-            "difficulty": "senior",
-            "question": "What is the Java Mission Control?",
-            "options": ["Monitoring tool", "Analyze JFR data", "JVM management", "All of the above"],
-            "correctAnswer": "All of the above",
-            "explanation": "JMC provides advanced JVM monitoring and management."
-          }
-        ],
-        "expert": [
-          {
-            "id": 1,
-            "difficulty": "expert",
-            "question": "What is the Java Memory Model specification?",
-            "options": ["Happens-before", "Visibility rules", "JSR 133", "All of the above"],
-            "correctAnswer": "All of the above",
-            "explanation": "JMM defines thread interaction through memory."
-          },
-          {
-            "id": 2,
-            "difficulty": "expert",
-            "question": "What is the happens-before relationship?",
-            "options": ["Memory visibility", "Ordering guarantee", "Thread semantics", "All of the above"],
-            "correctAnswer": "All of the above",
-            "explanation": "Happens-before ensures memory operations ordering."
-          },
-          {
-            "id": 3,
-            "difficulty": "expert",
-            "question": "What is the double-checked locking pattern and its issues?",
-            "options": ["Singleton pattern", "volatile fix", "Memory model", "All of the above"],
-            "correctAnswer": "All of the above",
-            "explanation": "Double-checked locking requires volatile for correct behavior."
-          },
-          {
-            "id": 4,
-            "difficulty": "expert",
-            "question": "What is the CAS (Compare-And-Swap) operation?",
-            "options": ["Atomic operation", "Lock-free", "Hardware support", "All of the above"],
-            "correctAnswer": "All of the above",
-            "explanation": "CAS is a hardware-level atomic instruction used in lock-free programming."
-          },
-          {
-            "id": 5,
-            "difficulty": "expert",
-            "question": "What is the ABA problem in CAS?",
-            "options": ["Value changes A->B->A", "Detection difficulty", "Solution: AtomicStampedReference", "All of the above"],
-            "correctAnswer": "All of the above",
-            "explanation": "ABA occurs when CAS can't detect intermediate changes."
-          },
-          {
-            "id": 6,
-            "difficulty": "expert",
-            "question": "What is the false sharing problem?",
-            "options": ["Cache line contention", "Performance issue", "Padding solution", "All of the above"],
-            "correctAnswer": "All of the above",
-            "explanation": "False sharing occurs when threads modify variables in same cache line."
-          },
-          {
-            "id": 7,
-            "difficulty": "expert",
-            "question": "What is the @Contended annotation?",
-            "options": ["Cache line padding", "False sharing prevention", "JVM-specific", "All of the above"],
-            "correctAnswer": "All of the above",
-            "explanation": "@Contended adds padding to avoid false sharing."
-          },
-          {
-            "id": 8,
-            "difficulty": "expert",
-            "question": "What is the memory consistency error?",
-            "options": ["Visibility issue", "Race condition", "Synchronization required", "All of the above"],
-            "correctAnswer": "All of the above",
-            "explanation": "Memory consistency errors occur when threads have inconsistent views."
-          },
-          {
-            "id": 9,
-            "difficulty": "expert",
-            "question": "What is the reentrant lock vs synchronized?",
-            "options": ["ReentrantLock: more features", "Fairness", "Interruptible", "All of the above"],
-            "correctAnswer": "All of the above",
-            "explanation": "ReentrantLock provides advanced lock capabilities."
-          },
-          {
-            "id": 10,
-            "difficulty": "expert",
-            "question": "What is the deadlock detection and prevention?",
-            "options": ["Lock ordering", "Timeout", "tryLock()", "All of the above"],
-            "correctAnswer": "All of the above",
-            "explanation": "Various strategies prevent or detect deadlocks."
+            "explanation": "TC39 manages ECMAScript proposals through stages."
           }
         ]
       }
     }
-  ]
-}
