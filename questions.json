@@ -1,61 +1,729 @@
 {
   "metadata": {
-    "version": "2.0.0",
-    "lastUpdated": "2024-02-12",
-    "batch": "2 of 26",
-    "categoriesInBatch": ["Java", "React"]
+    "version": "1.0.0",
+    "lastUpdated": "2024-02-11",
+    "totalCategories": 53,
+    "totalQuestions": 1060
   },
   "categories": [
+    {
+      "category": "JavaScript/TypeScript",
+      "questions": {
+        "entry": [
+          {
+            "id": "js_e_001",
+            "question": "What is the difference between 'let', 'const', and 'var' in JavaScript?",
+            "options": [
+              "'var' is block-scoped, 'let' and 'const' are function-scoped",
+              "'let' and 'const' are block-scoped, 'var' is function-scoped",
+              "'const' cannot be reassigned, 'var' and 'let' can be reassigned, all are block-scoped",
+              "'let' and 'var' are block-scoped, 'const' is function-scoped"
+            ],
+            "correctAnswer": "B",
+            "explanation": "var is function-scoped, while let and const are block-scoped. const cannot be reassigned after declaration."
+          },
+          {
+            "id": "js_e_002",
+            "question": "What is a closure in JavaScript?",
+            "options": [
+              "A function that has access to variables from its outer scope even after the outer function has returned",
+              "A way to close browser windows",
+              "A method to end function execution",
+              "A type of loop"
+            ],
+            "correctAnswer": "A",
+            "explanation": "A closure is created when a function retains access to its lexical scope even when executed outside that scope."
+          },
+          {
+            "id": "js_e_003",
+            "question": "What does the 'this' keyword refer to in JavaScript?",
+            "options": [
+              "Always refers to the global object",
+              "Refers to the object that is executing the current function",
+              "Refers to the parent function",
+              "Refers to the previous function call"
+            ],
+            "correctAnswer": "B",
+            "explanation": "'this' refers to the object that is executing the current function, which depends on how the function is called."
+          },
+          {
+            "id": "js_e_004",
+            "question": "What is the purpose of the 'map()' method in JavaScript?",
+            "options": [
+              "To create a new array by applying a function to each element",
+              "To modify the original array",
+              "To filter elements from an array",
+              "To find an element in an array"
+            ],
+            "correctAnswer": "A",
+            "explanation": "map() creates a new array by calling a provided function on every element in the calling array."
+          },
+          {
+            "id": "js_e_005",
+            "question": "What is TypeScript and why is it used?",
+            "options": [
+              "A replacement for JavaScript",
+              "A superset of JavaScript that adds static typing",
+              "A CSS framework",
+              "A database query language"
+            ],
+            "correctAnswer": "B",
+            "explanation": "TypeScript is a typed superset of JavaScript that compiles to plain JavaScript, adding optional static typing."
+          },
+          {
+            "id": "js_e_006",
+            "question": "What is an arrow function in JavaScript?",
+            "options": [
+              "A function that points to memory addresses",
+              "A shorter syntax for writing function expressions",
+              "A function used for arrow animations",
+              "A method to draw arrows on canvas"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Arrow functions provide a concise syntax and do not have their own 'this', arguments, or prototype."
+          },
+          {
+            "id": "js_e_007",
+            "question": "What is the event loop in JavaScript?",
+            "options": [
+              "A loop that creates events",
+              "A mechanism that handles asynchronous callbacks",
+              "A way to loop through DOM events",
+              "A timing function"
+            ],
+            "correctAnswer": "B",
+            "explanation": "The event loop continuously checks the call stack and callback queue, moving callbacks to the stack when it's empty."
+          },
+          {
+            "id": "js_e_008",
+            "question": "What is the difference between '==' and '===' in JavaScript?",
+            "options": [
+              "'==' compares values, '===' compares values and types",
+              "'===' compares values, '==' compares values and types",
+              "They are identical",
+              "'==' is used for assignment"
+            ],
+            "correctAnswer": "A",
+            "explanation": "'==' performs type coercion, while '===' requires both value and type to be identical."
+          },
+          {
+            "id": "js_e_009",
+            "question": "What is a Promise in JavaScript?",
+            "options": [
+              "A guarantee that code will execute",
+              "An object representing the eventual completion or failure of an asynchronous operation",
+              "A commitment to write clean code",
+              "A debugging tool"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Promises represent asynchronous operations and can be in pending, fulfilled, or rejected states."
+          },
+          {
+            "id": "js_e_010",
+            "question": "What is destructuring in JavaScript?",
+            "options": [
+              "Removing elements from arrays",
+              "Breaking objects into smaller pieces",
+              "A syntax to unpack values from arrays or properties from objects",
+              "Deleting variables"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Destructuring allows you to extract values from arrays or objects into distinct variables."
+          }
+        ],
+        "intermediate": [
+          {
+            "id": "js_i_001",
+            "question": "Explain the prototype chain in JavaScript.",
+            "options": [
+              "A chain of function calls",
+              "A mechanism for inheritance where objects inherit from other objects",
+              "A way to chain methods together",
+              "A debugging technique"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Every object has a prototype, forming a chain until null is reached, enabling prototypal inheritance."
+          },
+          {
+            "id": "js_i_002",
+            "question": "What are higher-order functions in JavaScript?",
+            "options": [
+              "Functions that only work with high-priority tasks",
+              "Functions that take other functions as arguments or return functions",
+              "Functions defined at the top of the file",
+              "Optimized functions"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Higher-order functions either accept functions as arguments, return functions, or both."
+          },
+          {
+            "id": "js_i_003",
+            "question": "How does the 'bind()' method work?",
+            "options": [
+              "Binds two variables together",
+              "Creates a new function with a specified 'this' value",
+              "Binds events to DOM elements",
+              "Combines multiple functions"
+            ],
+            "correctAnswer": "B",
+            "explanation": "bind() creates a new function that, when called, has its 'this' keyword set to the provided value."
+          },
+          {
+            "id": "js_i_004",
+            "question": "What is the difference between 'call()' and 'apply()'?",
+            "options": [
+              "call() accepts arguments individually, apply() accepts an array of arguments",
+              "They are identical",
+              "apply() is faster than call()",
+              "call() is used for objects, apply() for arrays"
+            ],
+            "correctAnswer": "A",
+            "explanation": "call() accepts arguments individually, while apply() accepts an array of arguments."
+          },
+          {
+            "id": "js_i_005",
+            "question": "Explain async/await in JavaScript.",
+            "options": [
+              "A way to make code run faster",
+              "Syntactic sugar over Promises for cleaner asynchronous code",
+              "A replacement for callbacks only",
+              "A debugging tool"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Async/await provides a more readable way to work with Promises, making asynchronous code look synchronous."
+          },
+          {
+            "id": "js_i_006",
+            "question": "What are generators in JavaScript?",
+            "options": [
+              "Functions that generate random numbers",
+              "Functions that can be paused and resumed",
+              "Code generators",
+              "Documentation generators"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Generators are functions that can be exited and later re-entered, maintaining their context."
+          },
+          {
+            "id": "js_i_007",
+            "question": "How does TypeScript's type system enhance JavaScript development?",
+            "options": [
+              "By making code run faster",
+              "By providing compile-time type checking and better IDE support",
+              "By reducing file size",
+              "By removing the need for testing"
+            ],
+            "correctAnswer": "B",
+            "explanation": "TypeScript adds static typing, catching errors early and improving development experience with better tooling."
+          },
+          {
+            "id": "js_i_008",
+            "question": "What is the spread operator in JavaScript?",
+            "options": [
+              "An operator that spreads code across files",
+              "A syntax for expanding iterables into individual elements",
+              "A method to share variables between functions",
+              "A debugging operator"
+            ],
+            "correctAnswer": "B",
+            "explanation": "The spread operator (...) allows an iterable to be expanded in places where multiple elements are expected."
+          },
+          {
+            "id": "js_i_009",
+            "question": "What are WeakMap and WeakSet in JavaScript?",
+            "options": [
+              "Collections with weak typing",
+              "Collections that hold objects weakly, allowing garbage collection",
+              "Weaker versions of Map and Set",
+              "Deprecated features"
+            ],
+            "correctAnswer": "B",
+            "explanation": "WeakMap and WeakSet hold objects weakly, meaning references don't prevent garbage collection."
+          },
+          {
+            "id": "js_i_010",
+            "question": "How do you implement debouncing in JavaScript?",
+            "options": [
+              "By using setTimeout to delay function execution until after a wait period",
+              "By removing function definitions",
+              "By canceling all function calls",
+              "By slowing down the event loop"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Debouncing ensures a function is called only after a certain amount of time has passed since its last invocation."
+          }
+        ],
+        "senior": [
+          {
+            "id": "js_s_001",
+            "question": "How would you implement a custom Promise from scratch?",
+            "options": [
+              "Using setTimeout only",
+              "Creating a class with state, then/catch methods, and resolve/reject functions",
+              "Using callback functions",
+              "It's not possible"
+            ],
+            "correctAnswer": "B",
+            "explanation": "A custom Promise implementation requires managing state, then/catch handlers, and the resolution/rejection chain."
+          },
+          {
+            "id": "js_s_002",
+            "question": "Explain microtasks and macrotasks in the event loop.",
+            "options": [
+              "Microtasks are larger than macrotasks",
+              "Microtasks (Promises) run before macrotasks (setTimeout, I/O)",
+              "Macrotasks run before microtasks",
+              "They run simultaneously"
+            ],
+            "correctAnswer": "B",
+            "explanation": "The event loop processes all microtasks in the current tick before moving to the next macrotask."
+          },
+          {
+            "id": "js_s_003",
+            "question": "How does JavaScript's memory management work?",
+            "options": [
+              "Manual memory allocation and deallocation",
+              "Automatic garbage collection using mark-and-sweep algorithm",
+              "Memory is never freed",
+              "Reference counting only"
+            ],
+            "correctAnswer": "B",
+            "explanation": "JavaScript uses automatic garbage collection, primarily through mark-and-sweep, to free unreachable memory."
+          },
+          {
+            "id": "js_s_004",
+            "question": "What are decorators in TypeScript and how do they work?",
+            "options": [
+              "Functions that add CSS styling",
+              "Special declarations that can modify classes, methods, or properties at design time",
+              "HTML elements",
+              "Debugging tools"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Decorators provide a way to add annotations and meta-programming syntax for class declarations and members."
+          },
+          {
+            "id": "js_s_005",
+            "question": "How would you optimize a React application's performance?",
+            "options": [
+              "By using more components",
+              "Through memoization, code splitting, and avoiding unnecessary re-renders",
+              "By adding more state",
+              "By using class components only"
+            ],
+            "correctAnswer": "B",
+            "explanation": "React optimization involves React.memo, useMemo, useCallback, code splitting, and virtualization."
+          }
+        ],
+        "expert": [
+          {
+            "id": "js_ex_001",
+            "question": "How would you implement a virtual DOM diffing algorithm?",
+            "options": [
+              "By comparing strings",
+              "Using tree comparison algorithms with O(n) complexity based on keyed elements",
+              "By rebuilding the entire DOM",
+              "It's not possible"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Virtual DOM diffing uses heuristics to achieve O(n) complexity by comparing elements by type and using keys."
+          },
+          {
+            "id": "js_ex_002",
+            "question": "Explain the V8 engine's hidden classes and inline caching.",
+            "options": [
+              "CSS classes in JavaScript",
+              "Optimization techniques for fast property access and method calls",
+              "Hidden HTML elements",
+              "Encrypted classes"
+            ],
+            "correctAnswer": "B",
+            "explanation": "V8 creates hidden classes for objects and uses inline caching to optimize property access and method calls."
+          }
+        ]
+      }
+    },
+    {
+      "category": "Python",
+      "questions": {
+        "entry": [
+          {
+            "id": "py_e_001",
+            "question": "What is the difference between a list and a tuple in Python?",
+            "options": [
+              "Lists are immutable, tuples are mutable",
+              "Lists are mutable, tuples are immutable",
+              "Lists can only store numbers, tuples can store any type",
+              "There is no difference"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Lists are mutable (can be changed), tuples are immutable (cannot be changed after creation)."
+          },
+          {
+            "id": "py_e_002",
+            "question": "How do you handle exceptions in Python?",
+            "options": [
+              "Using try/except blocks",
+              "Using if/else statements",
+              "Using catch/throw",
+              "Using error handlers"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Python uses try/except blocks for exception handling, optionally with else and finally clauses."
+          },
+          {
+            "id": "py_e_003",
+            "question": "What is a dictionary in Python?",
+            "options": [
+              "A list of words and definitions",
+              "A collection of key-value pairs",
+              "An ordered sequence of elements",
+              "A type of loop"
+            ],
+            "correctAnswer": "B",
+            "explanation": "A dictionary is a mutable collection of key-value pairs, optimized for fast lookup by key."
+          },
+          {
+            "id": "py_e_004",
+            "question": "What is the purpose of the '__init__' method in Python classes?",
+            "options": [
+              "To initialize the class definition",
+              "To create a new instance of the class",
+              "The constructor method called when creating an object",
+              "To delete an object"
+            ],
+            "correctAnswer": "C",
+            "explanation": "__init__ is the constructor method that initializes a new instance when the class is instantiated."
+          },
+          {
+            "id": "py_e_005",
+            "question": "What are list comprehensions in Python?",
+            "options": [
+              "A way to understand lists better",
+              "A concise syntax for creating lists based on existing iterables",
+              "List documentation",
+              "List debugging tools"
+            ],
+            "correctAnswer": "B",
+            "explanation": "List comprehensions provide a concise way to create lists by iterating over sequences and optionally filtering."
+          },
+          {
+            "id": "py_e_006",
+            "question": "What is a module in Python?",
+            "options": [
+              "A file containing Python definitions and statements",
+              "A function",
+              "A class",
+              "A variable"
+            ],
+            "correctAnswer": "A",
+            "explanation": "A module is a file containing Python code that can define functions, classes, and variables."
+          },
+          {
+            "id": "py_e_007",
+            "question": "How do you create a virtual environment in Python?",
+            "options": [
+              "python -m venv myenv",
+              "python virtual myenv",
+              "python env create myenv",
+              "python newenv myenv"
+            ],
+            "correctAnswer": "A",
+            "explanation": "The venv module is used to create lightweight virtual environments with their own site directories."
+          },
+          {
+            "id": "py_e_008",
+            "question": "What is pip in Python?",
+            "options": [
+              "A package installer for Python",
+              "A Python IDE",
+              "A Python debugger",
+              "A Python framework"
+            ],
+            "correctAnswer": "A",
+            "explanation": "pip is the standard package manager for installing and managing Python packages."
+          },
+          {
+            "id": "py_e_009",
+            "question": "What is a lambda function in Python?",
+            "options": [
+              "A small anonymous function defined with lambda keyword",
+              "A function that calculates lambda calculus",
+              "A recursive function",
+              "A built-in function"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Lambda functions are small anonymous functions that can take any number of arguments but return one expression."
+          },
+          {
+            "id": "py_e_010",
+            "question": "What is the difference between '==' and 'is' in Python?",
+            "options": [
+              "'==' compares values, 'is' compares object identity",
+              "'is' compares values, '==' compares object identity",
+              "They are the same",
+              "'==' is for numbers, 'is' is for strings"
+            ],
+            "correctAnswer": "A",
+            "explanation": "'==' checks if values are equal, 'is' checks if two references point to the same object."
+          }
+        ],
+        "intermediate": [
+          {
+            "id": "py_i_001",
+            "question": "Explain decorators in Python.",
+            "options": [
+              "Functions that add CSS styling",
+              "Functions that modify the behavior of other functions",
+              "HTML elements",
+              "Database connectors"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Decorators are functions that take another function and extend its behavior without explicitly modifying it."
+          },
+          {
+            "id": "py_i_002",
+            "question": "What are generators in Python?",
+            "options": [
+              "Functions that generate random numbers",
+              "Functions that yield values one at a time, preserving state",
+              "Code generators",
+              "Random number generators"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Generators use yield to produce a sequence of values lazily, maintaining state between iterations."
+          },
+          {
+            "id": "py_i_003",
+            "question": "How does context manager work in Python?",
+            "options": [
+              "Using the 'with' statement to manage resources",
+              "Using the 'context' keyword",
+              "Global variable manager",
+              "Thread context manager"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Context managers, used with 'with', set up and tear down resources automatically (e.g., file operations)."
+          },
+          {
+            "id": "py_i_004",
+            "question": "What is the difference between deep and shallow copy?",
+            "options": [
+              "Shallow copy creates new object but references nested objects, deep copy recursively copies all nested objects",
+              "Deep copy is faster than shallow copy",
+              "They are the same",
+              "Shallow copy copies everything, deep copy copies only top level"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Shallow copy creates a new object but inserts references to original nested objects. Deep copy creates independent copies."
+          },
+          {
+            "id": "py_i_005",
+            "question": "What are *args and **kwargs in Python?",
+            "options": [
+              "*args passes variable non-keyword arguments, **kwargs passes variable keyword arguments",
+              "*args is for lists, **kwargs is for dictionaries",
+              "They are the same",
+              "*args is for arguments, **kwargs is for keyword-only arguments"
+            ],
+            "correctAnswer": "A",
+            "explanation": "*args collects extra positional arguments as a tuple, **kwargs collects extra keyword arguments as a dictionary."
+          }
+        ],
+        "senior": [
+          {
+            "id": "py_s_001",
+            "question": "What is the Global Interpreter Lock (GIL) in Python?",
+            "options": [
+              "A lock that prevents code execution",
+              "A mutex that allows only one thread to execute Python bytecode at a time",
+              "A security feature",
+              "A debugging tool"
+            ],
+            "correctAnswer": "B",
+            "explanation": "The GIL is a mutex that protects access to Python objects, limiting multi-threading but simplifying memory management."
+          },
+          {
+            "id": "py_s_002",
+            "question": "How would you implement a metaclass in Python?",
+            "options": [
+              "By inheriting from 'type' and overriding __new__ or __init__",
+              "By using the @metaclass decorator",
+              "It's not possible",
+              "By using inheritance"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Metaclasses are classes of classes, created by subclassing 'type' and customizing class creation."
+          },
+          {
+            "id": "py_s_003",
+            "question": "What are descriptors in Python?",
+            "options": [
+              "Objects that define attribute lookup behavior with __get__, __set__, __delete__",
+              "Documentation strings",
+              "Type hints",
+              "Decorator functions"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Descriptors control attribute access in classes and are the mechanism behind properties, methods, and static methods."
+          }
+        ],
+        "expert": [
+          {
+            "id": "py_ex_001",
+            "question": "How does Python's memory management work internally?",
+            "options": [
+              "Manual memory management",
+              "Private heap with garbage collector using reference counting and cycle detector",
+              "Stack-only allocation",
+              "No memory management"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Python uses a private heap with memory manager, reference counting for immediate cleanup, and generational garbage collector for cycles."
+          },
+          {
+            "id": "py_ex_002",
+            "question": "Explain the C3 linearization algorithm used in Python's MRO.",
+            "options": [
+              "Depth-first left-to-right algorithm",
+              "A complexity O(n) algorithm",
+              "Algorithm ensuring monotonicity and local precedence ordering for method resolution",
+              "Breadth-first algorithm"
+            ],
+            "correctAnswer": "C",
+            "explanation": "C3 linearization creates a consistent method resolution order preserving local precedence and monotonicity."
+          }
+        ]
+      }
+    },
     {
       "category": "Java",
       "questions": {
         "entry": [
-          { "id": "java_e_001", "question": "Entry point of a Java program?", "options": ["public static void main(String[] args)", "void main()", "class Main", "start()"], "correctAnswer": "A", "explanation": "Standard signature for JVM entry." },
-          { "id": "java_e_002", "question": "Byte size of 'int'?", "options": ["4 bytes", "2 bytes", "8 bytes", "1 byte"], "correctAnswer": "A", "explanation": "Int is 32-bit signed integer." },
-          { "id": "java_e_003", "question": "What is JDK?", "options": ["Java Development Kit", "Java Drive Key", "Java Data Kernel", "Just Do Kit"], "correctAnswer": "A", "explanation": "Contains JRE + Dev tools." },
-          { "id": "java_e_004", "question": "Keyword for inheritance?", "options": ["extends", "implements", "inherits", "uses"], "correctAnswer": "A", "explanation": "Class extends another Class." },
-          { "id": "java_e_005", "question": "What is an Object?", "options": ["Instance of a Class", "Primitive", "Loop", "Method"], "correctAnswer": "A", "explanation": "Runtime entity." },
-          { "id": "java_e_006", "question": "Method to print to console?", "options": ["System.out.println()", "console.log()", "print()", "echo"], "correctAnswer": "A", "explanation": "Standard output stream." },
-          { "id": "java_e_007", "question": "What is a Constructor?", "options": ["Initializes object", "Destroys object", "Builds class", "Imports"], "correctAnswer": "A", "explanation": "Called on object creation." },
-          { "id": "java_e_008", "question": "Default value of boolean?", "options": ["false", "true", "null", "0"], "correctAnswer": "A", "explanation": "Default instance variable value." },
-          { "id": "java_e_009", "question": "Access modifier for visible everywhere?", "options": ["public", "private", "protected", "default"], "correctAnswer": "A", "explanation": "Global access." },
-          { "id": "java_e_010", "question": "Loop fixed number of times?", "options": ["for loop", "while", "do-while", "if"], "correctAnswer": "A", "explanation": "Best for known iterations." }
+          {
+            "id": "java_e_001",
+            "question": "What is the difference between JDK, JRE, and JVM?",
+            "options": [
+              "They are the same thing",
+              "JVM executes bytecode, JRE contains JVM and libraries, JDK contains JRE and development tools",
+              "JDK is for development, JRE is for running, JVM doesn't exist",
+              "JVM is for Windows only"
+            ],
+            "correctAnswer": "B",
+            "explanation": "JVM runs bytecode, JRE provides runtime environment, JDK includes development tools and JRE."
+          },
+          {
+            "id": "java_e_002",
+            "question": "What is the main method signature in Java?",
+            "options": [
+              "public void main(String[] args)",
+              "public static void main(String[] args)",
+              "static void main(String args)",
+              "public static int main(String[] args)"
+            ],
+            "correctAnswer": "B",
+            "explanation": "The entry point must be public static void main(String[] args)."
+          },
+          {
+            "id": "java_e_003",
+            "question": "What is the difference between abstract class and interface in Java?",
+            "options": [
+              "Abstract classes can have implementation, interfaces cannot (pre-Java 8)",
+              "Interfaces can have implementation, abstract classes cannot",
+              "There is no difference",
+              "Abstract classes are faster"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Abstract classes can have implemented methods and state; interfaces traditionally had only abstract methods (pre-Java 8)."
+          },
+          {
+            "id": "java_e_004",
+            "question": "What is polymorphism in Java?",
+            "options": [
+              "The ability of an object to take many forms",
+              "Multiple inheritance",
+              "Method overloading only",
+              "Class inheritance"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Polymorphism allows objects to be treated as instances of their parent class and perform method overriding."
+          },
+          {
+            "id": "java_e_005",
+            "question": "What is the difference between String, StringBuilder, and StringBuffer?",
+            "options": [
+              "String immutable, StringBuilder mutable non-thread-safe, StringBuffer mutable thread-safe",
+              "All are immutable",
+              "StringBuffer is faster than StringBuilder",
+              "String is mutable"
+            ],
+            "correctAnswer": "A",
+            "explanation": "String is immutable; StringBuilder is faster but not synchronized; StringBuffer is thread-safe but slower."
+          }
         ],
         "intermediate": [
-          { "id": "java_i_001", "question": "ArrayList vs LinkedList?", "options": ["Dynamic array vs Doubly linked list", "Same", "Fast vs Slow", "None"], "correctAnswer": "A", "explanation": "ArrayList: fast access; LinkedList: fast insert/delete." },
-          { "id": "java_i_002", "question": "Checked vs Unchecked Exceptions?", "options": ["Compile-time vs Runtime", "Fatal vs Warning", "Same", "None"], "correctAnswer": "A", "explanation": "Checked must be handled (try-catch)." },
-          { "id": "java_i_003", "question": "Difference: == vs .equals()?", "options": ["Reference vs Content comparison", "Same", "Value vs Type", "None"], "correctAnswer": "A", "explanation": "== compares addresses." },
-          { "id": "java_i_004", "question": "Why is String immutable?", "options": ["Security, Caching, Synchronization", "Memory usage", "Speed", "None"], "correctAnswer": "A", "explanation": "String Pool requires immutability." },
-          { "id": "java_i_005", "question": "Interface vs Abstract Class?", "options": ["Contract vs Partial Implementation", "Same", "Fast vs Slow", "None"], "correctAnswer": "A", "explanation": "Interface has no state (pre-Java 8)." },
-          { "id": "java_i_006", "question": "What is 'final' keyword?", "options": ["Constant/Cannot override/Cannot inherit", "Finish", "Last", "Variable"], "correctAnswer": "A", "explanation": "Prevents modification." },
-          { "id": "java_i_007", "question": "What is Serialization?", "options": ["Object to Byte Stream", "Encryption", "Stringify", "Parsing"], "correctAnswer": "A", "explanation": "For saving/sending objects." },
-          { "id": "java_i_008", "question": "HashMap working principle?", "options": ["Hashing", "Sorting", "Indexing", "Looping"], "correctAnswer": "A", "explanation": "Uses hashCode() and equals()." },
-          { "id": "java_i_009", "question": "What is 'static'?", "options": ["Belongs to Class, not Instance", "Dynamic", "Constant", "Global"], "correctAnswer": "A", "explanation": "Shared memory." },
-          { "id": "java_i_010", "question": "Wrapper Classes?", "options": ["Object representation of primitives", "Packaging", "Gifts", "Classes"], "correctAnswer": "A", "explanation": "Integer for int, etc." }
+          {
+            "id": "java_i_001",
+            "question": "Explain the synchronized keyword in Java.",
+            "options": [
+              "Makes code run faster",
+              "Ensures thread safety by allowing only one thread to execute a block at a time",
+              "Syncs data between databases",
+              "A debugging tool"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Synchronized prevents thread interference and memory consistency errors by locking objects or classes."
+          },
+          {
+            "id": "java_i_002",
+            "question": "What are lambda expressions in Java?",
+            "options": [
+              "Anonymous functions that provide concise functional programming syntax",
+              "Mathematical functions",
+              "Database queries",
+              "UI components"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Lambda expressions provide a clear, concise way to represent functional interfaces using an expression syntax."
+          },
+          {
+            "id": "java_i_003",
+            "question": "What is the Java Memory Model?",
+            "options": [
+              "A model for Java object creation",
+              "Specification of how threads interact through memory",
+              "Garbage collection algorithm",
+              "Memory allocation strategy"
+            ],
+            "correctAnswer": "B",
+            "explanation": "The Java Memory Model defines how threads communicate through shared memory and the rules for visibility of shared variables."
+          }
         ],
         "senior": [
-          { "id": "java_s_001", "question": "Java Memory Model?", "options": ["Heap, Stack, Method Area", "RAM, ROM", "HDD, SSD", "L1, L2"], "correctAnswer": "A", "explanation": "Heap for objects, Stack for frames." },
-          { "id": "java_s_002", "question": "Garbage Collection roots?", "options": ["Active threads, Static vars, Local vars", "Deleted objects", "Nulls", "None"], "correctAnswer": "A", "explanation": "Starting point for reachability." },
-          { "id": "java_s_003", "question": "What is 'volatile'?", "options": ["Ensures visibility across threads", "Constant", "Fast", "Memory"], "correctAnswer": "A", "explanation": "Prevents caching in CPU registers." },
-          { "id": "java_s_004", "question": "Singleton Pattern?", "options": ["One instance per JVM", "One per thread", "One per request", "None"], "correctAnswer": "A", "explanation": "Restricts instantiation." },
-          { "id": "java_s_005", "question": "Functional Interface?", "options": ["One abstract method", "Two methods", "No methods", "Static only"], "correctAnswer": "A", "explanation": "Used with Lambdas." },
-          { "id": "java_s_006", "question": "ExecutorService?", "options": ["Thread pool management", "Executioner", "Service", "Runner"], "correctAnswer": "A", "explanation": "Decouples task submission from execution." },
-          { "id": "java_s_007", "question": "Java Streams API?", "options": ["Functional-style operations on streams", "IO Streams", "Video", "Audio"], "correctAnswer": "A", "explanation": "Filter, map, reduce." },
-          { "id": "java_s_008", "question": "Reflection API?", "options": ["Inspect/Modify runtime behavior", "Mirror", "Shadow", "Graphics"], "correctAnswer": "A", "explanation": "Dynamic inspection." },
-          { "id": "java_s_009", "question": "Fail-Fast vs Fail-Safe?", "options": ["Exception on mod vs Copy iteration", "Fast vs Slow", "Safe vs Unsafe", "None"], "correctAnswer": "A", "explanation": "Iterators behavior during modification." },
-          { "id": "java_s_010", "question": "Try-with-resources?", "options": ["Auto-close resources", "Try catch", "Resource loading", "None"], "correctAnswer": "A", "explanation": "Implements AutoCloseable." }
-        ],
-        "expert": [
-          { "id": "java_x_001", "question": "G1 Garbage Collector?", "options": ["Region-based, pauses goals", "Generational only", "Mark sweep", "None"], "correctAnswer": "A", "explanation": "Splits heap into regions." },
-          { "id": "java_x_002", "question": "Classloaders Hierarchy?", "options": ["Bootstrap -> Platform -> System", "System -> Bootstrap", "Flat", "None"], "correctAnswer": "A", "explanation": "Delegation model." },
-          { "id": "java_x_003", "question": "JIT Compilation?", "options": ["Bytecode to Native code at runtime", "Interpreter", "Compiler", "None"], "correctAnswer": "A", "explanation": "HotSpot optimization." },
-          { "id": "java_x_004", "question": "Difference: synchronized vs ReentrantLock?", "options": ["Implicit vs Explicit locking (more features)", "Same", "Lock vs Key", "None"], "correctAnswer": "A", "explanation": "ReentrantLock offers fairness, tryLock." },
-          { "id": "java_x_005", "question": "Java Memory Leaks?", "options": ["Unused objects referenced statically", "C++ leaks", "OS leaks", "None"], "correctAnswer": "A", "explanation": "GC cannot remove referenced objects." },
-          { "id": "java_x_006", "question": "Fork/Join Framework?", "options": ["Work-stealing for parallel tasks", "Thread pool", "Splitting", "None"], "correctAnswer": "A", "explanation": "Recursive task processing." },
-          { "id": "java_x_007", "question": "CompletableFuture?", "options": ["Composable async programming", "Future", "Promise", "Callback"], "correctAnswer": "A", "explanation": "Non-blocking async pipelines." },
-          { "id": "java_x_008", "question": "Project Loom?", "options": ["Virtual Threads (Fibers)", "Project management", "Weaving", "UI"], "correctAnswer": "A", "explanation": "High-throughput concurrency." },
-          { "id": "java_x_009", "question": "Double-Checked Locking?", "options": ["Lazy init thread safety optimization", "Two locks", "Checkmate", "None"], "correctAnswer": "A", "explanation": "Pattern for Singleton." },
-          { "id": "java_x_010", "question": "Dynamic Proxies?", "options": ["Create proxy instance at runtime", "Static proxy", "VPN", "Network"], "correctAnswer": "A", "explanation": "Intersects method calls." }
+          {
+            "id": "java_s_001",
+            "question": "How does Garbage Collection work in Java?",
+            "options": [
+              "Manual memory deallocation",
+              "Automatic memory management with mark-and-sweep and generational collection",
+              "Reference counting only",
+              "No garbage collection"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Java's GC automatically identifies and removes unreachable objects, using generational collection for efficiency."
+          },
+          {
+            "id": "java_s_002",
+            "question": "What are the different types of references in Java?",
+            "options": [
+              "Strong, Soft, Weak, Phantom",
+              "Hard, Soft, Light, Dark",
+              "Direct, Indirect, Virtual, Null",
+              "Primary, Secondary, Tertiary"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Strong (default), Soft (cleared on memory pressure), Weak (cleared on next GC), Phantom (post-mortem access)."
+          }
         ]
       }
     },
@@ -63,115 +731,337 @@
       "category": "React",
       "questions": {
         "entry": [
-          { "id": "react_e_001", "question": "What is JSX?", "options": ["JavaScript XML", "Java Syntax", "JSON X", "Script X"], "correctAnswer": "A", "explanation": "Syntax extension for JS." },
-          { "id": "react_e_002", "question": "What is a Component?", "options": ["Reusable UI piece", "Function", "Variable", "Loop"], "correctAnswer": "A", "explanation": "Building block of React." },
-          { "id": "react_e_003", "question": "Props vs State?", "options": ["Passed down (Immutable) vs Managed internal (Mutable)", "Same", "State is external", "Props are mutable"], "correctAnswer": "A", "explanation": "Data flow basics." },
-          { "id": "react_e_004", "question": "Hook for state?", "options": ["useState", "useStatus", "setState", "this.state"], "correctAnswer": "A", "explanation": "Standard hook." },
-          { "id": "react_e_005", "question": "Correct way to render list?", "options": ["map()", "for loop", "while", "foreach"], "correctAnswer": "A", "explanation": "Returns array of elements." },
-          { "id": "react_e_006", "question": "Key prop purpose?", "options": ["Identify unique items", "Unlock component", "Password", "Sort"], "correctAnswer": "A", "explanation": "Helps reconciliation." },
-          { "id": "react_e_007", "question": "Virtual DOM?", "options": ["In-memory representation of UI", "Real DOM", "Shadow DOM", "Browser"], "correctAnswer": "A", "explanation": "Performance optimization." },
-          { "id": "react_e_008", "question": "Import React?", "options": ["import React from 'react'", "include react", "require react", "using react"], "correctAnswer": "A", "explanation": "Standard import." },
-          { "id": "react_e_009", "question": "Conditional Rendering?", "options": ["Ternary / && operator", "if-else in JSX", "switch", "loop"], "correctAnswer": "A", "explanation": "Inline conditions." },
-          { "id": "react_e_010", "question": "useEffect basic usage?", "options": ["Side effects (fetch, subscriptions)", "Styling", "Routing", "Looping"], "correctAnswer": "A", "explanation": "Replaces lifecycle methods." }
+          {
+            "id": "react_e_001",
+            "question": "What is the difference between props and state in React?",
+            "options": [
+              "Props are mutable, state is immutable",
+              "Props are passed from parent, state is managed within component",
+              "Props are for styling, state is for data",
+              "There is no difference"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Props are read-only data passed from parent, state is mutable data managed within the component."
+          },
+          {
+            "id": "react_e_002",
+            "question": "What is the virtual DOM in React?",
+            "options": [
+              "A copy of the actual DOM stored in memory",
+              "A faster version of the DOM",
+              "A debugging tool",
+              "A browser extension"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Virtual DOM is a lightweight JavaScript representation of the actual DOM, used for optimization."
+          },
+          {
+            "id": "react_e_003",
+            "question": "What is JSX in React?",
+            "options": [
+              "A JavaScript extension for writing XML-like code",
+              "A templating language",
+              "A database query language",
+              "A CSS framework"
+            ],
+            "correctAnswer": "A",
+            "explanation": "JSX is a syntax extension that allows writing HTML-like code in JavaScript, which transpiles to React.createElement calls."
+          },
+          {
+            "id": "react_e_004",
+            "question": "What is a component in React?",
+            "options": [
+              "A reusable piece of UI",
+              "A CSS class",
+              "A JavaScript function only",
+              "An HTML element"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Components are independent, reusable pieces of UI that can be functional or class-based."
+          },
+          {
+            "id": "react_e_005",
+            "question": "What is the purpose of keys in React lists?",
+            "options": [
+              "To uniquely identify elements for efficient updates",
+              "To style list items",
+              "To order list items",
+              "To count list items"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Keys help React identify which items have changed, are added, or are removed for efficient reconciliation."
+          }
         ],
         "intermediate": [
-          { "id": "react_i_001", "question": "useEffect dependency array?", "options": ["Controls when effect runs", "Stores data", "Lists errors", "Imports"], "correctAnswer": "A", "explanation": "Empty=[] runs once." },
-          { "id": "react_i_002", "question": "What is Context API?", "options": ["Avoid prop drilling", "Global state only", "Routing", "Styling"], "correctAnswer": "A", "explanation": "Pass data through tree." },
-          { "id": "react_i_003", "question": "useRef purpose?", "options": ["Access DOM / Persist value without re-render", "State", "Reference", "Link"], "correctAnswer": "A", "explanation": "Mutable ref object." },
-          { "id": "react_i_004", "question": "Controlled Component?", "options": ["Form data handled by React state", "DOM handled", "Uncontrolled", "HTML"], "correctAnswer": "A", "explanation": "Single source of truth." },
-          { "id": "react_i_005", "question": "Lifting State Up?", "options": ["Moving state to common ancestor", "Redux", "Context", "Hoisting"], "correctAnswer": "A", "explanation": "Sharing state." },
-          { "id": "react_i_006", "question": "React.Fragment?", "options": ["Group children without adding node", "Div", "Span", "Section"], "correctAnswer": "A", "explanation": "<>...</> syntax." },
-          { "id": "react_i_007", "question": "Custom Hook?", "options": ["Reuse stateful logic", "New React feature", "Plugin", "Component"], "correctAnswer": "A", "explanation": "Function starting with 'use'." },
-          { "id": "react_i_008", "question": "Prop Drilling?", "options": ["Passing props through many layers", "Tool", "Method", "Error"], "correctAnswer": "A", "explanation": "Avoid using Context." },
-          { "id": "react_i_009", "question": "React.memo?", "options": ["Memoize component (skip render if props same)", "Memory", "Note", "Cache"], "correctAnswer": "A", "explanation": "Performance HOC." },
-          { "id": "react_i_010", "question": "Cleanup function in useEffect?", "options": ["Runs before component unmount/re-run", "Garbage collection", "Delete", "Clear"], "correctAnswer": "A", "explanation": "Prevents leaks." }
+          {
+            "id": "react_i_001",
+            "question": "What is the purpose of the useEffect hook?",
+            "options": [
+              "To manage component side effects",
+              "To create effects in CSS",
+              "To animate components",
+              "To style components"
+            ],
+            "correctAnswer": "A",
+            "explanation": "useEffect handles side effects in functional components like data fetching, subscriptions, or DOM updates."
+          },
+          {
+            "id": "react_i_002",
+            "question": "Explain the useState hook in React.",
+            "options": [
+              "A hook that adds state to functional components",
+              "A hook for styling",
+              "A hook for routing",
+              "A hook for animations"
+            ],
+            "correctAnswer": "A",
+            "explanation": "useState is a Hook that adds state to functional components, returning a state value and a setter function."
+          },
+          {
+            "id": "react_i_003",
+            "question": "What is the Context API in React?",
+            "options": [
+              "A way to pass data through component tree without props drilling",
+              "A state management library",
+              "A styling solution",
+              "A routing solution"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Context provides a way to share values across components without passing props at every level."
+          },
+          {
+            "id": "react_i_004",
+            "question": "What are hooks in React?",
+            "options": [
+              "Functions that let you use React features in functional components",
+              "CSS hooks",
+              "Event hooks",
+              "Database hooks"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Hooks allow functional components to use state and lifecycle features previously only available in class components."
+          }
         ],
         "senior": [
-          { "id": "react_s_001", "question": "useMemo vs useCallback?", "options": ["Value vs Function memoization", "Same", "Array vs Object", "None"], "correctAnswer": "A", "explanation": "Optimize computations vs handlers." },
-          { "id": "react_s_002", "question": "What is Reconciliation?", "options": ["Diffing algorithm", "Merging", "Forgiveness", "Sorting"], "correctAnswer": "A", "explanation": "Updates DOM efficiently." },
-          { "id": "react_s_003", "question": "Higher-Order Component (HOC)?", "options": ["Function taking component, returning new one", "Parent", "Child", "Hook"], "correctAnswer": "A", "explanation": "Logic reuse pattern." },
-          { "id": "react_s_004", "question": "Error Boundaries?", "options": ["Catch JS errors in child tree", "Try catch", "Debugger", "Validator"], "correctAnswer": "A", "explanation": "Fallback UI." },
-          { "id": "react_s_005", "question": "Portals?", "options": ["Render children into different DOM node", "Teleport", "Link", "Route"], "correctAnswer": "A", "explanation": "Modals/Tooltips." },
-          { "id": "react_s_006", "question": "Lazy Loading?", "options": ["React.lazy and Suspense", "Slow load", "Timeout", "Async"], "correctAnswer": "A", "explanation": "Code splitting." },
-          { "id": "react_s_007", "question": "useReducer?", "options": ["Complex state logic (Redux-like)", "Reduce array", "State", "Hook"], "correctAnswer": "A", "explanation": "Alternative to useState." },
-          { "id": "react_s_008", "question": "Synthetic Events?", "options": ["Cross-browser wrapper", "Fake events", "Simulated", "None"], "correctAnswer": "A", "explanation": "Unified event system." },
-          { "id": "react_s_009", "question": "Server-Side Rendering (SSR)?", "options": ["HTML generated on server", "Client render", "Static", "None"], "correctAnswer": "A", "explanation": "SEO and Performance." },
-          { "id": "react_s_010", "question": "Compound Components?", "options": ["Components sharing implicit state", "Complex", "Mixed", "None"], "correctAnswer": "A", "explanation": "Pattern like <Select> <Option>." }
+          {
+            "id": "react_s_001",
+            "question": "How does React's reconciliation algorithm work?",
+            "options": [
+              "By comparing entire DOM trees",
+              "Using a heuristic O(n) algorithm based on element type and keys",
+              "By rebuilding everything",
+              "Using random comparison"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Reconciliation uses heuristics: different types create new trees, keys help identify children, and updates diff by reference."
+          },
+          {
+            "id": "react_s_002",
+            "question": "What is the difference between useMemo and useCallback?",
+            "options": [
+              "useMemo memoizes values, useCallback memoizes functions",
+              "useCallback memoizes values, useMemo memoizes functions",
+              "They are identical",
+              "useMemo is for arrays, useCallback is for objects"
+            ],
+            "correctAnswer": "A",
+            "explanation": "useMemo caches computed values between renders, useCallback caches function definitions between renders."
+          },
+          {
+            "id": "react_s_003",
+            "question": "What is code splitting in React?",
+            "options": [
+              "Splitting code into smaller chunks loaded on demand",
+              "Dividing code among team members",
+              "Formatting code",
+              "Debugging code"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Code splitting via dynamic import() and React.lazy() loads components only when needed, reducing initial bundle size."
+          }
         ],
         "expert": [
-          { "id": "react_x_001", "question": "React Fiber?", "options": ["Re-implementation of core algorithm (Incremental rendering)", "Material", "Wire", "None"], "correctAnswer": "A", "explanation": "Enables concurrency." },
-          { "id": "react_x_002", "question": "Concurrent Mode?", "options": ["Interruptible rendering", "Parallel", "Fast", "None"], "correctAnswer": "A", "explanation": "Responsiveness." },
-          { "id": "react_x_003", "question": "useLayoutEffect vs useEffect?", "options": ["Sync (blocks paint) vs Async", "Same", "Layout vs Logic", "None"], "correctAnswer": "A", "explanation": "DOM measurements." },
-          { "id": "react_x_004", "question": "React Server Components (RSC)?", "options": ["Components run exclusively on server", "SSR", "API", "None"], "correctAnswer": "A", "explanation": "Zero bundle size." },
-          { "id": "react_x_005", "question": "Hydration?", "options": ["Attaching handlers to SSR HTML", "Water", "Loading", "None"], "correctAnswer": "A", "explanation": "Making static dynamic." },
-          { "id": "react_x_006", "question": "Automatic Batching (React 18)?", "options": ["Grouping updates for fewer renders", "Batch script", "Loop", "None"], "correctAnswer": "A", "explanation": "Performance." },
-          { "id": "react_x_007", "question": "useTransition?", "options": ["Mark updates as non-urgent", "Animation", "Move", "None"], "correctAnswer": "A", "explanation": "Concurrency hook." },
-          { "id": "react_x_008", "question": "Suspense implementation?", "options": ["Throwing promises", "Waiting", "Loading", "None"], "correctAnswer": "A", "explanation": "Declarative loading." },
-          { "id": "react_x_009", "question": "Strict Mode internals?", "options": ["Double-invokes effects/render", "Strict", "Error", "None"], "correctAnswer": "A", "explanation": "Detects side effects." },
-          { "id": "react_x_010", "question": "Custom Renderers?", "options": ["react-reconciler package", "Draw", "Paint", "None"], "correctAnswer": "A", "explanation": "Target non-DOM envs." }
+          {
+            "id": "react_ex_001",
+            "question": "How would you implement concurrent mode features in React 18?",
+            "options": [
+              "Using startTransition and useDeferredValue for non-urgent updates",
+              "Using setTimeout",
+              "Using setInterval",
+              "Using Web Workers"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Concurrent features allow interruptible rendering with transitions and deferred values for better user experience."
+          },
+          {
+            "id": "react_ex_002",
+            "question": "Explain how React Fiber architecture works.",
+            "options": [
+              "A complete rewrite of React's core algorithm enabling incremental rendering",
+              "A CSS framework",
+              "A state management library",
+              "A testing framework"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Fiber allows splitting rendering work into chunks, prioritizing updates, and pausing/resuming work."
+          }
         ]
       }
-    }
-  ]
-}
-{
-  "metadata": {
-    "version": "2.0.0",
-    "lastUpdated": "2024-02-12",
-    "batch": "3 of 26",
-    "categoriesInBatch": ["Node.js", "SQL/Databases"]
-  },
-  "categories": [
+    },
     {
       "category": "Node.js",
       "questions": {
         "entry": [
-          { "id": "node_e_001", "question": "What is Node.js?", "options": ["JavaScript runtime built on Chrome's V8 engine", "A framework", "A database", "A browser"], "correctAnswer": "A", "explanation": "Allows running JS server-side." },
-          { "id": "node_e_002", "question": "What is npm?", "options": ["Node Package Manager", "Node Process Maker", "New Project Manager", "None"], "correctAnswer": "A", "explanation": "Manages dependencies." },
-          { "id": "node_e_003", "question": "Global object in Node?", "options": ["global", "window", "document", "root"], "correctAnswer": "A", "explanation": "Equivalent to window in browser." },
-          { "id": "node_e_004", "question": "Default module system?", "options": ["CommonJS (require)", "ES6 (import)", "AMD", "UMD"], "correctAnswer": "A", "explanation": "Historical default." },
-          { "id": "node_e_005", "question": "Import a built-in module?", "options": ["const fs = require('fs')", "import fs", "include fs", "get fs"], "correctAnswer": "A", "explanation": "Standard syntax." },
-          { "id": "node_e_006", "question": "What is package.json?", "options": ["Manifest file (metadata/dependencies)", "Script", "Database", "Log"], "correctAnswer": "A", "explanation": "Project configuration." },
-          { "id": "node_e_007", "question": "__dirname variable?", "options": ["Path to current directory", "File name", "Root", "Home"], "correctAnswer": "A", "explanation": "Absolute path." },
-          { "id": "node_e_008", "question": "Core module for files?", "options": ["fs", "file", "disk", "io"], "correctAnswer": "A", "explanation": "File System module." },
-          { "id": "node_e_009", "question": "What is REPL?", "options": ["Read Eval Print Loop", "Repeat", "Read", "Loop"], "correctAnswer": "A", "explanation": "Interactive shell." },
-          { "id": "node_e_010", "question": "What is a Callback?", "options": ["Function passed as argument to handle result", "Loop", "Error", "Variable"], "correctAnswer": "A", "explanation": "Async pattern." }
+          {
+            "id": "node_e_001",
+            "question": "What is npm in Node.js?",
+            "options": [
+              "Node Package Manager - a package manager for JavaScript",
+              "Node Process Manager",
+              "New Programming Model",
+              "Network Protocol Module"
+            ],
+            "correctAnswer": "A",
+            "explanation": "npm is the default package manager for Node.js, managing dependencies and running scripts."
+          },
+          {
+            "id": "node_e_002",
+            "question": "What is the event-driven architecture in Node.js?",
+            "options": [
+              "Events are scheduled at specific times",
+              "A programming pattern where flow is determined by events using EventEmitter",
+              "Events are triggered by mouse clicks only",
+              "A debugging technique"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Node.js uses an event-driven architecture with EventEmitter for handling asynchronous operations."
+          },
+          {
+            "id": "node_e_003",
+            "question": "What is the global object in Node.js?",
+            "options": [
+              "window",
+              "global",
+              "document",
+              "self"
+            ],
+            "correctAnswer": "B",
+            "explanation": "In Node.js, the global object is 'global', unlike browser's 'window'."
+          },
+          {
+            "id": "node_e_004",
+            "question": "What is package.json in Node.js?",
+            "options": [
+              "A JSON file that holds metadata about the project and its dependencies",
+              "A JavaScript file with package code",
+              "A configuration file for npm only",
+              "A lock file for dependencies"
+            ],
+            "correctAnswer": "A",
+            "explanation": "package.json contains project metadata, dependencies, scripts, and configuration."
+          },
+          {
+            "id": "node_e_005",
+            "question": "What is the difference between require and import?",
+            "options": [
+              "require is CommonJS, import is ES6 modules",
+              "They are the same",
+              "import is for files, require is for packages",
+              "require is asynchronous, import is synchronous"
+            ],
+            "correctAnswer": "A",
+            "explanation": "require() is CommonJS syntax (default in Node), import/export is ES6 module syntax."
+          }
         ],
         "intermediate": [
-          { "id": "node_i_001", "question": "process.nextTick()?", "options": ["Runs before next event loop phase", "Runs after IO", "Runs later", "Runs now"], "correctAnswer": "A", "explanation": "High priority queue." },
-          { "id": "node_i_002", "question": "What is Buffer?", "options": ["Handle binary data", "String", "Array", "Stream"], "correctAnswer": "A", "explanation": "Raw memory allocation." },
-          { "id": "node_i_003", "question": "EventEmitter?", "options": ["Core module for event handling", "Loop", "Trigger", "Signal"], "correctAnswer": "A", "explanation": "Observer pattern." },
-          { "id": "node_i_004", "question": "Middleware in Express?", "options": ["Functions executing during request cycle", "DB", "UI", "Route"], "correctAnswer": "A", "explanation": "Intersects requests." },
-          { "id": "node_i_005", "question": "Streams types?", "options": ["Readable, Writable, Duplex, Transform", "Input, Output", "Fast, Slow", "None"], "correctAnswer": "A", "explanation": "Data flow types." },
-          { "id": "node_i_006", "question": "module.exports vs exports?", "options": ["exports is reference to module.exports", "Different", "Same", "None"], "correctAnswer": "A", "explanation": "Reference pointer." },
-          { "id": "node_i_007", "question": "What is libuv?", "options": ["Library for async I/O and event loop", "JS Engine", "Compiler", "DB"], "correctAnswer": "A", "explanation": "C library powering Node." },
-          { "id": "node_i_008", "question": "Environment Variables?", "options": ["process.env", "global.env", "system.env", "var"], "correctAnswer": "A", "explanation": "Configuration secrets." },
-          { "id": "node_i_009", "question": "Clustering?", "options": ["Scaling via child processes (Workers)", "Grouping", "Database", "None"], "correctAnswer": "A", "explanation": "Multi-core usage." },
-          { "id": "node_i_010", "question": "Unhandled Rejection?", "options": ["Crash or warning for caught promise error", "Ignore", "Loop", "None"], "correctAnswer": "A", "explanation": "Process event." }
+          {
+            "id": "node_i_001",
+            "question": "Explain middleware in Express.js.",
+            "options": [
+              "Functions that have access to request and response objects",
+              "Middle layer of the application",
+              "Database connectors",
+              "Template engines"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Middleware functions execute during the request-response cycle and can modify request/response objects."
+          },
+          {
+            "id": "node_i_002",
+            "question": "What is the difference between process.nextTick() and setImmediate()?",
+            "options": [
+              "nextTick runs before I/O, setImmediate runs after I/O",
+              "They are identical",
+              "setImmediate runs before nextTick",
+              "nextTick is deprecated"
+            ],
+            "correctAnswer": "A",
+            "explanation": "nextTick executes in the current event loop phase, setImmediate executes in the check phase after I/O."
+          },
+          {
+            "id": "node_i_003",
+            "question": "What is the event loop in Node.js?",
+            "options": [
+              "A loop that creates events",
+              "A mechanism that handles asynchronous callbacks in phases",
+              "A timing function",
+              "A debugging tool"
+            ],
+            "correctAnswer": "B",
+            "explanation": "The event loop allows Node.js to perform non-blocking I/O by offloading operations to the system kernel."
+          },
+          {
+            "id": "node_i_004",
+            "question": "What are streams in Node.js?",
+            "options": [
+              "Objects that let you read/write data continuously",
+              "HTTP requests",
+              "Database connections",
+              "File system operations"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Streams are efficient for handling large amounts of data by processing chunks instead of loading everything into memory."
+          }
         ],
         "senior": [
-          { "id": "node_s_001", "question": "Event Loop Phases?", "options": ["Timers, Pending, Idle, Poll, Check, Close", "Start, End", "Run, Stop", "None"], "correctAnswer": "A", "explanation": "Execution order." },
-          { "id": "node_s_002", "question": "setImmediate vs setTimeout(0)?", "options": ["Immediate runs in Check phase; Timeout in Timers", "Same", "Random", "None"], "correctAnswer": "A", "explanation": "Check vs Timer phase." },
-          { "id": "node_s_003", "question": "Worker Threads?", "options": ["CPU-intensive tasks parallelization", "IO tasks", "UI", "None"], "correctAnswer": "A", "explanation": "True multi-threading." },
-          { "id": "node_s_004", "question": "Stream Backpressure?", "options": ["Write buffer full, pausing read", "Error", "Pressure", "None"], "correctAnswer": "A", "explanation": "Flow control." },
-          { "id": "node_s_005", "question": "Memory Leaks diagnosis?", "options": ["Heap snapshots / Chrome DevTools", "Console log", "Restart", "None"], "correctAnswer": "A", "explanation": "Profiling tools." },
-          { "id": "node_s_006", "question": "Child Processes (spawn vs exec)?", "options": ["Spawn streams; Exec buffers", "Same", "Spawn buffers", "None"], "correctAnswer": "A", "explanation": "Handling large output." },
-          { "id": "node_s_007", "question": "What is v8?", "options": ["JS Engine (compiles to machine code)", "Library", "Framework", "None"], "correctAnswer": "A", "explanation": "Core engine." },
-          { "id": "node_s_008", "question": "Node Single Threaded?", "options": ["Yes, but uses libuv thread pool for IO", "No", "Maybe", "None"], "correctAnswer": "A", "explanation": "Event loop is single; IO is pooled." },
-          { "id": "node_s_009", "question": "Replica Sets (PM2)?", "options": ["Process manager for load balancing", "DB", "Copy", "None"], "correctAnswer": "A", "explanation": "Production scaling." },
-          { "id": "node_s_010", "question": "Blocking the Event Loop?", "options": ["Heavy calculation freezes server", "IO", "Network", "None"], "correctAnswer": "A", "explanation": "Performance killer." }
+          {
+            "id": "node_s_001",
+            "question": "How does cluster module work in Node.js?",
+            "options": [
+              "Creates child processes that share server ports",
+              "Groups related files together",
+              "Clusters database connections",
+              "A debugging tool"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Cluster module creates worker processes that share the same server port, enabling multi-core utilization."
+          },
+          {
+            "id": "node_s_002",
+            "question": "What is the difference between libuv and V8 in Node.js?",
+            "options": [
+              "V8 executes JavaScript, libuv handles asynchronous I/O and event loop",
+              "They are the same",
+              "libuv executes JavaScript, V8 handles I/O",
+              "Both execute JavaScript"
+            ],
+            "correctAnswer": "A",
+            "explanation": "V8 compiles and runs JavaScript, libuv provides the event loop and asynchronous I/O capabilities."
+          }
         ],
         "expert": [
-          { "id": "node_x_001", "question": "C++ Addons?", "options": ["Native bindings for performance", "Plugins", "Libraries", "None"], "correctAnswer": "A", "explanation": "Low-level integration." },
-          { "id": "node_x_002", "question": "N-API?", "options": ["ABI stable native interface", "API", "Network", "None"], "correctAnswer": "A", "explanation": "Version agnostic addons." },
-          { "id": "node_x_003", "question": "Async Hooks?", "options": ["Track async resources lifetime", "Hooks", "Events", "None"], "correctAnswer": "A", "explanation": "Tracing/Context." },
-          { "id": "node_x_004", "question": "UV_THREADPOOL_SIZE?", "options": ["Controls libuv thread pool size (default 4)", "Max threads", "Memory", "None"], "correctAnswer": "A", "explanation": "Tuning IO concurrency." },
-          { "id": "node_x_005", "question": "V8 Garbage Collection flags?", "options": ["--max-old-space-size", "--gc", "--run", "None"], "correctAnswer": "A", "explanation": "Memory tuning." },
-          { "id": "node_x_006", "question": "Isolates in V8?", "options": ["Independent instances of V8 engine", "Threads", "Processes", "None"], "correctAnswer": "A", "explanation": "Sandboxing." },
-          { "id": "node_x_007", "question": "TCP/UDP handling (net/dgram)?", "options": ["Low level networking modules", "HTTP", "Web", "None"], "correctAnswer": "A", "explanation": "Socket programming." },
-          { "id": "node_x_008", "question": "Performance Observer API?", "options": ["Monitor performance metrics", "Watcher", "Log", "None"], "correctAnswer": "A", "explanation": "Diagnostics." },
-          { "id": "node_x_009", "question": "Symbol.asyncIterator?", "options": ["For await...of loop protocol", "Loop", "Symbol", "None"], "correctAnswer": "A", "explanation": "Custom async iterables." },
-          { "id": "node_x_010", "question": "Diagnostic Reports?", "options": ["Generate crash reports/dumps", "Logs", "Errors", "None"], "correctAnswer": "A", "explanation": "Post-mortem analysis." }
+          {
+            "id": "node_ex_001",
+            "question": "How would you debug memory leaks in Node.js?",
+            "options": [
+              "Using heap snapshots and Chrome DevTools",
+              "Using console.log",
+              "Using try-catch blocks",
+              "Using process.exit()"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Memory leaks can be diagnosed by taking heap snapshots and comparing them to identify growing objects."
+          }
         ]
       }
     },
@@ -179,115 +1069,237 @@
       "category": "SQL/Databases",
       "questions": {
         "entry": [
-          { "id": "sql_e_001", "question": "Retrieve data command?", "options": ["SELECT", "GET", "FETCH", "SHOW"], "correctAnswer": "A", "explanation": "Standard query." },
-          { "id": "sql_e_002", "question": "Add new row?", "options": ["INSERT INTO", "ADD", "NEW", "CREATE"], "correctAnswer": "A", "explanation": "Data insertion." },
-          { "id": "sql_e_003", "question": "Modify existing data?", "options": ["UPDATE", "MODIFY", "CHANGE", "EDIT"], "correctAnswer": "A", "explanation": "Update rows." },
-          { "id": "sql_e_004", "question": "Delete rows?", "options": ["DELETE FROM", "REMOVE", "DROP", "ERASE"], "correctAnswer": "A", "explanation": "Row deletion." },
-          { "id": "sql_e_005", "question": "Filter results?", "options": ["WHERE", "FILTER", "WHEN", "IF"], "correctAnswer": "A", "explanation": "Conditional clause." },
-          { "id": "sql_e_006", "question": "Sort results?", "options": ["ORDER BY", "SORT", "GROUP", "ALIGN"], "correctAnswer": "A", "explanation": "Ordering." },
-          { "id": "sql_e_007", "question": "Remove duplicates?", "options": ["DISTINCT", "UNIQUE", "DIFFERENT", "SINGLE"], "correctAnswer": "A", "explanation": "Select unique." },
-          { "id": "sql_e_008", "question": "Count rows?", "options": ["COUNT()", "SUM()", "TOTAL()", "NUM()"], "correctAnswer": "A", "explanation": "Aggregation." },
-          { "id": "sql_e_009", "question": "Primary Key?", "options": ["Unique identifier, Not Null", "Key", "Index", "Link"], "correctAnswer": "A", "explanation": "Row identity." },
-          { "id": "sql_e_010", "question": "Foreign Key?", "options": ["Link to Primary Key in another table", "Foreigner", "External", "None"], "correctAnswer": "A", "explanation": "Relation." }
+          {
+            "id": "sql_e_001",
+            "question": "What is the difference between INNER JOIN and LEFT JOIN?",
+            "options": [
+              "INNER JOIN returns only matching rows, LEFT JOIN returns all rows from left table",
+              "LEFT JOIN returns only matching rows, INNER JOIN returns all rows",
+              "They are the same",
+              "INNER JOIN is faster"
+            ],
+            "correctAnswer": "A",
+            "explanation": "INNER JOIN returns rows with matches in both tables, LEFT JOIN returns all rows from left table with NULLs for no matches."
+          },
+          {
+            "id": "sql_e_002",
+            "question": "What is a primary key in SQL?",
+            "options": [
+              "A key that opens the main database",
+              "A column or set of columns that uniquely identifies each row",
+              "The first key in the table",
+              "A password for the database"
+            ],
+            "correctAnswer": "B",
+            "explanation": "A primary key uniquely identifies each record in a table and cannot be NULL."
+          },
+          {
+            "id": "sql_e_003",
+            "question": "What is the difference between WHERE and HAVING?",
+            "options": [
+              "WHERE filters rows before grouping, HAVING filters groups after GROUP BY",
+              "WHERE filters groups, HAVING filters rows",
+              "They are the same",
+              "WHERE is for SELECT only"
+            ],
+            "correctAnswer": "A",
+            "explanation": "WHERE applies to individual rows, HAVING applies to groups created by GROUP BY."
+          },
+          {
+            "id": "sql_e_004",
+            "question": "What is a foreign key?",
+            "options": [
+              "A key from another country",
+              "A column that references a primary key in another table",
+              "The primary key of a foreign table",
+              "An encrypted key"
+            ],
+            "correctAnswer": "B",
+            "explanation": "A foreign key establishes a link between tables by referencing the primary key of another table."
+          },
+          {
+            "id": "sql_e_005",
+            "question": "What is NULL in SQL?",
+            "options": [
+              "Zero",
+              "Empty string",
+              "A marker indicating missing or unknown data",
+              "False"
+            ],
+            "correctAnswer": "C",
+            "explanation": "NULL represents the absence of a value, not zero or empty string."
+          }
         ],
         "intermediate": [
-          { "id": "sql_i_001", "question": "Inner Join?", "options": ["Returns matching rows in both tables", "All rows", "Left rows", "Right rows"], "correctAnswer": "A", "explanation": "Intersection." },
-          { "id": "sql_i_002", "question": "Left Join?", "options": ["All left rows + matched right", "Left only", "Right only", "Inner"], "correctAnswer": "A", "explanation": "Preserves left table." },
-          { "id": "sql_i_003", "question": "Group By?", "options": ["Group rows sharing a property", "Sort", "Order", "Filter"], "correctAnswer": "A", "explanation": "Aggregation grouping." },
-          { "id": "sql_i_004", "question": "Having vs Where?", "options": ["Having filters groups; Where filters rows", "Same", "Where is faster", "None"], "correctAnswer": "A", "explanation": "Order of execution." },
-          { "id": "sql_i_005", "question": "Union vs Union All?", "options": ["Union removes duplicates; All keeps them", "Same", "Union is slower", "None"], "correctAnswer": "A", "explanation": "Combining result sets." },
-          { "id": "sql_i_006", "question": "What is an Index?", "options": ["Data structure to speed up retrieval", "List", "Table", "Key"], "correctAnswer": "A", "explanation": "Performance tool." },
-          { "id": "sql_i_007", "question": "What is a View?", "options": ["Virtual table based on query", "Table", "Window", "Screen"], "correctAnswer": "A", "explanation": "Stored query." },
-          { "id": "sql_i_008", "question": "Truncate vs Delete?", "options": ["Truncate resets table (fast/DDL); Delete removes rows (DML)", "Same", "Delete is faster", "None"], "correctAnswer": "A", "explanation": "Log operation difference." },
-          { "id": "sql_i_009", "question": "Like operator?", "options": ["Pattern matching", "Equals", "Same", "Love"], "correctAnswer": "A", "explanation": "Wildcards %." },
-          { "id": "sql_i_010", "question": "Null value?", "options": ["Missing/Unknown data", "Zero", "Blank", "None"], "correctAnswer": "A", "explanation": "Absence of value." }
+          {
+            "id": "sql_i_001",
+            "question": "What is database normalization?",
+            "options": [
+              "Making the database normal",
+              "The process of organizing data to reduce redundancy and improve integrity",
+              "Encrypting the database",
+              "Backing up the database"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Normalization organizes data into tables to minimize redundancy and dependency through normal forms."
+          },
+          {
+            "id": "sql_i_002",
+            "question": "What is the difference between clustered and non-clustered index?",
+            "options": [
+              "Clustered determines physical order, non-clustered creates separate structure",
+              "Non-clustered determines physical order, clustered creates separate structure",
+              "They are the same",
+              "Clustered is for primary keys only"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Clustered index sorts and stores data rows physically; non-clustered maintains logical order separately."
+          },
+          {
+            "id": "sql_i_003",
+            "question": "What is a transaction in SQL?",
+            "options": [
+              "A unit of work that follows ACID properties",
+              "A financial operation",
+              "A data transfer",
+              "A query optimization technique"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Transactions ensure data integrity with ACID properties: Atomicity, Consistency, Isolation, Durability."
+          }
         ],
         "senior": [
-          { "id": "sql_s_001", "question": "ACID properties?", "options": ["Atomicity, Consistency, Isolation, Durability", "Acidic", "Base", "None"], "correctAnswer": "A", "explanation": "Transaction guarantee." },
-          { "id": "sql_s_002", "question": "Normalization (1NF, 2NF, 3NF)?", "options": ["Reducing redundancy/dependency", "Optimization", "Design", "None"], "correctAnswer": "A", "explanation": "Schema design." },
-          { "id": "sql_s_003", "question": "Clustered vs Non-Clustered Index?", "options": ["Physical order vs Logical pointer", "Same", "Fast vs Slow", "None"], "correctAnswer": "A", "explanation": "Storage organization." },
-          { "id": "sql_s_004", "question": "Stored Procedure?", "options": ["Precompiled SQL code", "Script", "Function", "Trigger"], "correctAnswer": "A", "explanation": "Reuse/Performance." },
-          { "id": "sql_s_005", "question": "Trigger?", "options": ["Auto-executed code on event", "Gun", "Button", "Switch"], "correctAnswer": "A", "explanation": "Automation." },
-          { "id": "sql_s_006", "question": "Transaction Isolation Levels?", "options": ["Read Uncommitted, Committed, Repeatable, Serializable", "Levels", "Layers", "None"], "correctAnswer": "A", "explanation": "Concurrency control." },
-          { "id": "sql_s_007", "question": "What is a CTE?", "options": ["Common Table Expression (WITH clause)", "Variable", "Temp table", "None"], "correctAnswer": "A", "explanation": "Readable subqueries." },
-          { "id": "sql_s_008", "question": "Explain Deadlock.", "options": ["Two processes waiting for each other", "Crash", "Stop", "Error"], "correctAnswer": "A", "explanation": "Concurrency issue." },
-          { "id": "sql_s_009", "question": "Database Cursor?", "options": ["Pointer to iterate rows", "Mouse", "Select", "None"], "correctAnswer": "A", "explanation": "Row-by-row processing." },
-          { "id": "sql_s_010", "question": "Denormalization?", "options": ["Adding redundancy for read performance", "Normalization", "Error", "None"], "correctAnswer": "A", "explanation": "Optimization strategy." }
-        ],
-        "expert": [
-          { "id": "sql_x_001", "question": "Database Sharding?", "options": ["Horizontal partitioning across servers", "Vertical", "Copy", "None"], "correctAnswer": "A", "explanation": "Scalability." },
-          { "id": "sql_x_002", "question": "CAP Theorem in DB?", "options": ["Consistency, Availability, Partition Tolerance trade-offs", "Theory", "Law", "None"], "correctAnswer": "A", "explanation": "Distributed systems." },
-          { "id": "sql_x_003", "question": "MVCC?", "options": ["Multi-Version Concurrency Control", "Model View", "Control", "None"], "correctAnswer": "A", "explanation": "Non-blocking reads." },
-          { "id": "sql_x_004", "question": "Write-Ahead Logging (WAL)?", "options": ["Log changes before writing to disk", "Log", "Write", "None"], "correctAnswer": "A", "explanation": "Durability/Crash recovery." },
-          { "id": "sql_x_005", "question": "Query Execution Plan?", "options": ["Steps taken by engine to execute query", "Plan", "Map", "None"], "correctAnswer": "A", "explanation": "Optimization analysis." },
-          { "id": "sql_x_006", "question": "B-Tree vs Hash Index?", "options": ["Range queries vs Equality lookups", "Same", "Tree vs Map", "None"], "correctAnswer": "A", "explanation": "Indexing structures." },
-          { "id": "sql_x_007", "question": "Window Functions?", "options": ["Calculations across row set (OVER partition)", "Windows", "OS", "None"], "correctAnswer": "A", "explanation": "Advanced analytics." },
-          { "id": "sql_x_008", "question": "Dirty Read?", "options": ["Reading uncommitted data", "Error", "Clean", "None"], "correctAnswer": "A", "explanation": "Isolation violation." },
-          { "id": "sql_x_009", "question": "Materialized View?", "options": ["Physically stored view (cached)", "Virtual", "Table", "None"], "correctAnswer": "A", "explanation": "Performance for expensive queries." },
-          { "id": "sql_x_010", "question": "Database Replication Types?", "options": ["Master-Slave, Master-Master", "Copy", "Paste", "None"], "correctAnswer": "A", "explanation": "Availability/Scaling." }
+          {
+            "id": "sql_s_001",
+            "question": "What are the different isolation levels in SQL?",
+            "options": [
+              "Read Uncommitted, Read Committed, Repeatable Read, Serializable",
+              "Low, Medium, High, Maximum",
+              "Level 1, Level 2, Level 3, Level 4",
+              "Basic, Advanced, Expert, Master"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Isolation levels define how transaction changes are visible to others, balancing consistency vs performance."
+          },
+          {
+            "id": "sql_s_002",
+            "question": "What is query optimization and how would you approach it?",
+            "options": [
+              "Analyzing execution plans, adding indexes, rewriting queries",
+              "Adding more hardware",
+              "Using SELECT *",
+              "Removing indexes"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Query optimization involves analyzing execution plans, proper indexing, and efficient query writing."
+          }
         ]
       }
-    }
-  ]
-}
-{
-  "metadata": {
-    "version": "2.0.0",
-    "lastUpdated": "2024-02-12",
-    "batch": "4 of 26",
-    "categoriesInBatch": ["Git/Version Control", "AWS/Cloud"]
-  },
-  "categories": [
+    },
     {
       "category": "Git/Version Control",
       "questions": {
         "entry": [
-          { "id": "git_e_001", "question": "Initialize repo?", "options": ["git init", "git start", "git new", "git create"], "correctAnswer": "A", "explanation": "Creates .git directory." },
-          { "id": "git_e_002", "question": "Clone repo?", "options": ["git clone [url]", "git copy", "git download", "git pull"], "correctAnswer": "A", "explanation": "Downloads entire repo." },
-          { "id": "git_e_003", "question": "Stage files?", "options": ["git add [file]", "git stage", "git commit", "git push"], "correctAnswer": "A", "explanation": "Prepares for commit." },
-          { "id": "git_e_004", "question": "Save changes?", "options": ["git commit -m 'msg'", "git save", "git upload", "git store"], "correctAnswer": "A", "explanation": "Records snapshot." },
-          { "id": "git_e_005", "question": "Check status?", "options": ["git status", "git check", "git info", "git log"], "correctAnswer": "A", "explanation": "Shows working tree state." },
-          { "id": "git_e_006", "question": "Create branch?", "options": ["git branch [name]", "git new", "git checkout", "git create"], "correctAnswer": "A", "explanation": "Creates pointer." },
-          { "id": "git_e_007", "question": "Switch branch?", "options": ["git checkout [name]", "git switch", "git move", "git go"], "correctAnswer": "A", "explanation": "Updates working directory." },
-          { "id": "git_e_008", "question": "Merge branch?", "options": ["git merge [branch]", "git combine", "git join", "git mix"], "correctAnswer": "A", "explanation": "Combines histories." },
-          { "id": "git_e_009", "question": "Upload to remote?", "options": ["git push", "git upload", "git send", "git sync"], "correctAnswer": "A", "explanation": "Updates remote refs." },
-          { "id": "git_e_010", "question": "Download & Merge?", "options": ["git pull", "git fetch", "git get", "git down"], "correctAnswer": "A", "explanation": "Fetch + Merge." }
+          {
+            "id": "git_e_001",
+            "question": "What is the difference between git pull and git fetch?",
+            "options": [
+              "git fetch downloads changes, git pull downloads and merges",
+              "They are the same command",
+              "git pull downloads only, git fetch downloads and merges",
+              "git fetch is deprecated"
+            ],
+            "correctAnswer": "A",
+            "explanation": "git fetch downloads objects and references, git pull = fetch + merge into current branch."
+          },
+          {
+            "id": "git_e_002",
+            "question": "What is a merge conflict in Git?",
+            "options": [
+              "When two branches have competing changes to the same line",
+              "When Git crashes",
+              "When you delete a file",
+              "When you push to the wrong branch"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Merge conflicts occur when Git cannot automatically resolve differences in code between commits."
+          },
+          {
+            "id": "git_e_003",
+            "question": "What is the difference between git merge and git rebase?",
+            "options": [
+              "Merge preserves history, rebase rewrites history",
+              "Rebase preserves history, merge rewrites history",
+              "They are the same",
+              "Merge is for branches, rebase is for commits"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Merge creates a merge commit, preserving branch history; rebase applies commits linearly, rewriting history."
+          },
+          {
+            "id": "git_e_004",
+            "question": "What is git stash?",
+            "options": [
+              "Temporarily saves uncommitted changes",
+              "Permanently deletes changes",
+              "Creates a new branch",
+              "Commits changes"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Stash saves working directory changes for later use without committing."
+          }
         ],
         "intermediate": [
-          { "id": "git_i_001", "question": "git fetch vs pull?", "options": ["Fetch downloads refs; Pull downloads & merges", "Same", "Pull is safer", "None"], "correctAnswer": "A", "explanation": "Fetch updates remote tracking branches." },
-          { "id": "git_i_002", "question": "git rebase?", "options": ["Reapply commits on top of another base tip", "Merge", "Delete", "Undo"], "correctAnswer": "A", "explanation": "Linearizes history." },
-          { "id": "git_i_003", "question": "git stash?", "options": ["Temporarily saves dirty working directory", "Delete", "Commit", "Push"], "correctAnswer": "A", "explanation": "Switch context cleanly." },
-          { "id": "git_i_004", "question": "Resolve conflict?", "options": ["Edit file, git add, git commit", "Delete file", "Force push", "Ignore"], "correctAnswer": "A", "explanation": "Manual intervention." },
-          { "id": "git_i_005", "question": "Soft reset?", "options": ["Moves HEAD, keeps staging/working", "Deletes changes", "Unstages", "None"], "correctAnswer": "A", "explanation": "Preserves work." },
-          { "id": "git_i_006", "question": ".gitignore?", "options": ["Specifies untracked files to ignore", "Config", "Log", "History"], "correctAnswer": "A", "explanation": "Prevents accidental commits." },
-          { "id": "git_i_007", "question": "git tag?", "options": ["Mark specific points in history (releases)", "Label", "Note", "Branch"], "correctAnswer": "A", "explanation": "Versioning." },
-          { "id": "git_i_008", "question": "git diff?", "options": ["Show changes between commits/tree", "Difference", "Compare", "None"], "correctAnswer": "A", "explanation": "Code inspection." },
-          { "id": "git_i_009", "question": "Hard reset?", "options": ["Moves HEAD, resets staging & working (destroys changes)", "Soft", "Mixed", "None"], "correctAnswer": "A", "explanation": "Dangerous operation." },
-          { "id": "git_i_010", "question": "git remote -v?", "options": ["List remotes with URLs", "Version", "Verify", "None"], "correctAnswer": "A", "explanation": "Check connections." }
+          {
+            "id": "git_i_001",
+            "question": "What is git rebase and how is it different from merge?",
+            "options": [
+              "Rebase rewrites commit history, merge preserves it",
+              "They are identical",
+              "Rebase is only for branches",
+              "Merge rewrites history"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Rebase applies commits on top of another base, creating linear history; merge preserves branch structure."
+          },
+          {
+            "id": "git_i_002",
+            "question": "What is the difference between HEAD, working tree, and index?",
+            "options": [
+              "HEAD is current commit, index is staging area, working tree is current files",
+              "They are all the same",
+              "HEAD is branch, index is commit, working tree is staging",
+              "HEAD is local, index is remote"
+            ],
+            "correctAnswer": "A",
+            "explanation": "HEAD points to current commit, index (staging) prepares next commit, working tree is your current files."
+          }
         ],
         "senior": [
-          { "id": "git_s_001", "question": "git cherry-pick?", "options": ["Apply changes from specific commit", "Pick fruit", "Select branch", "None"], "correctAnswer": "A", "explanation": "Porting individual commits." },
-          { "id": "git_s_002", "question": "git bisect?", "options": ["Binary search for bug", "Split", "Debug", "None"], "correctAnswer": "A", "explanation": "Debugging history." },
-          { "id": "git_s_003", "question": "git reflog?", "options": ["Log of HEAD updates (recover lost commits)", "Reference", "Log", "None"], "correctAnswer": "A", "explanation": "Safety net." },
-          { "id": "git_s_004", "question": "Squash commits?", "options": ["Combine multiple commits into one", "Delete", "Compress", "None"], "correctAnswer": "A", "explanation": "Clean history." },
-          { "id": "git_s_005", "question": "Detached HEAD?", "options": ["HEAD points to commit, not branch", "Error", "Bug", "None"], "correctAnswer": "A", "explanation": "Direct commit reference." },
-          { "id": "git_s_006", "question": "git revert?", "options": ["New commit undoing changes", "Delete", "Reset", "None"], "correctAnswer": "A", "explanation": "Safe undo for public history." },
-          { "id": "git_s_007", "question": "Submodules?", "options": ["Repo inside a repo", "Folder", "Link", "None"], "correctAnswer": "A", "explanation": "Dependency management." },
-          { "id": "git_s_008", "question": "git blame?", "options": ["Show author of each line", "Accuse", "History", "None"], "correctAnswer": "A", "explanation": "Code authorship." },
-          { "id": "git_s_009", "question": "Git Hooks?", "options": ["Scripts triggered by Git events", "Hooks", "API", "None"], "correctAnswer": "A", "explanation": "Automation (pre-commit)." },
-          { "id": "git_s_010", "question": "Worktrees?", "options": ["Multiple working trees from one repo", "Branches", "Copies", "None"], "correctAnswer": "A", "explanation": "Parallel work." }
-        ],
-        "expert": [
-          { "id": "git_x_001", "question": "Git Internal Objects?", "options": ["Blob, Tree, Commit, Tag", "File, Folder", "Data", "None"], "correctAnswer": "A", "explanation": "Data model." },
-          { "id": "git_x_002", "question": "Plumbing vs Porcelain?", "options": ["Low-level (internal) vs High-level (user) commands", "Pipe", "UI", "None"], "correctAnswer": "A", "explanation": "Command types." },
-          { "id": "git_x_003", "question": "git rerere?", "options": ["Reuse Recorded Resolution", "Repeat", "Retry", "None"], "correctAnswer": "A", "explanation": "Auto-resolve conflicts." },
-          { "id": "git_x_004", "question": "Filter-branch / BFG?", "options": ["Rewrite history (remove large files)", "Filter", "Clean", "None"], "correctAnswer": "A", "explanation": "Heavy cleanup." },
-          { "id": "git_x_005", "question": "Packfiles?", "options": ["Compressed storage of objects", "Zip", "Tar", "None"], "correctAnswer": "A", "explanation": "Disk optimization." },
-          { "id": "git_x_006", "question": "Garbage Collection (gc)?", "options": ["Cleanup unreachable objects", "Delete", "Empty", "None"], "correctAnswer": "A", "explanation": "Maintenance." },
-          { "id": "git_x_007", "question": "Signed Commits (GPG)?", "options": ["Cryptographic verification of author", "Signature", "Lock", "None"], "correctAnswer": "A", "explanation": "Security." },
-          { "id": "git_x_008", "question": "Fast-forward merge?", "options": ["Move pointer (no commit) vs Merge commit", "Fast", "Skip", "None"], "correctAnswer": "A", "explanation": "Linear history update." },
-          { "id": "git_x_009", "question": "Shallow Clone?", "options": ["--depth 1 (truncate history)", "Quick", "Copy", "None"], "correctAnswer": "A", "explanation": "CI optimization." },
-          { "id": "git_x_010", "question": "Custom Merge Drivers?", "options": ["Define how specific files merge", "Driver", "Script", "None"], "correctAnswer": "A", "explanation": "Complex conflict handling." }
+          {
+            "id": "git_s_001",
+            "question": "How would you recover a dropped commit in Git?",
+            "options": [
+              "Using git reflog to find and reset to the commit",
+              "It's impossible",
+              "Using git restore",
+              "Using git checkout"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Reflog records branch updates and can be used to recover commits that are still in the reflog."
+          },
+          {
+            "id": "git_s_002",
+            "question": "What is git bisect and when would you use it?",
+            "options": [
+              "Binary search through commit history to find where a bug was introduced",
+              "Splitting commits into smaller parts",
+              "Merging multiple branches",
+              "Creating multiple branches"
+            ],
+            "correctAnswer": "A",
+            "explanation": "git bisect performs binary search between good and bad commits to identify the commit that introduced a bug."
+          }
         ]
       }
     },
@@ -295,115 +1307,251 @@
       "category": "AWS/Cloud",
       "questions": {
         "entry": [
-          { "id": "aws_e_001", "question": "What is EC2?", "options": ["Elastic Compute Cloud (VMs)", "Storage", "Database", "Network"], "correctAnswer": "A", "explanation": "Virtual servers." },
-          { "id": "aws_e_002", "question": "What is S3?", "options": ["Simple Storage Service (Object)", "Block", "File", "DB"], "correctAnswer": "A", "explanation": "Scalable storage." },
-          { "id": "aws_e_003", "question": "What is IAM?", "options": ["Identity Access Management", "Login", "Security", "Admin"], "correctAnswer": "A", "explanation": "User permissions." },
-          { "id": "aws_e_004", "question": "Region vs AZ?", "options": ["Geo area vs Data Center cluster", "Same", "City vs State", "None"], "correctAnswer": "A", "explanation": "Infrastructure hierarchy." },
-          { "id": "aws_e_005", "question": "What is Lambda?", "options": ["Serverless Compute", "Database", "Container", "VM"], "correctAnswer": "A", "explanation": "Function as a Service." },
-          { "id": "aws_e_006", "question": "What is VPC?", "options": ["Virtual Private Cloud", "Network", "VPN", "Internet"], "correctAnswer": "A", "explanation": "Isolated network." },
-          { "id": "aws_e_007", "question": "What is RDS?", "options": ["Relational Database Service", "NoSQL", "S3", "Cache"], "correctAnswer": "A", "explanation": "Managed SQL." },
-          { "id": "aws_e_008", "question": "Pricing model?", "options": ["Pay-as-you-go", "Fixed", "Subscription", "Free"], "correctAnswer": "A", "explanation": "On-demand." },
-          { "id": "aws_e_009", "question": "Root user?", "options": ["Unrestricted access owner", "Admin", "User", "Guest"], "correctAnswer": "A", "explanation": "Account creator." },
-          { "id": "aws_e_010", "question": "Console?", "options": ["Web Management Interface", "CLI", "Terminal", "Screen"], "correctAnswer": "A", "explanation": "GUI." }
+          {
+            "id": "aws_e_001",
+            "question": "What is EC2 in AWS?",
+            "options": [
+              "Elastic Compute Cloud - virtual servers in the cloud",
+              "Electronic Cloud Computing",
+              "Enhanced Cloud 2",
+              "Enterprise Cloud Service"
+            ],
+            "correctAnswer": "A",
+            "explanation": "EC2 provides resizable virtual machines with scalable computing capacity."
+          },
+          {
+            "id": "aws_e_002",
+            "question": "What is S3 in AWS?",
+            "options": [
+              "Simple Storage Service - object storage",
+              "Secure Storage Service",
+              "Super Storage System",
+              "Server Side Scripting"
+            ],
+            "correctAnswer": "A",
+            "explanation": "S3 is an object storage service offering scalability, data availability, and performance."
+          },
+          {
+            "id": "aws_e_003",
+            "question": "What is AWS Lambda?",
+            "options": [
+              "Serverless compute service that runs code without provisioning servers",
+              "Lambda calculus service",
+              "Load balancer",
+              "Database service"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Lambda runs code in response to events and automatically manages compute resources."
+          },
+          {
+            "id": "aws_e_004",
+            "question": "What is an AWS Region?",
+            "options": [
+              "A geographical area containing multiple availability zones",
+              "A single data center",
+              "A country boundary",
+              "A network segment"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Regions are geographic locations with multiple, isolated Availability Zones."
+          }
         ],
         "intermediate": [
-          { "id": "aws_i_001", "question": "Security Group vs NACL?", "options": ["Stateful (Instance) vs Stateless (Subnet)", "Same", "Firewall", "None"], "correctAnswer": "A", "explanation": "Traffic control layers." },
-          { "id": "aws_i_002", "question": "S3 Storage Classes?", "options": ["Standard, IA, Glacier (Cost/Access trade-off)", "Fast, Slow", "Big, Small", "None"], "correctAnswer": "A", "explanation": "Lifecycle management." },
-          { "id": "aws_i_003", "question": "Auto Scaling?", "options": ["Adjust capacity based on demand", "Resize", "Reboot", "None"], "correctAnswer": "A", "explanation": "Elasticity." },
-          { "id": "aws_i_004", "question": "ELB (Load Balancer)?", "options": ["Distribute traffic across targets", "Router", "Switch", "None"], "correctAnswer": "A", "explanation": "High availability." },
-          { "id": "aws_i_005", "question": "CloudWatch?", "options": ["Monitoring and Observability", "Clock", "Timer", "Log"], "correctAnswer": "A", "explanation": "Metrics/Logs." },
-          { "id": "aws_i_006", "question": "Route 53?", "options": ["DNS Web Service", "Router", "Map", "Network"], "correctAnswer": "A", "explanation": "Domain management." },
-          { "id": "aws_i_007", "question": "CloudFront?", "options": ["CDN (Content Delivery Network)", "Frontend", "UI", "None"], "correctAnswer": "A", "explanation": "Edge caching." },
-          { "id": "aws_i_008", "question": "EBS vs EFS?", "options": ["Block (Single EC2) vs File (Multi EC2)", "Same", "Fast vs Slow", "None"], "correctAnswer": "A", "explanation": "Storage types." },
-          { "id": "aws_i_009", "question": "SNS vs SQS?", "options": ["Pub/Sub vs Message Queue", "Push vs Pull", "Same", "None"], "correctAnswer": "A", "explanation": "Decoupling." },
-          { "id": "aws_i_010", "question": "Elastic Beanstalk?", "options": ["PaaS for deploying apps", "VM", "Container", "None"], "correctAnswer": "A", "explanation": "Easy deployment." }
+          {
+            "id": "aws_i_001",
+            "question": "What is the difference between vertical and horizontal scaling?",
+            "options": [
+              "Vertical adds more power to existing instance, horizontal adds more instances",
+              "Horizontal adds more power, vertical adds more instances",
+              "They are the same",
+              "Vertical is for databases only"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Vertical scaling (up/down) increases instance size; horizontal scaling (out/in) adds/removes instances."
+          },
+          {
+            "id": "aws_i_002",
+            "question": "What is VPC in AWS?",
+            "options": [
+              "Virtual Private Cloud - isolated virtual network",
+              "Virtual Private Connection",
+              "Very Private Cloud",
+              "Verified Public Certificate"
+            ],
+            "correctAnswer": "A",
+            "explanation": "VPC allows you to provision a logically isolated section of the AWS cloud."
+          },
+          {
+            "id": "aws_i_003",
+            "question": "What is the difference between security group and NACL?",
+            "options": [
+              "Security group is stateful instance-level, NACL is stateless subnet-level",
+              "They are the same",
+              "NACL is stateful, security group is stateless",
+              "Security group is subnet-level"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Security groups act as instance firewalls with stateful filtering; NACLs are subnet firewalls with stateless filtering."
+          }
         ],
         "senior": [
-          { "id": "aws_s_001", "question": "Shared Responsibility Model?", "options": ["Security OF cloud vs IN cloud", "All AWS", "All User", "None"], "correctAnswer": "A", "explanation": "Compliance." },
-          { "id": "aws_s_002", "question": "DynamoDB Partition Key?", "options": ["Determines data distribution", "Sort key", "Index", "ID"], "correctAnswer": "A", "explanation": "NoSQL design." },
-          { "id": "aws_s_003", "question": "VPC Peering vs Transit Gateway?", "options": ["1:1 connection vs Hub-and-spoke", "Same", "VPN", "None"], "correctAnswer": "A", "explanation": "Network topology." },
-          { "id": "aws_s_004", "question": "Infrastructure as Code?", "options": ["CloudFormation / Terraform", "Manual", "Script", "None"], "correctAnswer": "A", "explanation": "Automation." },
-          { "id": "aws_s_005", "question": "KMS (Key Management)?", "options": ["Create/Control encryption keys", "Password", "Lock", "None"], "correctAnswer": "A", "explanation": "Data security." },
-          { "id": "aws_s_006", "question": "Redshift?", "options": ["Data Warehousing", "Database", "Storage", "None"], "correctAnswer": "A", "explanation": "Analytics." },
-          { "id": "aws_s_007", "question": "ECS vs EKS?", "options": ["Native Container Service vs Kubernetes", "Same", "Docker", "None"], "correctAnswer": "A", "explanation": "Container orchestration." },
-          { "id": "aws_s_008", "question": "AWS Organizations?", "options": ["Manage multiple accounts", "Group", "Team", "None"], "correctAnswer": "A", "explanation": "Governance." },
-          { "id": "aws_s_009", "question": "Direct Connect?", "options": ["Dedicated network connection to AWS", "VPN", "Internet", "None"], "correctAnswer": "A", "explanation": "Hybrid cloud." },
-          { "id": "aws_s_010", "question": "WAF?", "options": ["Web Application Firewall", "Firewall", "Security", "None"], "correctAnswer": "A", "explanation": "Protect apps." }
-        ],
-        "expert": [
-          { "id": "aws_x_001", "question": "Well-Architected Framework Pillars?", "options": ["Operational Excellence, Security, Reliability, Performance, Cost, Sustainability", "5 pillars", "3 pillars", "None"], "correctAnswer": "A", "explanation": "Best practices." },
-          { "id": "aws_x_002", "question": "Lambda Cold Starts?", "options": ["Latency for init new execution env", "Freezing", "Error", "None"], "correctAnswer": "A", "explanation": "Serverless performance." },
-          { "id": "aws_x_003", "question": "Multi-Region Active-Active?", "options": ["Traffic served from multiple regions simultaneously", "Backup", "DR", "None"], "correctAnswer": "A", "explanation": "Global availability." },
-          { "id": "aws_x_004", "question": "Savings Plans vs Reserved Instances?", "options": ["Flexible usage commitment vs Specific instance commitment", "Same", "Discount", "None"], "correctAnswer": "A", "explanation": "Cost optimization." },
-          { "id": "aws_x_005", "question": "Nitro System?", "options": ["Underlying platform for next-gen EC2 (Hypervisor offload)", "Speed", "Boost", "None"], "correctAnswer": "A", "explanation": "Hardware innovation." },
-          { "id": "aws_x_006", "question": "Glue & Athena?", "options": ["ETL service & Serverless SQL query", "Database", "Storage", "None"], "correctAnswer": "A", "explanation": "Data lake analytics." },
-          { "id": "aws_x_007", "question": "Control Tower?", "options": ["Automate setup of multi-account environment (Landing Zone)", "Control", "Tower", "None"], "correctAnswer": "A", "explanation": "Governance at scale." },
-          { "id": "aws_x_008", "question": "Global Accelerator?", "options": ["Route traffic through AWS global network", "CDN", "Speed", "None"], "correctAnswer": "A", "explanation": "Performance/Availability." },
-          { "id": "aws_x_009", "question": "Outposts?", "options": ["Run AWS infrastructure on-premise", "Server", "Cloud", "None"], "correctAnswer": "A", "explanation": "Hybrid experience." },
-          { "id": "aws_x_010", "question": "ENI vs ENA vs EFA?", "options": ["Network Interface types (Standard, Enhanced, Fabric)", "Network", "Card", "None"], "correctAnswer": "A", "explanation": "HPC Networking." }
+          {
+            "id": "aws_s_001",
+            "question": "How would you design a highly available architecture on AWS?",
+            "options": [
+              "Multi-AZ deployment with load balancing and auto-scaling",
+              "Single instance in one AZ",
+              "Multiple instances in same AZ",
+              "Single region deployment only"
+            ],
+            "correctAnswer": "A",
+            "explanation": "High availability uses multiple AZs, ELB for distribution, and auto-scaling for capacity."
+          },
+          {
+            "id": "aws_s_002",
+            "question": "What is the shared responsibility model in AWS?",
+            "options": [
+              "AWS secures the cloud infrastructure, customer secures their data and configurations",
+              "AWS is responsible for everything",
+              "Customer is responsible for everything",
+              "Third party is responsible"
+            ],
+            "correctAnswer": "A",
+            "explanation": "AWS manages cloud infrastructure security; customers manage security in the cloud."
+          }
         ]
       }
-    }
-  ]
-}
-{
-  "metadata": {
-    "version": "2.0.0",
-    "lastUpdated": "2024-02-12",
-    "batch": "5 of 26",
-    "categoriesInBatch": ["Docker/Kubernetes", "Testing/QA"]
-  },
-  "categories": [
+    },
     {
       "category": "Docker/Kubernetes",
       "questions": {
         "entry": [
-          { "id": "dk_e_001", "question": "What is Docker?", "options": ["Platform for developing, shipping, and running applications in containers", "VM", "Cloud", "OS"], "correctAnswer": "A", "explanation": "Containerization platform." },
-          { "id": "dk_e_002", "question": "What is a Container?", "options": ["Lightweight, standalone executable package", "Server", "Database", "File"], "correctAnswer": "A", "explanation": "Includes code, runtime, libraries." },
-          { "id": "dk_e_003", "question": "Image vs Container?", "options": ["Image is template (read-only); Container is running instance", "Same", "Reverse", "None"], "correctAnswer": "A", "explanation": "Class vs Object analogy." },
-          { "id": "dk_e_004", "question": "Dockerfile?", "options": ["Text document with commands to build an image", "Script", "Config", "Log"], "correctAnswer": "A", "explanation": "Blueprint for images." },
-          { "id": "dk_e_005", "question": "Docker Hub?", "options": ["Cloud repository for sharing images", "GitHub", "Server", "None"], "correctAnswer": "A", "explanation": "Default registry." },
-          { "id": "dk_e_006", "question": "Command to run container?", "options": ["docker run", "docker start", "docker go", "docker up"], "correctAnswer": "A", "explanation": "Creates and starts container." },
-          { "id": "dk_e_007", "question": "What is Kubernetes (K8s)?", "options": ["Container Orchestration System", "Container", "VM", "OS"], "correctAnswer": "A", "explanation": "Manages containerized apps." },
-          { "id": "dk_e_008", "question": "What is a Pod?", "options": ["Smallest deployable unit in K8s", "Container", "Node", "Service"], "correctAnswer": "A", "explanation": "Group of one or more containers." },
-          { "id": "dk_e_009", "question": "What is a Node?", "options": ["Worker machine (VM or physical)", "Pod", "Cluster", "Master"], "correctAnswer": "A", "explanation": "Runs pods." },
-          { "id": "dk_e_010", "question": "What is kubectl?", "options": ["Command line tool for K8s", "Docker CLI", "Server", "API"], "correctAnswer": "A", "explanation": "Control cluster." }
+          {
+            "id": "docker_e_001",
+            "question": "What is a Docker container?",
+            "options": [
+              "A lightweight, standalone executable package of software",
+              "A virtual machine",
+              "A programming language",
+              "A database"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Containers package code and dependencies to run consistently across environments."
+          },
+          {
+            "id": "docker_e_002",
+            "question": "What is the difference between Docker image and container?",
+            "options": [
+              "Image is template, container is running instance",
+              "Container is template, image is running instance",
+              "They are the same",
+              "Image is for Windows, container is for Linux"
+            ],
+            "correctAnswer": "A",
+            "explanation": "An image is a read-only template, a container is a runnable instance of an image."
+          },
+          {
+            "id": "docker_e_003",
+            "question": "What is a Dockerfile?",
+            "options": [
+              "A text file with instructions to build a Docker image",
+              "A configuration file for containers",
+              "A log file",
+              "A network configuration file"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Dockerfile contains commands to assemble a Docker image."
+          },
+          {
+            "id": "docker_e_004",
+            "question": "What is Docker Compose?",
+            "options": [
+              "Tool for defining and running multi-container applications",
+              "Single container runner",
+              "Image builder",
+              "Container registry"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Docker Compose uses YAML files to configure and run multiple containers together."
+          }
         ],
         "intermediate": [
-          { "id": "dk_i_001", "question": "Docker Compose?", "options": ["Tool for defining/running multi-container apps", "Builder", "Orchestrator", "None"], "correctAnswer": "A", "explanation": "Uses YAML to configure services." },
-          { "id": "dk_i_002", "question": "Docker Volume?", "options": ["Persist data generated by containers", "Disk", "Folder", "RAM"], "correctAnswer": "A", "explanation": "Data persistence." },
-          { "id": "dk_i_003", "question": "K8s Deployment?", "options": ["Manages stateless apps (Replicas/Updates)", "Pod", "Service", "None"], "correctAnswer": "A", "explanation": "Declarative updates." },
-          { "id": "dk_i_004", "question": "K8s Service Types?", "options": ["ClusterIP, NodePort, LoadBalancer", "TCP, UDP", "HTTP, HTTPS", "None"], "correctAnswer": "A", "explanation": "Exposing apps." },
-          { "id": "dk_i_005", "question": "ConfigMap vs Secret?", "options": ["Non-sensitive config vs Sensitive data", "Same", "File vs Env", "None"], "correctAnswer": "A", "explanation": "Configuration management." },
-          { "id": "dk_i_006", "question": "What is a Namespace?", "options": ["Virtual cluster (logical isolation)", "Folder", "Tag", "None"], "correctAnswer": "A", "explanation": "Organizing resources." },
-          { "id": "dk_i_007", "question": "Liveness vs Readiness Probes?", "options": ["Restart if dead vs Route traffic when ready", "Same", "Health check", "None"], "correctAnswer": "A", "explanation": "Container health." },
-          { "id": "dk_i_008", "question": "ReplicaSet?", "options": ["Ensures specified number of replicas run", "Copy", "Backup", "None"], "correctAnswer": "A", "explanation": "Availability." },
-          { "id": "dk_i_009", "question": "Docker Multi-stage build?", "options": ["Optimize image size", "Build faster", "Multiple apps", "None"], "correctAnswer": "A", "explanation": "Copy artifacts only." },
-          { "id": "dk_i_010", "question": "Minikube?", "options": ["Local K8s cluster", "Small K8s", "Tool", "None"], "correctAnswer": "A", "explanation": "Development tool." }
+          {
+            "id": "k8s_i_001",
+            "question": "What is a Kubernetes Pod?",
+            "options": [
+              "The smallest deployable unit containing one or more containers",
+              "A group of machines",
+              "A storage volume",
+              "A network policy"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Pods are the smallest deployable units in Kubernetes, encapsulating one or more containers."
+          },
+          {
+            "id": "k8s_i_002",
+            "question": "What is the difference between Deployment and StatefulSet?",
+            "options": [
+              "Deployment for stateless apps, StatefulSet for stateful with stable identities",
+              "StatefulSet for stateless, Deployment for stateful",
+              "They are the same",
+              "Deployment is for pods, StatefulSet is for services"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Deployments manage stateless applications; StatefulSets provide stable network IDs and persistent storage."
+          },
+          {
+            "id": "k8s_i_003",
+            "question": "What is a Kubernetes Service?",
+            "options": [
+              "An abstraction defining logical set of pods and access policy",
+              "A background process",
+              "A container runtime",
+              "A storage volume"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Services provide stable networking and load balancing for pods."
+          }
         ],
         "senior": [
-          { "id": "dk_s_001", "question": "StatefulSet vs Deployment?", "options": ["Stable identity/storage for stateful apps vs Stateless", "Same", "Order", "None"], "correctAnswer": "A", "explanation": "Databases need StatefulSets." },
-          { "id": "dk_s_002", "question": "DaemonSet?", "options": ["Runs one pod per node", "Service", "Job", "None"], "correctAnswer": "A", "explanation": "System daemons (logs/monitoring)." },
-          { "id": "dk_s_003", "question": "Ingress Controller?", "options": ["Manages external access (HTTP/S) to services", "Router", "Gateway", "None"], "correctAnswer": "A", "explanation": "Layer 7 routing." },
-          { "id": "dk_s_004", "question": "Helm?", "options": ["Package manager for K8s (Charts)", "Tool", "Script", "None"], "correctAnswer": "A", "explanation": "Templating deployments." },
-          { "id": "dk_s_005", "question": "Persistent Volume (PV) vs PVC?", "options": ["Storage resource vs Request for storage", "Same", "Disk vs RAM", "None"], "correctAnswer": "A", "explanation": "Abstraction of storage." },
-          { "id": "dk_s_006", "question": "Taints and Tolerations?", "options": ["Control pod placement on nodes", "Security", "Access", "None"], "correctAnswer": "A", "explanation": "Scheduling constraints." },
-          { "id": "dk_s_007", "question": "Sidecar Pattern?", "options": ["Helper container running alongside main container", "Car", "Backup", "None"], "correctAnswer": "A", "explanation": "Extending functionality (logging/proxy)." },
-          { "id": "dk_s_008", "question": "Docker Swarm vs K8s?", "options": ["Simple native orchestration vs Complex/Powerful", "Same", "Fast vs Slow", "None"], "correctAnswer": "A", "explanation": "Orchestration scale." },
-          { "id": "dk_s_009", "question": "Overlay Network?", "options": ["Network spanning multiple hosts", "Subnet", "VPC", "None"], "correctAnswer": "A", "explanation": "Container communication." },
-          { "id": "dk_s_010", "question": "Horizontal Pod Autoscaler (HPA)?", "options": ["Scales replica count based on CPU/Memory", "Resize", "Vertical", "None"], "correctAnswer": "A", "explanation": "Elasticity." }
+          {
+            "id": "k8s_s_001",
+            "question": "How does Kubernetes achieve high availability?",
+            "options": [
+              "Multiple master nodes, etcd cluster, pod replication across nodes",
+              "Single master node",
+              "Manual failover",
+              "No built-in HA"
+            ],
+            "correctAnswer": "A",
+            "explanation": "HA requires multiple masters, distributed etcd, and replica pods across nodes."
+          },
+          {
+            "id": "docker_s_001",
+            "question": "What are multi-stage builds in Docker?",
+            "options": [
+              "Using multiple FROM statements to create smaller final images",
+              "Building multiple images at once",
+              "Multi-platform builds",
+              "Parallel builds"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Multi-stage builds use intermediate images for building but only copy artifacts to final image, reducing size."
+          }
         ],
         "expert": [
-          { "id": "dk_x_001", "question": "Service Mesh (Istio/Linkerd)?", "options": ["Infrastructure layer for service communication (observability/security)", "Network", "Proxy", "None"], "correctAnswer": "A", "explanation": "Microservices management." },
-          { "id": "dk_x_002", "question": "Operator Pattern?", "options": ["Extending K8s with custom resources/controllers", "Admin", "User", "None"], "correctAnswer": "A", "explanation": "Automating operational knowledge." },
-          { "id": "dk_x_003", "question": "etcd?", "options": ["Distributed key-value store for cluster state", "Database", "Log", "None"], "correctAnswer": "A", "explanation": "Source of truth." },
-          { "id": "dk_x_004", "question": "Container Runtime Interface (CRI)?", "options": ["Plugin interface for runtimes (containerd/CRI-O)", "API", "Docker", "None"], "correctAnswer": "A", "explanation": "Decoupling runtime." },
-          { "id": "dk_x_005", "question": "Network Policies?", "options": ["Firewall rules for pods", "Security", "Access", "None"], "correctAnswer": "A", "explanation": "Traffic isolation." },
-          { "id": "dk_x_006", "question": "K8s Scheduling Algorithm?", "options": ["Filtering (Predicates) -> Scoring (Priorities)", "Random", "Round Robin", "None"], "correctAnswer": "A", "explanation": "Node selection." },
-          { "id": "dk_x_007", "question": "Pod Security Standards (PSS)?", "options": ["Policies to restrict pod privileges", "Security", "Admin", "None"], "correctAnswer": "A", "explanation": "Hardening clusters." },
-          { "id": "dk_x_008", "question": "GitOps (ArgoCD)?", "options": ["Git as source of truth for declarative infrastructure", "CI/CD", "DevOps", "None"], "correctAnswer": "A", "explanation": "Deployment strategy." },
-          { "id": "dk_x_009", "question": "Custom Resource Definition (CRD)?", "options": ["Extending K8s API with new types", "Resource", "API", "None"], "correctAnswer": "A", "explanation": "Custom objects." },
-          { "id": "dk_x_010", "question": "Headless Service?", "options": ["Service without ClusterIP (direct pod access)", "No UI", "API", "None"], "correctAnswer": "A", "explanation": "Stateful discovery." }
+          {
+            "id": "k8s_ex_001",
+            "question": "How does the Kubernetes scheduler work?",
+            "options": [
+              "Filters nodes for feasibility, then scores them based on policies",
+              "Random assignment",
+              "Round-robin scheduling",
+              "First-fit algorithm"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Scheduler filters nodes that satisfy pod requirements, then ranks them using priority functions."
+          }
         ]
       }
     },
@@ -411,52 +1559,132 @@
       "category": "Testing/QA",
       "questions": {
         "entry": [
-          { "id": "qa_e_001", "question": "What is QA?", "options": ["Quality Assurance", "Quick Action", "Quality Analysis", "Query All"], "correctAnswer": "A", "explanation": "Process to ensure quality." },
-          { "id": "qa_e_002", "question": "What is a Bug?", "options": ["Defect or flaw in software", "Insect", "Feature", "Code"], "correctAnswer": "A", "explanation": "Error in logic/implementation." },
-          { "id": "qa_e_003", "question": "Unit Testing?", "options": ["Testing smallest parts (functions)", "Integration", "System", "User"], "correctAnswer": "A", "explanation": "Isolation testing." },
-          { "id": "qa_e_004", "question": "Manual Testing?", "options": ["Human executing tests", "Automated", "Scripted", "None"], "correctAnswer": "A", "explanation": "Human verification." },
-          { "id": "qa_e_005", "question": "Test Case?", "options": ["Set of conditions/inputs and expected results", "Plan", "Strategy", "Log"], "correctAnswer": "A", "explanation": "Instruction for testing." },
-          { "id": "qa_e_006", "question": "Positive vs Negative Testing?", "options": ["Valid input (expect success) vs Invalid input (expect error)", "Good vs Bad", "Pass vs Fail", "None"], "correctAnswer": "A", "explanation": "Coverage types." },
-          { "id": "qa_e_007", "question": "Black Box Testing?", "options": ["Testing without knowing internal code", "White box", "Grey box", "None"], "correctAnswer": "A", "explanation": "Behavioral testing." },
-          { "id": "qa_e_008", "question": "White Box Testing?", "options": ["Testing with knowledge of internal code", "Black box", "Grey box", "None"], "correctAnswer": "A", "explanation": "Structural testing." },
-          { "id": "qa_e_009", "question": "Selenium?", "options": ["Tool for automating web browsers", "Language", "Database", "None"], "correctAnswer": "A", "explanation": "Automation framework." },
-          { "id": "qa_e_010", "question": "Test Plan?", "options": ["Document describing scope/approach", "Case", "Script", "None"], "correctAnswer": "A", "explanation": "Strategic document." }
+          {
+            "id": "test_e_001",
+            "question": "What is unit testing?",
+            "options": [
+              "Testing individual components in isolation",
+              "Testing the entire application",
+              "Testing user interface",
+              "Testing performance"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Unit testing verifies the smallest testable parts of code in isolation."
+          },
+          {
+            "id": "test_e_002",
+            "question": "What is the difference between unit and integration testing?",
+            "options": [
+              "Unit tests isolated components, integration tests component interactions",
+              "They are the same",
+              "Integration tests are smaller",
+              "Unit tests test the UI"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Unit tests verify individual units, integration tests verify how units work together."
+          },
+          {
+            "id": "test_e_003",
+            "question": "What is a test case?",
+            "options": [
+              "A set of conditions to verify functionality",
+              "A bug report",
+              "A code review",
+              "A deployment script"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Test cases specify inputs, execution conditions, and expected results to test a feature."
+          },
+          {
+            "id": "test_e_004",
+            "question": "What is regression testing?",
+            "options": [
+              "Testing to ensure new code doesn't break existing functionality",
+              "Testing new features only",
+              "Performance testing",
+              "Security testing"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Regression testing verifies that recent code changes haven't adversely affected existing features."
+          }
         ],
         "intermediate": [
-          { "id": "qa_i_001", "question": "Integration Testing?", "options": ["Testing combined modules", "Unit", "System", "None"], "correctAnswer": "A", "explanation": "Interface testing." },
-          { "id": "qa_i_002", "question": "Regression Testing?", "options": ["Ensuring changes didn't break existing functionality", "New testing", "Performance", "None"], "correctAnswer": "A", "explanation": "Safety check." },
-          { "id": "qa_i_003", "question": "Smoke Testing?", "options": ["Basic health check of critical features", "Fire", "Deep", "None"], "correctAnswer": "A", "explanation": "Build verification." },
-          { "id": "qa_i_004", "question": "Sanity Testing?", "options": ["Checking specific functionality after fix", "Smoke", "Full", "None"], "correctAnswer": "A", "explanation": "Subset of regression." },
-          { "id": "qa_i_005", "question": "UAT (User Acceptance Testing)?", "options": ["End-user verification", "Dev test", "QA test", "None"], "correctAnswer": "A", "explanation": "Final phase." },
-          { "id": "qa_i_006", "question": "STLC?", "options": ["Software Testing Life Cycle", "SDLC", "Loop", "None"], "correctAnswer": "A", "explanation": "Process phases." },
-          { "id": "qa_i_007", "question": "Defect Life Cycle?", "options": ["New -> Assigned -> Open -> Fixed -> Verified -> Closed", "Open -> Close", "None"], "correctAnswer": "A", "explanation": "Bug workflow." },
-          { "id": "qa_i_008", "question": "Agile Testing?", "options": ["Testing integrated into Agile sprints", "Waterfall", "Slow", "None"], "correctAnswer": "A", "explanation": "Continuous feedback." },
-          { "id": "qa_i_009", "question": "Test Suite?", "options": ["Collection of test cases", "Plan", "Scenario", "None"], "correctAnswer": "A", "explanation": "Grouped tests." },
-          { "id": "qa_i_010", "question": "Mocking?", "options": ["Simulating external dependencies", "Fake", "Copy", "None"], "correctAnswer": "A", "explanation": "Isolation technique." }
+          {
+            "id": "test_i_001",
+            "question": "What is TDD (Test-Driven Development)?",
+            "options": [
+              "Write tests before code, then implement to pass tests",
+              "Test after coding",
+              "Debugging technique",
+              "Performance testing"
+            ],
+            "correctAnswer": "A",
+            "explanation": "TDD is a development process: write failing test, write code to pass, refactor."
+          },
+          {
+            "id": "test_i_002",
+            "question": "What is the difference between mock and stub?",
+            "options": [
+              "Mocks verify behavior, stubs provide predetermined responses",
+              "They are the same",
+              "Stubs verify behavior, mocks provide responses",
+              "Mocks are for classes, stubs for interfaces"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Stubs provide canned answers; mocks also record and verify interaction expectations."
+          },
+          {
+            "id": "test_i_003",
+            "question": "What is code coverage?",
+            "options": [
+              "Measure of how much source code is executed during testing",
+              "Number of test cases",
+              "Time to run tests",
+              "Number of bugs found"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Code coverage metrics show which statements, branches, or paths have been executed by tests."
+          }
         ],
         "senior": [
-          { "id": "qa_s_001", "question": "Test Pyramid?", "options": ["Strategy: Many Units -> Some Integration -> Few UI", "Shape", "Hierarchy", "None"], "correctAnswer": "A", "explanation": "Efficiency model." },
-          { "id": "qa_s_002", "question": "CI/CD in QA?", "options": ["Continuous Integration/Deployment (Auto-testing)", "DevOps", "Pipeline", "None"], "correctAnswer": "A", "explanation": "Automation pipeline." },
-          { "id": "qa_s_003", "question": "Load vs Stress Testing?", "options": ["Expected load vs Breaking point", "Same", "Performance", "None"], "correctAnswer": "A", "explanation": "Performance limits." },
-          { "id": "qa_s_004", "question": "Exploratory Testing?", "options": ["Simultaneous learning/test design/execution", "Scripted", "Ad-hoc", "None"], "correctAnswer": "A", "explanation": "Creative testing." },
-          { "id": "qa_s_005", "question": "TDD (Test Driven Development)?", "options": ["Write test -> Fail -> Write code -> Pass", "Test after", "None"], "correctAnswer": "A", "explanation": "Design process." },
-          { "id": "qa_s_006", "question": "BDD (Behavior Driven Development)?", "options": ["Given/When/Then syntax (Gherkin)", "TDD", "None"], "correctAnswer": "A", "explanation": "Collaboration." },
-          { "id": "qa_s_007", "question": "API Testing?", "options": ["Testing logic layer (endpoints/payloads)", "UI", "DB", "None"], "correctAnswer": "A", "explanation": "Headless testing." },
-          { "id": "qa_s_008", "question": "Code Coverage?", "options": ["Metric of code executed by tests", "Lines", "Quality", "None"], "correctAnswer": "A", "explanation": "Completeness metric." },
-          { "id": "qa_s_009", "question": "Static Analysis?", "options": ["Examining code without execution", "Dynamic", "Review", "None"], "correctAnswer": "A", "explanation": "Linting/Quality." },
-          { "id": "qa_s_010", "question": "RTM (Requirement Traceability Matrix)?", "options": ["Mapping requirements to test cases", "Matrix", "Plan", "None"], "correctAnswer": "A", "explanation": "Coverage tracking." }
+          {
+            "id": "test_s_001",
+            "question": "What is the test pyramid?",
+            "options": [
+              "Strategy: many unit tests, fewer integration tests, few UI tests",
+              "Testing hierarchy based on priority",
+              "Test execution time pyramid",
+              "Bug severity pyramid"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Test pyramid recommends more low-level unit tests and fewer high-level end-to-end tests."
+          },
+          {
+            "id": "test_s_002",
+            "question": "What is contract testing?",
+            "options": [
+              "Testing service interactions against shared expectations",
+              "Legal contract testing",
+              "API documentation testing",
+              "Service Level Agreement testing"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Contract testing ensures services communicate correctly by validating against shared contracts."
+          }
         ],
         "expert": [
-          { "id": "qa_x_001", "question": "Chaos Engineering?", "options": ["Testing resilience by intentionally breaking system", "Random", "Mess", "None"], "correctAnswer": "A", "explanation": "Reliability testing." },
-          { "id": "qa_x_002", "question": "Contract Testing (Pact)?", "options": ["Verifying service interactions against contract", "API", "Legal", "None"], "correctAnswer": "A", "explanation": "Microservices." },
-          { "id": "qa_x_003", "question": "Shift Left Testing?", "options": ["Testing early in SDLC", "Left side", "Late", "None"], "correctAnswer": "A", "explanation": "Prevention over detection." },
-          { "id": "qa_x_004", "question": "Flaky Tests?", "options": ["Non-deterministic results (Pass/Fail randomly)", "Bad tests", "Slow", "None"], "correctAnswer": "A", "explanation": "Reliability issue." },
-          { "id": "qa_x_005", "question": "Mutation Testing?", "options": ["Modifying code to check if tests fail (kill mutants)", "X-Men", "Change", "None"], "correctAnswer": "A", "explanation": "Test quality check." },
-          { "id": "qa_x_006", "question": "Model-Based Testing?", "options": ["Generating tests from system models", "Model", "Design", "None"], "correctAnswer": "A", "explanation": "Automation strategy." },
-          { "id": "qa_x_007", "question": "Performance Engineering vs Testing?", "options": ["Proactive architecture design vs Reactive measurement", "Same", "None"], "correctAnswer": "A", "explanation": "Holistic approach." },
-          { "id": "qa_x_008", "question": "Visual Regression Testing?", "options": ["Pixel-by-pixel UI comparison", "UI", "Screen", "None"], "correctAnswer": "A", "explanation": "UI Integrity." },
-          { "id": "qa_x_009", "question": "Fuzz Testing?", "options": ["Injecting random invalid data", "Fuzzy", "Random", "None"], "correctAnswer": "A", "explanation": "Security/Stability." },
-          { "id": "qa_x_010", "question": "Test Data Management (TDM)?", "options": ["Managing data needs for testing (Masking/Synthetic)", "Data", "DB", "None"], "correctAnswer": "A", "explanation": "Environment prep." }
+          {
+            "id": "test_ex_001",
+            "question": "How would you implement testing strategy for microservices?",
+            "options": [
+              "Unit, integration, contract, component, end-to-end tests",
+              "Only end-to-end tests",
+              "Only unit tests",
+              "Manual testing only"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Microservices testing requires multiple levels: unit, integration, contract, component, and end-to-end."
+          }
         ]
       }
     }
