@@ -1,344 +1,334 @@
 {
-  "metadata": {
-    "version": "1.0.0",
-    "lastUpdated": "2024-02-11",
-    "totalCategories": 53,
-    "totalQuestions": 1060
-  },
   "categories": [
     {
       "category": "JavaScript/TypeScript",
       "questions": {
         "entry": [
           {
-            "id": "js_e_001",
-            "question": "What is the difference between 'let', 'const', and 'var' in JavaScript?",
-            "options": [
-              "'var' is block-scoped, 'let' and 'const' are function-scoped",
-              "'let' and 'const' are block-scoped, 'var' is function-scoped",
-              "'const' cannot be reassigned, 'var' and 'let' can be reassigned, all are block-scoped",
-              "'let' and 'var' are block-scoped, 'const' is function-scoped"
-            ],
-            "correctAnswer": "B",
-            "explanation": "var is function-scoped, while let and const are block-scoped. const cannot be reassigned after declaration."
+            "id": 1,
+            "difficulty": "entry",
+            "question": "Which keyword declares a variable in JavaScript?",
+            "options": ["var", "int", "define", "letit"],
+            "correctAnswer": "var",
+            "explanation": "var declares variables in JS, along with let and const in ES6."
           },
           {
-            "id": "js_e_002",
-            "question": "What is a closure in JavaScript?",
-            "options": [
-              "A function that has access to variables from its outer scope even after the outer function has returned",
-              "A way to close browser windows",
-              "A method to end function execution",
-              "A type of loop"
-            ],
-            "correctAnswer": "A",
-            "explanation": "A closure is created when a function retains access to its lexical scope even when executed outside that scope."
+            "id": 2,
+            "difficulty": "entry",
+            "question": "What is the output of typeof null?",
+            "options": ["null", "undefined", "object", "boolean"],
+            "correctAnswer": "object",
+            "explanation": "In JavaScript, typeof null returns 'object' - a known historical bug."
           },
           {
-            "id": "js_e_003",
-            "question": "What does the 'this' keyword refer to in JavaScript?",
-            "options": [
-              "Always refers to the global object",
-              "Refers to the object that is executing the current function",
-              "Refers to the parent function",
-              "Refers to the previous function call"
-            ],
-            "correctAnswer": "B",
-            "explanation": "'this' refers to the object that is executing the current function, which depends on how the function is called."
+            "id": 3,
+            "difficulty": "entry",
+            "question": "Which method adds elements to the end of an array?",
+            "options": ["push()", "pop()", "shift()", "unshift()"],
+            "correctAnswer": "push()",
+            "explanation": "push() adds one or more elements to the end of an array and returns the new length."
           },
           {
-            "id": "js_e_004",
-            "question": "What is the purpose of the 'map()' method in JavaScript?",
-            "options": [
-              "To create a new array by applying a function to each element",
-              "To modify the original array",
-              "To filter elements from an array",
-              "To find an element in an array"
-            ],
-            "correctAnswer": "A",
-            "explanation": "map() creates a new array by calling a provided function on every element in the calling array."
+            "id": 4,
+            "difficulty": "entry",
+            "question": "What does the '===' operator do?",
+            "options": ["Compares value only", "Compares type only", "Compares value and type", "Assigns value"],
+            "correctAnswer": "Compares value and type",
+            "explanation": "=== is strict equality operator that compares both value and data type without type coercion."
           },
           {
-            "id": "js_e_005",
-            "question": "What is TypeScript and why is it used?",
-            "options": [
-              "A replacement for JavaScript",
-              "A superset of JavaScript that adds static typing",
-              "A CSS framework",
-              "A database query language"
-            ],
-            "correctAnswer": "B",
-            "explanation": "TypeScript is a typed superset of JavaScript that compiles to plain JavaScript, adding optional static typing."
+            "id": 5,
+            "difficulty": "entry",
+            "question": "How do you write a single-line comment in JavaScript?",
+            "options": ["//", "/* */", "#", "--"],
+            "correctAnswer": "//",
+            "explanation": "// is used for single-line comments in JavaScript."
           },
           {
-            "id": "js_e_006",
-            "question": "What is an arrow function in JavaScript?",
-            "options": [
-              "A function that points to memory addresses",
-              "A shorter syntax for writing function expressions",
-              "A function used for arrow animations",
-              "A method to draw arrows on canvas"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Arrow functions provide a concise syntax and do not have their own 'this', arguments, or prototype."
+            "id": 6,
+            "difficulty": "entry",
+            "question": "What is the correct way to declare a constant in ES6?",
+            "options": ["const", "let", "var", "constant"],
+            "correctAnswer": "const",
+            "explanation": "const declares constants that cannot be reassigned in ES6."
           },
           {
-            "id": "js_e_007",
-            "question": "What is the event loop in JavaScript?",
-            "options": [
-              "A loop that creates events",
-              "A mechanism that handles asynchronous callbacks",
-              "A way to loop through DOM events",
-              "A timing function"
-            ],
-            "correctAnswer": "B",
-            "explanation": "The event loop continuously checks the call stack and callback queue, moving callbacks to the stack when it's empty."
+            "id": 7,
+            "difficulty": "entry",
+            "question": "Which method removes the last element from an array?",
+            "options": ["pop()", "push()", "shift()", "unshift()"],
+            "correctAnswer": "pop()",
+            "explanation": "pop() removes the last element from an array and returns that element."
           },
           {
-            "id": "js_e_008",
-            "question": "What is the difference between '==' and '===' in JavaScript?",
-            "options": [
-              "'==' compares values, '===' compares values and types",
-              "'===' compares values, '==' compares values and types",
-              "They are identical",
-              "'==' is used for assignment"
-            ],
-            "correctAnswer": "A",
-            "explanation": "'==' performs type coercion, while '===' requires both value and type to be identical."
+            "id": 8,
+            "difficulty": "entry",
+            "question": "What is the index of the first element in an array?",
+            "options": ["0", "1", "-1", "undefined"],
+            "correctAnswer": "0",
+            "explanation": "JavaScript arrays are zero-indexed, so the first element is at index 0."
           },
           {
-            "id": "js_e_009",
-            "question": "What is a Promise in JavaScript?",
-            "options": [
-              "A guarantee that code will execute",
-              "An object representing the eventual completion or failure of an asynchronous operation",
-              "A commitment to write clean code",
-              "A debugging tool"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Promises represent asynchronous operations and can be in pending, fulfilled, or rejected states."
+            "id": 9,
+            "difficulty": "entry",
+            "question": "Which statement is used to exit a loop early?",
+            "options": ["break", "exit", "continue", "return"],
+            "correctAnswer": "break",
+            "explanation": "break terminates the current loop or switch statement."
           },
           {
-            "id": "js_e_010",
-            "question": "What is destructuring in JavaScript?",
-            "options": [
-              "Removing elements from arrays",
-              "Breaking objects into smaller pieces",
-              "A syntax to unpack values from arrays or properties from objects",
-              "Deleting variables"
-            ],
-            "correctAnswer": "C",
-            "explanation": "Destructuring allows you to extract values from arrays or objects into distinct variables."
+            "id": 10,
+            "difficulty": "entry",
+            "question": "What is the typeof operator for an array?",
+            "options": ["object", "array", "list", "undefined"],
+            "correctAnswer": "object",
+            "explanation": "Arrays are objects in JavaScript, typeof returns 'object'."
           }
         ],
         "intermediate": [
           {
-            "id": "js_i_001",
-            "question": "Explain the prototype chain in JavaScript.",
-            "options": [
-              "A chain of function calls",
-              "A mechanism for inheritance where objects inherit from other objects",
-              "A way to chain methods together",
-              "A debugging technique"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Every object has a prototype, forming a chain until null is reached, enabling prototypal inheritance."
+            "id": 1,
+            "difficulty": "intermediate",
+            "question": "Which symbol is used for arrow functions?",
+            "options": ["=>", "->", "::", "==>"],
+            "correctAnswer": "=>",
+            "explanation": "=> defines arrow functions with lexical this binding."
           },
           {
-            "id": "js_i_002",
-            "question": "What are higher-order functions in JavaScript?",
-            "options": [
-              "Functions that only work with high-priority tasks",
-              "Functions that take other functions as arguments or return functions",
-              "Functions defined at the top of the file",
-              "Optimized functions"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Higher-order functions either accept functions as arguments, return functions, or both."
+            "id": 2,
+            "difficulty": "intermediate",
+            "question": "Which method converts JSON string to object?",
+            "options": ["parse()", "stringify()", "convert()", "decode()"],
+            "correctAnswer": "parse()",
+            "explanation": "JSON.parse converts JSON string to JavaScript object."
           },
           {
-            "id": "js_i_003",
-            "question": "How does the 'bind()' method work?",
-            "options": [
-              "Binds two variables together",
-              "Creates a new function with a specified 'this' value",
-              "Binds events to DOM elements",
-              "Combines multiple functions"
-            ],
-            "correctAnswer": "B",
-            "explanation": "bind() creates a new function that, when called, has its 'this' keyword set to the provided value."
+            "id": 3,
+            "difficulty": "intermediate",
+            "question": "TypeScript is a superset of?",
+            "options": ["Java", "Python", "JavaScript", "C++"],
+            "correctAnswer": "JavaScript",
+            "explanation": "TypeScript extends JavaScript with static types."
           },
           {
-            "id": "js_i_004",
-            "question": "What is the difference between 'call()' and 'apply()'?",
-            "options": [
-              "call() accepts arguments individually, apply() accepts an array of arguments",
-              "They are identical",
-              "apply() is faster than call()",
-              "call() is used for objects, apply() for arrays"
-            ],
-            "correctAnswer": "A",
-            "explanation": "call() accepts arguments individually, while apply() accepts an array of arguments."
+            "id": 4,
+            "difficulty": "intermediate",
+            "question": "What is a closure?",
+            "options": ["Function with outer scope access", "Locked variable", "Private method", "Class instance"],
+            "correctAnswer": "Function with outer scope access",
+            "explanation": "Closure gives inner function access to outer function's scope."
           },
           {
-            "id": "js_i_005",
-            "question": "Explain async/await in JavaScript.",
-            "options": [
-              "A way to make code run faster",
-              "Syntactic sugar over Promises for cleaner asynchronous code",
-              "A replacement for callbacks only",
-              "A debugging tool"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Async/await provides a more readable way to work with Promises, making asynchronous code look synchronous."
+            "id": 5,
+            "difficulty": "intermediate",
+            "question": "Which method creates a new array with passed function?",
+            "options": ["map()", "forEach()", "filter()", "reduce()"],
+            "correctAnswer": "map()",
+            "explanation": "map() creates new array by applying function to each element."
           },
           {
-            "id": "js_i_006",
-            "question": "What are generators in JavaScript?",
-            "options": [
-              "Functions that generate random numbers",
-              "Functions that can be paused and resumed",
-              "Code generators",
-              "Documentation generators"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Generators are functions that can be exited and later re-entered, maintaining their context."
+            "id": 6,
+            "difficulty": "intermediate",
+            "question": "What is the event loop?",
+            "options": ["Async callback handler", "Loop syntax", "Array method", "DOM event"],
+            "correctAnswer": "Async callback handler",
+            "explanation": "Event loop handles asynchronous callbacks in JavaScript."
           },
           {
-            "id": "js_i_007",
-            "question": "How does TypeScript's type system enhance JavaScript development?",
-            "options": [
-              "By making code run faster",
-              "By providing compile-time type checking and better IDE support",
-              "By reducing file size",
-              "By removing the need for testing"
-            ],
-            "correctAnswer": "B",
-            "explanation": "TypeScript adds static typing, catching errors early and improving development experience with better tooling."
+            "id": 7,
+            "difficulty": "intermediate",
+            "question": "What is the difference between null and undefined?",
+            "options": ["Same", "null is assigned", "undefined is default", "Both B and C"],
+            "correctAnswer": "Both B and C",
+            "explanation": "undefined: declared but not assigned; null: intentional absence."
           },
           {
-            "id": "js_i_008",
-            "question": "What is the spread operator in JavaScript?",
-            "options": [
-              "An operator that spreads code across files",
-              "A syntax for expanding iterables into individual elements",
-              "A method to share variables between functions",
-              "A debugging operator"
-            ],
-            "correctAnswer": "B",
-            "explanation": "The spread operator (...) allows an iterable to be expanded in places where multiple elements are expected."
+            "id": 8,
+            "difficulty": "intermediate",
+            "question": "What is prototypal inheritance?",
+            "options": ["Objects inherit from objects", "Class-based", "Interface-based", "Module-based"],
+            "correctAnswer": "Objects inherit from objects",
+            "explanation": "Objects can inherit directly from other objects."
           },
           {
-            "id": "js_i_009",
-            "question": "What are WeakMap and WeakSet in JavaScript?",
-            "options": [
-              "Collections with weak typing",
-              "Collections that hold objects weakly, allowing garbage collection",
-              "Weaker versions of Map and Set",
-              "Deprecated features"
-            ],
-            "correctAnswer": "B",
-            "explanation": "WeakMap and WeakSet hold objects weakly, meaning references don't prevent garbage collection."
+            "id": 9,
+            "difficulty": "intermediate",
+            "question": "What does the spread operator do?",
+            "options": ["Expand iterables", "Combine arrays", "Copy objects", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "Spread (...) expands iterables and copies properties."
           },
           {
-            "id": "js_i_010",
-            "question": "How do you implement debouncing in JavaScript?",
-            "options": [
-              "By using setTimeout to delay function execution until after a wait period",
-              "By removing function definitions",
-              "By canceling all function calls",
-              "By slowing down the event loop"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Debouncing ensures a function is called only after a certain amount of time has passed since its last invocation."
+            "id": 10,
+            "difficulty": "intermediate",
+            "question": "What is a Promise?",
+            "options": ["Async operation handler", "Synchronous function", "Callback", "Event listener"],
+            "correctAnswer": "Async operation handler",
+            "explanation": "Promise represents eventual completion of async operation."
           }
         ],
         "senior": [
           {
-            "id": "js_s_001",
-            "question": "How would you implement a custom Promise from scratch?",
-            "options": [
-              "Using setTimeout only",
-              "Creating a class with state, then/catch methods, and resolve/reject functions",
-              "Using callback functions",
-              "It's not possible"
-            ],
-            "correctAnswer": "B",
-            "explanation": "A custom Promise implementation requires managing state, then/catch handlers, and the resolution/rejection chain."
+            "id": 1,
+            "difficulty": "senior",
+            "question": "Which feature ensures type safety in TypeScript?",
+            "options": ["Interfaces", "Promises", "Closures", "Callbacks"],
+            "correctAnswer": "Interfaces",
+            "explanation": "Interfaces enforce type checking and contracts."
           },
           {
-            "id": "js_s_002",
-            "question": "Explain microtasks and macrotasks in the event loop.",
-            "options": [
-              "Microtasks are larger than macrotasks",
-              "Microtasks (Promises) run before macrotasks (setTimeout, I/O)",
-              "Macrotasks run before microtasks",
-              "They run simultaneously"
-            ],
-            "correctAnswer": "B",
-            "explanation": "The event loop processes all microtasks in the current tick before moving to the next macrotask."
+            "id": 2,
+            "difficulty": "senior",
+            "question": "What is the Temporal Dead Zone?",
+            "options": ["Let/const before declaration", "Hoisting area", "Global scope", "Function scope"],
+            "correctAnswer": "Let/const before declaration",
+            "explanation": "TDZ is period between entering scope and variable declaration."
           },
           {
-            "id": "js_s_003",
-            "question": "How does JavaScript's memory management work?",
-            "options": [
-              "Manual memory allocation and deallocation",
-              "Automatic garbage collection using mark-and-sweep algorithm",
-              "Memory is never freed",
-              "Reference counting only"
-            ],
-            "correctAnswer": "B",
-            "explanation": "JavaScript uses automatic garbage collection, primarily through mark-and-sweep, to free unreachable memory."
+            "id": 3,
+            "difficulty": "senior",
+            "question": "How does garbage collection work?",
+            "options": ["Mark and sweep", "Reference counting", "Both", "Manual"],
+            "correctAnswer": "Both",
+            "explanation": "JS uses both mark-and-sweep and reference counting."
           },
           {
-            "id": "js_s_004",
-            "question": "What are decorators in TypeScript and how do they work?",
-            "options": [
-              "Functions that add CSS styling",
-              "Special declarations that can modify classes, methods, or properties at design time",
-              "HTML elements",
-              "Debugging tools"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Decorators provide a way to add annotations and meta-programming syntax for class declarations and members."
+            "id": 4,
+            "difficulty": "senior",
+            "question": "What are the differences between interface and type?",
+            "options": ["Interface extends", "Type aliases", "Both A and B", "Same"],
+            "correctAnswer": "Both A and B",
+            "explanation": "Interfaces extend; type aliases create unions/intersections."
           },
           {
-            "id": "js_s_005",
-            "question": "How would you optimize a React application's performance?",
-            "options": [
-              "By using more components",
-              "Through memoization, code splitting, and avoiding unnecessary re-renders",
-              "By adding more state",
-              "By using class components only"
-            ],
-            "correctAnswer": "B",
-            "explanation": "React optimization involves React.memo, useMemo, useCallback, code splitting, and virtualization."
+            "id": 5,
+            "difficulty": "senior",
+            "question": "What is the event loop phase order?",
+            "options": ["Timers, I/O, Poll, Check", "I/O, Timers, Check, Poll", "Poll, Timers, I/O, Check", "Check, Poll, Timers, I/O"],
+            "correctAnswer": "Timers, I/O, Poll, Check",
+            "explanation": "Event loop phases: timers, I/O callbacks, poll, setImmediate."
+          },
+          {
+            "id": 6,
+            "difficulty": "senior",
+            "question": "What is the difference between microtask and macrotask?",
+            "options": ["Micro: Promise, MutationObserver", "Macro: setTimeout, setInterval", "Different queues", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "Microtasks have higher priority than macrotasks."
+          },
+          {
+            "id": 7,
+            "difficulty": "senior",
+            "question": "How does the module resolution work?",
+            "options": ["Node resolution", "Classic resolution", "Relative/non-relative", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "TypeScript supports Node and Classic resolution strategies."
+          },
+          {
+            "id": 8,
+            "difficulty": "senior",
+            "question": "What is the difference between private and #private?",
+            "options": ["# is truly private", "TS private compile-time", "Both", "Same"],
+            "correctAnswer": "Both",
+            "explanation": "#private is ES2022 native private; TS private only compile-time."
+          },
+          {
+            "id": 9,
+            "difficulty": "senior",
+            "question": "What is the Proxy object used for?",
+            "options": ["Customize behavior", "Intercept operations", "Metaprogramming", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "Proxy enables custom behavior for fundamental operations."
+          },
+          {
+            "id": 10,
+            "difficulty": "senior",
+            "question": "What are WeakRef and FinalizationRegistry?",
+            "options": ["Weak references", "Garbage collection hooks", "Memory management", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "WeakRef holds weak reference; FinalizationRegistry cleans up."
           }
         ],
         "expert": [
           {
-            "id": "js_ex_001",
-            "question": "How would you implement a virtual DOM diffing algorithm?",
-            "options": [
-              "By comparing strings",
-              "Using tree comparison algorithms with O(n) complexity based on keyed elements",
-              "By rebuilding the entire DOM",
-              "It's not possible"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Virtual DOM diffing uses heuristics to achieve O(n) complexity by comparing elements by type and using keys."
+            "id": 1,
+            "difficulty": "expert",
+            "question": "What is the V8 engine's hidden class mechanism?",
+            "options": ["Object shape optimization", "Property access", "Inline caching", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "V8 uses hidden classes for property access optimization."
           },
           {
-            "id": "js_ex_002",
-            "question": "Explain the V8 engine's hidden classes and inline caching.",
-            "options": [
-              "CSS classes in JavaScript",
-              "Optimization techniques for fast property access and method calls",
-              "Hidden HTML elements",
-              "Encrypted classes"
-            ],
-            "correctAnswer": "B",
-            "explanation": "V8 creates hidden classes for objects and uses inline caching to optimize property access and method calls."
+            "id": 2,
+            "difficulty": "expert",
+            "question": "How does the JIT compiler work in V8?",
+            "options": ["Interpret to bytecode", "Optimize hot paths", "Deoptimization", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "JIT compiles frequently executed code to machine code."
+          },
+          {
+            "id": 3,
+            "difficulty": "expert",
+            "question": "What are inline caches?",
+            "options": ["Property lookup optimization", "Type feedback", "Polymorphic/monomorphic", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "Inline caches optimize property access based on types."
+          },
+          {
+            "id": 4,
+            "difficulty": "expert",
+            "question": "How does garbage collection work in V8?",
+            "options": ["Generational GC", "Mark-sweep-compact", "Stop-the-world", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "V8 uses generational GC with mark-sweep-compact."
+          },
+          {
+            "id": 5,
+            "difficulty": "expert",
+            "question": "What is the difference between young and old generation?",
+            "options": ["New objects vs surviving", "Scavenge vs mark-sweep", "Frequency of collection", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "Young: new objects; Old: objects surviving multiple GC cycles."
+          },
+          {
+            "id": 6,
+            "difficulty": "expert",
+            "question": "How does the Orinoco project improve GC?",
+            "options": ["Parallel marking", "Concurrent sweeping", "Incremental marking", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "Orinoco introduces parallel/concurrent GC phases."
+          },
+          {
+            "id": 7,
+            "difficulty": "expert",
+            "question": "What are memory leaks and how to detect them?",
+            "options": ["Unreferenced objects", "Global variables", "Closures", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "Memory leaks occur when memory isn't released."
+          },
+          {
+            "id": 8,
+            "difficulty": "expert",
+            "question": "What is the memory heap snapshot?",
+            "options": ["Memory dump", "Object graph", "Debugging tool", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "Heap snapshot captures memory state for analysis."
+          },
+          {
+            "id": 9,
+            "difficulty": "expert",
+            "question": "How to optimize Node.js performance?",
+            "options": ["Profiling", "Streams", "Cluster", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "Performance optimization includes profiling, streams, clustering."
+          },
+          {
+            "id": 10,
+            "difficulty": "expert",
+            "question": "What is the flame graph?",
+            "options": ["Performance visualization", "Call stack", "CPU profiling", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "Flame graphs show CPU time distribution."
           }
         ]
       }
@@ -348,128 +338,330 @@
       "questions": {
         "entry": [
           {
-            "id": "py_e_001",
-            "question": "What is the difference between a list and a tuple in Python?",
-            "options": [
-              "Lists are immutable, tuples are mutable",
-              "Lists are mutable, tuples are immutable",
-              "Lists can only store numbers, tuples can store any type",
-              "There is no difference"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Lists are mutable (can be changed), tuples are immutable (cannot be changed after creation)."
+            "id": 1,
+            "difficulty": "entry",
+            "question": "Which keyword defines function in Python?",
+            "options": ["def", "func", "function", "define"],
+            "correctAnswer": "def",
+            "explanation": "def keyword creates functions in Python."
           },
           {
-            "id": "py_e_002",
-            "question": "How do you handle exceptions in Python?",
-            "options": [
-              "Using try/except blocks",
-              "Using if/else statements",
-              "Using catch/throw",
-              "Using error handlers"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Python uses try/except blocks for exception handling, optionally with else and finally clauses."
+            "id": 2,
+            "difficulty": "entry",
+            "question": "Which data type is immutable?",
+            "options": ["tuple", "list", "dict", "set"],
+            "correctAnswer": "tuple",
+            "explanation": "Tuples cannot be changed after creation."
           },
           {
-            "id": "py_e_003",
-            "question": "What is a dictionary in Python?",
-            "options": [
-              "A list of words and definitions",
-              "A collection of key-value pairs",
-              "An ordered sequence of elements",
-              "A type of loop"
-            ],
-            "correctAnswer": "B",
-            "explanation": "A dictionary is a mutable collection of key-value pairs, optimized for fast lookup by key."
+            "id": 3,
+            "difficulty": "entry",
+            "question": "What is the output of print(2 ** 3)?",
+            "options": ["8", "6", "9", "5"],
+            "correctAnswer": "8",
+            "explanation": "** is the exponentiation operator."
           },
           {
-            "id": "py_e_004",
-            "question": "What is the purpose of the '__init__' method in Python classes?",
-            "options": [
-              "To initialize the class definition",
-              "To create a new instance of the class",
-              "The constructor method called when creating an object",
-              "To delete an object"
-            ],
-            "correctAnswer": "C",
-            "explanation": "__init__ is the constructor method that initializes a new instance when the class is instantiated."
+            "id": 4,
+            "difficulty": "entry",
+            "question": "Which method adds item to list?",
+            "options": ["append()", "add()", "insert()", "push()"],
+            "correctAnswer": "append()",
+            "explanation": "append() adds element to end of list."
           },
           {
-            "id": "py_e_005",
-            "question": "What are list comprehensions in Python?",
-            "options": [
-              "A way to understand lists better",
-              "A concise syntax for creating lists based on existing iterables",
-              "List documentation",
-              "List debugging tools"
-            ],
-            "correctAnswer": "B",
-            "explanation": "List comprehensions provide a concise way to create lists by iterating over sequences and optionally filtering."
+            "id": 5,
+            "difficulty": "entry",
+            "question": "What is PEP 8?",
+            "options": ["Style guide", "Python library", "Framework", "Compiler"],
+            "correctAnswer": "Style guide",
+            "explanation": "PEP 8 is Python's official style guide."
+          },
+          {
+            "id": 6,
+            "difficulty": "entry",
+            "question": "How do you get user input?",
+            "options": ["input()", "read()", "get()", "scan()"],
+            "correctAnswer": "input()",
+            "explanation": "input() reads user input as string."
+          },
+          {
+            "id": 7,
+            "difficulty": "entry",
+            "question": "What is the correct file extension for Python?",
+            "options": [".py", ".python", ".p", ".pt"],
+            "correctAnswer": ".py",
+            "explanation": "Python files use .py extension."
+          },
+          {
+            "id": 8,
+            "difficulty": "entry",
+            "question": "Which statement prints to console?",
+            "options": ["print()", "console.log()", "echo", "System.out.println()"],
+            "correctAnswer": "print()",
+            "explanation": "print() outputs to console in Python."
+          },
+          {
+            "id": 9,
+            "difficulty": "entry",
+            "question": "What is the result of len('Hello')?",
+            "options": ["5", "4", "6", "Error"],
+            "correctAnswer": "5",
+            "explanation": "len() returns number of characters."
+          },
+          {
+            "id": 10,
+            "difficulty": "entry",
+            "question": "How do you create a comment?",
+            "options": ["#", "//", "/*", "'"],
+            "correctAnswer": "#",
+            "explanation": "# is used for single-line comments."
           }
         ],
         "intermediate": [
           {
-            "id": "py_i_001",
-            "question": "Explain decorators in Python.",
-            "options": [
-              "Functions that add CSS styling",
-              "Functions that modify the behavior of other functions",
-              "HTML elements",
-              "Database connectors"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Decorators are functions that take another function and extend its behavior without explicitly modifying it."
+            "id": 1,
+            "difficulty": "intermediate",
+            "question": "Which keyword handles exceptions in Python?",
+            "options": ["except", "catch", "handle", "error"],
+            "correctAnswer": "except",
+            "explanation": "except block catches exceptions in try/except."
           },
           {
-            "id": "py_i_002",
-            "question": "What are generators in Python?",
-            "options": [
-              "Functions that generate random numbers",
-              "Functions that yield values one at a time, preserving state",
-              "Code generators",
-              "Random number generators"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Generators use yield to produce a sequence of values lazily, maintaining state between iterations."
+            "id": 2,
+            "difficulty": "intermediate",
+            "question": "What is list comprehension?",
+            "options": ["Concise list creation", "Loop syntax", "Function type", "Module"],
+            "correctAnswer": "Concise list creation",
+            "explanation": "List comprehension creates lists in one line."
           },
           {
-            "id": "py_i_003",
-            "question": "How does context manager work in Python?",
-            "options": [
-              "Using the 'with' statement to manage resources",
-              "Using the 'context' keyword",
-              "Global variable manager",
-              "Thread context manager"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Context managers, used with 'with', set up and tear down resources automatically (e.g., file operations)."
+            "id": 3,
+            "difficulty": "intermediate",
+            "question": "What is the difference between is and ==?",
+            "options": ["is compares identity", "== compares equality", "Both", "Same"],
+            "correctAnswer": "Both",
+            "explanation": "is: same object; ==: equal value."
+          },
+          {
+            "id": 4,
+            "difficulty": "intermediate",
+            "question": "What is a decorator?",
+            "options": ["Function modifier", "Design pattern", "Class method", "Variable"],
+            "correctAnswer": "Function modifier",
+            "explanation": "Decorators modify function behavior."
+          },
+          {
+            "id": 5,
+            "difficulty": "intermediate",
+            "question": "What is the purpose of __init__?",
+            "options": ["Class constructor", "Initialize method", "Create object", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "__init__ initializes new class instances."
+          },
+          {
+            "id": 6,
+            "difficulty": "intermediate",
+            "question": "What are *args and **kwargs?",
+            "options": ["Variable arguments", "Keyword arguments", "Both", "Positional only"],
+            "correctAnswer": "Both",
+            "explanation": "*args: positional; **kwargs: keyword arguments."
+          },
+          {
+            "id": 7,
+            "difficulty": "intermediate",
+            "question": "What is a lambda function?",
+            "options": ["Anonymous function", "Named function", "Class method", "Built-in"],
+            "correctAnswer": "Anonymous function",
+            "explanation": "Lambda is a small anonymous function."
+          },
+          {
+            "id": 8,
+            "difficulty": "intermediate",
+            "question": "How does inheritance work in Python?",
+            "options": ["Parent class", "Child class", "super()", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "Classes inherit from parent classes using super()."
+          },
+          {
+            "id": 9,
+            "difficulty": "intermediate",
+            "question": "What is method overriding?",
+            "options": ["Redefine parent method", "Same name, new behavior", "Polymorphism", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "Child class redefines parent class method."
+          },
+          {
+            "id": 10,
+            "difficulty": "intermediate",
+            "question": "What is encapsulation?",
+            "options": ["Hide internal state", "Public/private", "Property decorator", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "Encapsulation restricts direct access to data."
           }
         ],
         "senior": [
           {
-            "id": "py_s_001",
-            "question": "What is the Global Interpreter Lock (GIL) in Python?",
-            "options": [
-              "A lock that prevents code execution",
-              "A mutex that allows only one thread to execute Python bytecode at a time",
-              "A security feature",
-              "A debugging tool"
-            ],
-            "correctAnswer": "B",
-            "explanation": "The GIL is a mutex that protects access to Python objects, limiting multi-threading but simplifying memory management."
+            "id": 1,
+            "difficulty": "senior",
+            "question": "What is the Global Interpreter Lock (GIL)?",
+            "options": ["Mutex on Python interpreter", "Thread safety", "Performance limitation", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "GIL allows only one thread to execute at a time."
           },
           {
-            "id": "py_s_002",
-            "question": "How would you implement a metaclass in Python?",
-            "options": [
-              "By inheriting from 'type' and overriding __new__ or __init__",
-              "By using the @metaclass decorator",
-              "It's not possible",
-              "By using inheritance"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Metaclasses are classes of classes, created by subclassing 'type' and customizing class creation."
+            "id": 2,
+            "difficulty": "senior",
+            "question": "How does memory management work in Python?",
+            "options": ["Reference counting", "Garbage collection", "Memory pools", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "Python uses both reference counting and generational GC."
+          },
+          {
+            "id": 3,
+            "difficulty": "senior",
+            "question": "What is a metaclass?",
+            "options": ["Class of class", "Create classes", "Customize class creation", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "Metaclasses are classes that create classes."
+          },
+          {
+            "id": 4,
+            "difficulty": "senior",
+            "question": "What are descriptors?",
+            "options": ["Attribute access control", "__get__/__set__", "Property implementation", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "Descriptors manage attribute access in classes."
+          },
+          {
+            "id": 5,
+            "difficulty": "senior",
+            "question": "What is the difference between __new__ and __init__?",
+            "options": ["__new__ creates instance", "__init__ initializes", "Both A and B", "Same"],
+            "correctAnswer": "Both A and B",
+            "explanation": "__new__ is constructor, __init__ is initializer."
+          },
+          {
+            "id": 6,
+            "difficulty": "senior",
+            "question": "What are context managers?",
+            "options": ["with statement", "Enter/exit protocols", "Resource management", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "Context managers define __enter__ and __exit__ methods."
+          },
+          {
+            "id": 7,
+            "difficulty": "senior",
+            "question": "What is the asyncio module?",
+            "options": ["Asynchronous I/O", "Event loop", "Coroutines", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "asyncio provides async/await concurrency."
+          },
+          {
+            "id": 8,
+            "difficulty": "senior",
+            "question": "What are coroutines?",
+            "options": ["Async functions", "await/async", "Cooperative multitasking", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "Coroutines are functions that can pause/resume."
+          },
+          {
+            "id": 9,
+            "difficulty": "senior",
+            "question": "What is the difference between threading and multiprocessing?",
+            "options": ["Threads share memory", "Processes separate memory", "GIL impact", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "Threads: lightweight, GIL-bound; Processes: separate memory, no GIL."
+          },
+          {
+            "id": 10,
+            "difficulty": "senior",
+            "question": "What is the concurrent.futures module?",
+            "options": ["High-level async", "ThreadPoolExecutor", "ProcessPoolExecutor", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "concurrent.futures provides thread/process pools."
+          }
+        ],
+        "expert": [
+          {
+            "id": 1,
+            "difficulty": "expert",
+            "question": "How does Python's bytecode compiler work?",
+            "options": ["AST generation", "Bytecode generation", "PEAK optimization", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "Python compiles source to AST to bytecode."
+          },
+          {
+            "id": 2,
+            "difficulty": "expert",
+            "question": "What is the Python/C API?",
+            "options": ["C extension interface", "Embedding Python", "Creating modules", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "Python/C API allows C extensions and embedding."
+          },
+          {
+            "id": 3,
+            "difficulty": "expert",
+            "question": "What is Cython?",
+            "options": ["Python with C types", "C extensions", "Performance optimization", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "Cython compiles Python-like code to C."
+          },
+          {
+            "id": 4,
+            "difficulty": "expert",
+            "question": "What is the difference between PyPy and CPython?",
+            "options": ["PyPy: JIT compiler", "CPython: interpreter", "Performance", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "PyPy uses JIT; CPython is reference implementation."
+          },
+          {
+            "id": 5,
+            "difficulty": "expert",
+            "question": "What is the asyncio event loop implementation?",
+            "options": ["Selector/Proactor", "Task scheduling", "Future/promise", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "asyncio uses different event loop implementations."
+          },
+          {
+            "id": 6,
+            "difficulty": "expert",
+            "question": "How does Python's Garbage Collector work?",
+            "options": ["Generational GC", "Cycle detection", "Thresholds", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "Python GC handles reference cycles in generations."
+          },
+          {
+            "id": 7,
+            "difficulty": "expert",
+            "question": "What is the Garbage Collection threshold?",
+            "options": ["Generation 0 threshold", "Collection frequency", "gc module", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "GC thresholds trigger collections when exceeded."
+          },
+          {
+            "id": 8,
+            "difficulty": "expert",
+            "question": "What is the difference between CPython and Jython?",
+            "options": ["CPython: C", "Jython: Java", "Platform", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "CPython implemented in C; Jython in Java on JVM."
+          },
+          {
+            "id": 9,
+            "difficulty": "expert",
+            "question": "What is IronPython?",
+            "options": [".NET implementation", "C#", "CLR", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "IronPython is Python for .NET/CLR."
+          },
+          {
+            "id": 10,
+            "difficulty": "expert",
+            "question": "What is the Python data model?",
+            "options": ["Objects protocol", "Dunder methods", "Attribute access", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "Data model defines object behavior through protocols."
           }
         ]
       }
@@ -479,1841 +671,330 @@
       "questions": {
         "entry": [
           {
-            "id": "java_e_001",
-            "question": "What is the difference between JDK, JRE, and JVM?",
-            "options": [
-              "They are the same thing",
-              "JVM executes bytecode, JRE contains JVM and libraries, JDK contains JRE and development tools",
-              "JDK is for development, JRE is for running, JVM doesn't exist",
-              "JVM is for Windows only"
-            ],
-            "correctAnswer": "B",
-            "explanation": "JVM runs bytecode, JRE provides runtime environment, JDK includes development tools and JRE."
+            "id": 1,
+            "difficulty": "entry",
+            "question": "Which keyword is used to inherit a class in Java?",
+            "options": ["extends", "implements", "inherits", "super"],
+            "correctAnswer": "extends",
+            "explanation": "extends is used for class inheritance in Java."
           },
           {
-            "id": "java_e_002",
-            "question": "What is the main method signature in Java?",
-            "options": [
-              "public void main(String[] args)",
-              "public static void main(String[] args)",
-              "static void main(String args)",
-              "public static int main(String[] args)"
-            ],
-            "correctAnswer": "B",
-            "explanation": "The entry point must be public static void main(String[] args)."
+            "id": 2,
+            "difficulty": "entry",
+            "question": "Which of these is not a primitive data type?",
+            "options": ["String", "int", "boolean", "double"],
+            "correctAnswer": "String",
+            "explanation": "String is a class, not a primitive type."
           },
           {
-            "id": "java_e_003",
-            "question": "What is the difference between abstract class and interface in Java?",
-            "options": [
-              "Abstract classes can have implementation, interfaces cannot (pre-Java 8)",
-              "Interfaces can have implementation, abstract classes cannot",
-              "There is no difference",
-              "Abstract classes are faster"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Abstract classes can have implemented methods and state; interfaces traditionally had only abstract methods (pre-Java 8)."
+            "id": 3,
+            "difficulty": "entry",
+            "question": "What does JVM stand for?",
+            "options": ["Java Virtual Machine", "Java Variable Method", "Java Visual Machine", "Java Version Manager"],
+            "correctAnswer": "Java Virtual Machine",
+            "explanation": "JVM executes Java bytecode."
+          },
+          {
+            "id": 4,
+            "difficulty": "entry",
+            "question": "Which keyword creates an object?",
+            "options": ["new", "create", "object", "instantiate"],
+            "correctAnswer": "new",
+            "explanation": "new instantiates a class to create an object."
+          },
+          {
+            "id": 5,
+            "difficulty": "entry",
+            "question": "What is the correct main method signature?",
+            "options": ["public static void main(String[] args)", "public void main", "static void main", "public static main"],
+            "correctAnswer": "public static void main(String[] args)",
+            "explanation": "This is the standard entry point for Java applications."
+          },
+          {
+            "id": 6,
+            "difficulty": "entry",
+            "question": "What is the size of int in Java?",
+            "options": ["32 bits", "16 bits", "64 bits", "8 bits"],
+            "correctAnswer": "32 bits",
+            "explanation": "int is a 32-bit signed integer in Java."
+          },
+          {
+            "id": 7,
+            "difficulty": "entry",
+            "question": "Which package contains the Scanner class?",
+            "options": ["java.util", "java.io", "java.lang", "java.scanner"],
+            "correctAnswer": "java.util",
+            "explanation": "Scanner is in java.util package."
+          },
+          {
+            "id": 8,
+            "difficulty": "entry",
+            "question": "What is the default value of a boolean variable?",
+            "options": ["false", "true", "null", "0"],
+            "correctAnswer": "false",
+            "explanation": "Boolean instance variables default to false."
+          },
+          {
+            "id": 9,
+            "difficulty": "entry",
+            "question": "Which operator is used for concatenation?",
+            "options": ["+", "&", "||", ".concat"],
+            "correctAnswer": "+",
+            "explanation": "+ concatenates strings in Java."
+          },
+          {
+            "id": 10,
+            "difficulty": "entry",
+            "question": "What is the range of byte data type?",
+            "options": ["-128 to 127", "-32768 to 32767", "-2147483648 to 2147483647", "0 to 65535"],
+            "correctAnswer": "-128 to 127",
+            "explanation": "byte is 8-bit signed integer from -128 to 127."
           }
         ],
         "intermediate": [
           {
-            "id": "java_i_001",
-            "question": "Explain the synchronized keyword in Java.",
-            "options": [
-              "Makes code run faster",
-              "Ensures thread safety by allowing only one thread to execute a block at a time",
-              "Syncs data between databases",
-              "A debugging tool"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Synchronized prevents thread interference and memory consistency errors by locking objects or classes."
+            "id": 1,
+            "difficulty": "intermediate",
+            "question": "Which is an unchecked exception?",
+            "options": ["NullPointerException", "IOException", "SQLException", "FileNotFoundException"],
+            "correctAnswer": "NullPointerException",
+            "explanation": "NullPointerException is a runtime exception (unchecked)."
           },
           {
-            "id": "java_i_002",
-            "question": "What are lambda expressions in Java?",
-            "options": [
-              "Anonymous functions that provide concise functional programming syntax",
-              "Mathematical functions",
-              "Database queries",
-              "UI components"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Lambda expressions provide a clear, concise way to represent functional interfaces using an expression syntax."
-          }
-        ]
-      }
-    },
-    {
-      "category": "React",
-      "questions": {
-        "entry": [
-          {
-            "id": "react_e_001",
-            "question": "What is the difference between props and state in React?",
-            "options": [
-              "Props are mutable, state is immutable",
-              "Props are passed from parent, state is managed within component",
-              "Props are for styling, state is for data",
-              "There is no difference"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Props are read-only data passed from parent, state is mutable data managed within the component."
+            "id": 2,
+            "difficulty": "intermediate",
+            "question": "Which collection avoids duplicates?",
+            "options": ["Set", "List", "Map", "Queue"],
+            "correctAnswer": "Set",
+            "explanation": "Set stores unique elements only."
           },
           {
-            "id": "react_e_002",
-            "question": "What is the virtual DOM in React?",
-            "options": [
-              "A copy of the actual DOM stored in memory",
-              "A faster version of the DOM",
-              "A debugging tool",
-              "A browser extension"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Virtual DOM is a lightweight JavaScript representation of the actual DOM, used for optimization."
+            "id": 3,
+            "difficulty": "intermediate",
+            "question": "What is polymorphism?",
+            "options": ["Many forms", "Single form", "Data hiding", "Encapsulation"],
+            "correctAnswer": "Many forms",
+            "explanation": "Polymorphism allows objects to take multiple forms."
           },
           {
-            "id": "react_e_003",
-            "question": "What is JSX in React?",
-            "options": [
-              "A JavaScript extension for writing XML-like code",
-              "A templating language",
-              "A database query language",
-              "A CSS framework"
-            ],
-            "correctAnswer": "A",
-            "explanation": "JSX is a syntax extension that allows writing HTML-like code in JavaScript, which transpiles to React.createElement calls."
-          }
-        ],
-        "intermediate": [
-          {
-            "id": "react_i_001",
-            "question": "What is the purpose of the useEffect hook?",
-            "options": [
-              "To manage component side effects",
-              "To create effects in CSS",
-              "To animate components",
-              "To style components"
-            ],
-            "correctAnswer": "A",
-            "explanation": "useEffect handles side effects in functional components like data fetching, subscriptions, or DOM updates."
+            "id": 4,
+            "difficulty": "intermediate",
+            "question": "What is the difference between abstract class and interface?",
+            "options": ["Abstract has implementation", "Interface all abstract", "Multiple inheritance", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "Abstract classes can have implemented methods; interfaces historically all abstract."
           },
           {
-            "id": "react_i_002",
-            "question": "Explain the useState hook in React.",
-            "options": [
-              "A hook that adds state to functional components",
-              "A hook for styling",
-              "A hook for routing",
-              "A hook for animations"
-            ],
-            "correctAnswer": "A",
-            "explanation": "useState is a Hook that adds state to functional components, returning a state value and a setter function."
+            "id": 5,
+            "difficulty": "intermediate",
+            "question": "What is method overriding?",
+            "options": ["Child redefines parent method", "Same method signature", "Runtime polymorphism", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "Overriding provides specific implementation in subclass."
+          },
+          {
+            "id": 6,
+            "difficulty": "intermediate",
+            "question": "What is the final keyword used for?",
+            "options": ["Constant variable", "Prevent inheritance", "Prevent overriding", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "final prevents modification, inheritance, and overriding."
+          },
+          {
+            "id": 7,
+            "difficulty": "intermediate",
+            "question": "What is the static block?",
+            "options": ["Initialize static members", "Executed when class loads", "One-time execution", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "Static block runs once when class is loaded."
+          },
+          {
+            "id": 8,
+            "difficulty": "intermediate",
+            "question": "What is the try-with-resources?",
+            "options": ["Auto-close resources", "Java 7 feature", "Implements AutoCloseable", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "try-with-resources automatically closes resources."
+          },
+          {
+            "id": 9,
+            "difficulty": "intermediate",
+            "question": "What is the difference between throw and throws?",
+            "options": ["throw: throw exception", "throws: declare exceptions", "Both A and B", "Same"],
+            "correctAnswer": "Both A and B",
+            "explanation": "throw explicitly throws; throws declares possible exceptions."
+          },
+          {
+            "id": 10,
+            "difficulty": "intermediate",
+            "question": "What is the Collection Framework?",
+            "options": ["Data structures", "Algorithms", "Interfaces/classes", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "Collection Framework provides unified architecture for storing/processing collections."
           }
         ],
         "senior": [
           {
-            "id": "react_s_001",
-            "question": "How does React's reconciliation algorithm work?",
-            "options": [
-              "By comparing entire DOM trees",
-              "Using a heuristic O(n) algorithm based on element type and keys",
-              "By rebuilding everything",
-              "Using random comparison"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Reconciliation uses heuristics: different types create new trees, keys help identify children, and updates diff by reference."
-          }
-        ]
-      }
-    },
-    {
-      "category": "Node.js",
-      "questions": {
-        "entry": [
-          {
-            "id": "node_e_001",
-            "question": "What is npm in Node.js?",
-            "options": [
-              "Node Package Manager - a package manager for JavaScript",
-              "Node Process Manager",
-              "New Programming Model",
-              "Network Protocol Module"
-            ],
-            "correctAnswer": "A",
-            "explanation": "npm is the default package manager for Node.js, managing dependencies and running scripts."
+            "id": 1,
+            "difficulty": "senior",
+            "question": "Where are objects stored in Java?",
+            "options": ["Heap", "Stack", "Method area", "Register"],
+            "correctAnswer": "Heap",
+            "explanation": "Objects are allocated on the heap memory."
           },
           {
-            "id": "node_e_002",
-            "question": "What is the event-driven architecture in Node.js?",
-            "options": [
-              "Events are scheduled at specific times",
-              "A programming pattern where flow is determined by events using EventEmitter",
-              "Events are triggered by mouse clicks only",
-              "A debugging technique"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Node.js uses an event-driven architecture with EventEmitter for handling asynchronous operations."
-          }
-        ],
-        "intermediate": [
-          {
-            "id": "node_i_001",
-            "question": "Explain middleware in Express.js.",
-            "options": [
-              "Functions that have access to request and response objects",
-              "Middle layer of the application",
-              "Database connectors",
-              "Template engines"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Middleware functions execute during the request-response cycle and can modify request/response objects."
+            "id": 2,
+            "difficulty": "senior",
+            "question": "What is the Java Memory Model?",
+            "options": ["Heap/Stack/Method area", "PC registers", "Native method stacks", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "JMM defines runtime memory areas in JVM."
           },
           {
-            "id": "node_i_002",
-            "question": "What is the difference between process.nextTick() and setImmediate()?",
-            "options": [
-              "nextTick runs before I/O, setImmediate runs after I/O",
-              "They are identical",
-              "setImmediate runs before nextTick",
-              "nextTick is deprecated"
-            ],
-            "correctAnswer": "A",
-            "explanation": "nextTick executes in the current event loop phase, setImmediate executes in the check phase after I/O."
-          }
-        ]
-      }
-    },
-    {
-      "category": "SQL/Databases",
-      "questions": {
-        "entry": [
-          {
-            "id": "sql_e_001",
-            "question": "What is the difference between INNER JOIN and LEFT JOIN?",
-            "options": [
-              "INNER JOIN returns only matching rows, LEFT JOIN returns all rows from left table",
-              "LEFT JOIN returns only matching rows, INNER JOIN returns all rows",
-              "They are the same",
-              "INNER JOIN is faster"
-            ],
-            "correctAnswer": "A",
-            "explanation": "INNER JOIN returns rows with matches in both tables, LEFT JOIN returns all rows from left table with NULLs for no matches."
+            "id": 3,
+            "difficulty": "senior",
+            "question": "What is the difference between HashMap and ConcurrentHashMap?",
+            "options": ["ConcurrentHashMap thread-safe", "Segmented locking", "Better performance", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "ConcurrentHashMap allows concurrent reads/writes without full lock."
           },
           {
-            "id": "sql_e_002",
-            "question": "What is a primary key in SQL?",
-            "options": [
-              "A key that opens the main database",
-              "A column or set of columns that uniquely identifies each row",
-              "The first key in the table",
-              "A password for the database"
-            ],
-            "correctAnswer": "B",
-            "explanation": "A primary key uniquely identifies each record in a table and cannot be NULL."
-          }
-        ],
-        "intermediate": [
-          {
-            "id": "sql_i_001",
-            "question": "What is database normalization?",
-            "options": [
-              "Making the database normal",
-              "The process of organizing data to reduce redundancy and improve integrity",
-              "Encrypting the database",
-              "Backing up the database"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Normalization organizes data into tables to minimize redundancy and dependency through normal forms."
+            "id": 4,
+            "difficulty": "senior",
+            "question": "What are the garbage collection algorithms?",
+            "options": ["Mark-Sweep", "Mark-Compact", "Generational", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "JVM uses various GC algorithms for different generations."
           },
           {
-            "id": "sql_i_002",
-            "question": "What is the difference between WHERE and HAVING clauses?",
-            "options": [
-              "WHERE filters rows before grouping, HAVING filters groups after GROUP BY",
-              "They are identical",
-              "WHERE is for columns, HAVING is for rows",
-              "HAVING is faster"
-            ],
-            "correctAnswer": "A",
-            "explanation": "WHERE filters individual rows before aggregation, HAVING filters groups after GROUP BY."
-          }
-        ]
-      }
-    },
-    {
-      "category": "Git/Version Control",
-      "questions": {
-        "entry": [
-          {
-            "id": "git_e_001",
-            "question": "What is the difference between git pull and git fetch?",
-            "options": [
-              "git fetch downloads changes, git pull downloads and merges",
-              "They are the same command",
-              "git pull downloads only, git fetch downloads and merges",
-              "git fetch is deprecated"
-            ],
-            "correctAnswer": "A",
-            "explanation": "git fetch downloads objects and references, git pull = fetch + merge into current branch."
+            "id": 5,
+            "difficulty": "senior",
+            "question": "What is the difference between minor and major GC?",
+            "options": ["Minor: young generation", "Major: old generation", "Stop-the-world", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "Minor GC collects young space; Major/Old GC collects tenured space."
           },
           {
-            "id": "git_e_002",
-            "question": "What is a merge conflict in Git?",
-            "options": [
-              "When two branches have competing changes to the same line",
-              "When Git crashes",
-              "When you delete a file",
-              "When you push to the wrong branch"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Merge conflicts occur when Git cannot automatically resolve differences in code between commits."
-          }
-        ],
-        "intermediate": [
-          {
-            "id": "git_i_001",
-            "question": "What is git rebase and how is it different from merge?",
-            "options": [
-              "Rebase rewrites commit history, merge preserves it",
-              "They are identical",
-              "Rebase is only for branches",
-              "Merge rewrites history"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Rebase applies commits on top of another base, creating linear history; merge preserves branch structure."
-          }
-        ]
-      }
-    },
-    {
-      "category": "AWS/Cloud",
-      "questions": {
-        "entry": [
-          {
-            "id": "aws_e_001",
-            "question": "What is EC2 in AWS?",
-            "options": [
-              "Elastic Compute Cloud - virtual servers in the cloud",
-              "Electronic Cloud Computing",
-              "Enhanced Cloud 2",
-              "Enterprise Cloud Service"
-            ],
-            "correctAnswer": "A",
-            "explanation": "EC2 provides resizable virtual machines with scalable computing capacity."
+            "id": 6,
+            "difficulty": "senior",
+            "question": "What is the G1 garbage collector?",
+            "options": ["Garbage-First", "Region-based", "Low pause", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "G1 is a parallel, concurrent, generational GC."
           },
           {
-            "id": "aws_e_002",
-            "question": "What is S3 in AWS?",
-            "options": [
-              "Simple Storage Service - object storage",
-              "Secure Storage Service",
-              "Super Storage System",
-              "Server Side Scripting"
-            ],
-            "correctAnswer": "A",
-            "explanation": "S3 is an object storage service offering scalability, data availability, and performance."
-          }
-        ],
-        "intermediate": [
-          {
-            "id": "aws_i_001",
-            "question": "What is the difference between vertical and horizontal scaling?",
-            "options": [
-              "Vertical adds more power to existing instance, horizontal adds more instances",
-              "Horizontal adds more power, vertical adds more instances",
-              "They are the same",
-              "Vertical is for databases only"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Vertical scaling (up/down) increases instance size; horizontal scaling (out/in) adds/removes instances."
-          }
-        ]
-      }
-    },
-    {
-      "category": "Docker/Kubernetes",
-      "questions": {
-        "entry": [
-          {
-            "id": "docker_e_001",
-            "question": "What is a Docker container?",
-            "options": [
-              "A lightweight, standalone executable package of software",
-              "A virtual machine",
-              "A programming language",
-              "A database"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Containers package code and dependencies to run consistently across environments."
+            "id": 7,
+            "difficulty": "senior",
+            "question": "What is the ZGC?",
+            "options": ["Scalable low-latency GC", "Concurrent", "Large heap", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "ZGC is a scalable low-latency garbage collector."
           },
           {
-            "id": "docker_e_002",
-            "question": "What is the difference between Docker image and container?",
-            "options": [
-              "Image is template, container is running instance",
-              "Container is template, image is running instance",
-              "They are the same",
-              "Image is for Windows, container is for Linux"
-            ],
-            "correctAnswer": "A",
-            "explanation": "An image is a read-only template, a container is a runnable instance of an image."
-          }
-        ],
-        "intermediate": [
-          {
-            "id": "k8s_i_001",
-            "question": "What is a Kubernetes Pod?",
-            "options": [
-              "The smallest deployable unit containing one or more containers",
-              "A group of machines",
-              "A storage volume",
-              "A network policy"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Pods are the smallest deployable units in Kubernetes, encapsulating one or more containers."
-          }
-        ]
-      }
-    },
-    {
-      "category": "Testing/QA",
-      "questions": {
-        "entry": [
-          {
-            "id": "test_e_001",
-            "question": "What is unit testing?",
-            "options": [
-              "Testing individual components in isolation",
-              "Testing the entire application",
-              "Testing user interface",
-              "Testing performance"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Unit testing verifies the smallest testable parts of code in isolation."
+            "id": 8,
+            "difficulty": "senior",
+            "question": "What is the Shenandoah GC?",
+            "options": ["Low-pause GC", "Concurrent compaction", "OpenJDK", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "Shenandoah reduces GC pause times with concurrent compaction."
           },
           {
-            "id": "test_e_002",
-            "question": "What is the difference between unit and integration testing?",
-            "options": [
-              "Unit tests isolated components, integration tests component interactions",
-              "They are the same",
-              "Integration tests are smaller",
-              "Unit tests test the UI"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Unit tests verify individual units, integration tests verify how units work together."
-          }
-        ],
-        "intermediate": [
-          {
-            "id": "test_i_001",
-            "question": "What is TDD (Test-Driven Development)?",
-            "options": [
-              "Write tests before code, then implement to pass tests",
-              "Test after coding",
-              "Debugging technique",
-              "Performance testing"
-            ],
-            "correctAnswer": "A",
-            "explanation": "TDD is a development process: write failing test, write code to pass, refactor."
-          }
-        ]
-      }
-    },
-    {
-      "category": "R Programming",
-      "questions": {
-        "entry": [
-          {
-            "id": "r_e_001",
-            "question": "What is the difference between a list and a vector in R?",
-            "options": [
-              "Vectors are homogeneous, lists can be heterogeneous",
-              "Lists are homogeneous, vectors can be heterogeneous",
-              "They are the same",
-              "Vectors are for numbers only"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Vectors contain elements of same type, lists can contain different types."
-          }
-        ],
-        "intermediate": [
-          {
-            "id": "r_i_001",
-            "question": "What is the apply family of functions in R?",
-            "options": [
-              "Functions that apply operations over arrays or lists",
-              "Functions for applying colors",
-              "Job application functions",
-              "Database functions"
-            ],
-            "correctAnswer": "A",
-            "explanation": "apply, lapply, sapply, tapply apply functions to data without explicit loops."
-          }
-        ]
-      }
-    },
-    {
-      "category": "Machine Learning",
-      "questions": {
-        "entry": [
-          {
-            "id": "ml_e_001",
-            "question": "What is the difference between supervised and unsupervised learning?",
-            "options": [
-              "Supervised uses labeled data, unsupervised finds patterns in unlabeled data",
-              "Supervised doesn't use labels, unsupervised does",
-              "They are the same",
-              "Supervised is for classification only"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Supervised learns from labeled data; unsupervised discovers patterns in unlabeled data."
+            "id": 9,
+            "difficulty": "senior",
+            "question": "What is the Java Flight Recorder?",
+            "options": ["Profiling tool", "Low overhead", "Event collection", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "JFR collects diagnostic and profiling data."
           },
           {
-            "id": "ml_e_002",
-            "question": "What is overfitting in machine learning?",
-            "options": [
-              "Model learns training data too well, fails on new data",
-              "Model is too simple",
-              "Model trains too fast",
-              "Model has too many features"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Overfitting occurs when model memorizes training data noise, losing generalization ability."
+            "id": 10,
+            "difficulty": "senior",
+            "question": "What is the Java Mission Control?",
+            "options": ["Monitoring tool", "Analyze JFR data", "JVM management", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "JMC provides advanced JVM monitoring and management."
           }
         ],
-        "intermediate": [
-          {
-            "id": "ml_i_001",
-            "question": "What is cross-validation?",
-            "options": [
-              "A technique to assess model performance on unseen data",
-              "Validating code across platforms",
-              "Testing across different models",
-              "Cross-platform validation"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Cross-validation partitions data into subsets, trains on some, validates on others."
-          }
-        ]
-      }
-    },
-    {
-      "category": "Statistics",
-      "questions": {
-        "entry": [
-          {
-            "id": "stats_e_001",
-            "question": "What is the difference between mean, median, and mode?",
-            "options": [
-              "Mean is average, median is middle value, mode is most frequent",
-              "They are all the same",
-              "Mean is for numbers, median for categories",
-              "Mode is always the largest"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Mean = sum/n, median = middle value when sorted, mode = most frequent value."
-          }
-        ],
-        "intermediate": [
-          {
-            "id": "stats_i_001",
-            "question": "What is a p-value in hypothesis testing?",
-            "options": [
-              "Probability of observing results assuming null hypothesis is true",
-              "Probability the null hypothesis is true",
-              "Probability of error",
-              "Power of the test"
-            ],
-            "correctAnswer": "A",
-            "explanation": "P-value is the probability of obtaining test results at least as extreme as observed, assuming null hypothesis is true."
-          }
-        ]
-      }
-    },
-    {
-      "category": "Pandas/NumPy",
-      "questions": {
-        "entry": [
-          {
-            "id": "pandas_e_001",
-            "question": "What is a DataFrame in Pandas?",
-            "options": [
-              "A 2-dimensional labeled data structure with columns of different types",
-              "A 1-dimensional array",
-              "A SQL database",
-              "A visualization tool"
-            ],
-            "correctAnswer": "A",
-            "explanation": "DataFrame is a 2D tabular data structure with rows and columns, similar to spreadsheet or SQL table."
-          }
-        ],
-        "intermediate": [
-          {
-            "id": "pandas_i_001",
-            "question": "What is the difference between loc and iloc in Pandas?",
-            "options": [
-              "loc uses labels, iloc uses integer positions",
-              "loc uses positions, iloc uses labels",
-              "They are the same",
-              "loc is for rows, iloc for columns"
-            ],
-            "correctAnswer": "A",
-            "explanation": "loc accesses by label/index, iloc accesses by integer position."
-          }
-        ]
-      }
-    },
-    {
-      "category": "Data Visualization",
-      "questions": {
-        "entry": [
-          {
-            "id": "viz_e_001",
-            "question": "What is the difference between a bar chart and a histogram?",
-            "options": [
-              "Bar chart for categorical data, histogram for continuous distributions",
-              "Histogram for categories, bar chart for continuous",
-              "They are the same",
-              "Bar chart uses bars, histogram uses lines"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Bar charts compare categories; histograms show distribution of continuous variables with bins."
-          }
-        ],
-        "intermediate": [
-          {
-            "id": "viz_i_001",
-            "question": "What is the purpose of data visualization best practices?",
-            "options": [
-              "To communicate insights clearly and effectively",
-              "To make charts look pretty",
-              "To use all available colors",
-              "To show all data points"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Best practices ensure visualizations are accurate, clear, and effectively communicate insights."
-          }
-        ]
-      }
-    },
-    {
-      "category": "Deep Learning",
-      "questions": {
-        "entry": [
-          {
-            "id": "dl_e_001",
-            "question": "What is a neural network?",
-            "options": [
-              "A computational model inspired by biological neural networks",
-              "A type of database",
-              "A programming language",
-              "A visualization tool"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Neural networks are computing systems with interconnected nodes (neurons) that process information by propagation."
-          }
-        ],
-        "intermediate": [
-          {
-            "id": "dl_i_001",
-            "question": "What is backpropagation in deep learning?",
-            "options": [
-              "An algorithm to train neural networks by propagating error backward",
-              "A forward-only algorithm",
-              "A data preprocessing technique",
-              "A visualization method"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Backpropagation computes gradients of loss function with respect to weights for gradient descent optimization."
-          }
-        ]
-      }
-    },
-    {
-      "category": "Big Data",
-      "questions": {
-        "entry": [
-          {
-            "id": "bigdata_e_001",
-            "question": "What are the 5 V's of Big Data?",
-            "options": [
-              "Volume, Velocity, Variety, Veracity, Value",
-              "Very, Very, Very, Very, Very large",
-              "Vector, Variable, Value, Void, Vertex",
-              "Visual, Virtual, Vital, Vague, Vast"
-            ],
-            "correctAnswer": "A",
-            "explanation": "The 5 V's characterize big data: Volume (scale), Velocity (speed), Variety (forms), Veracity (uncertainty), Value (worth)."
-          }
-        ],
-        "intermediate": [
-          {
-            "id": "spark_i_001",
-            "question": "What is Apache Spark?",
-            "options": [
-              "A unified analytics engine for large-scale data processing",
-              "A database",
-              "A programming language",
-              "A cloud service"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Spark is a fast, general-purpose cluster computing system for big data processing with in-memory capabilities."
-          }
-        ]
-      }
-    },
-    {
-      "category": "NLP",
-      "questions": {
-        "entry": [
-          {
-            "id": "nlp_e_001",
-            "question": "What is tokenization in NLP?",
-            "options": [
-              "Breaking text into smaller units like words or sentences",
-              "Creating security tokens",
-              "Encrypting text",
-              "Formatting text"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Tokenization segments text into words, phrases, or symbols (tokens) for further processing."
-          }
-        ],
-        "intermediate": [
-          {
-            "id": "nlp_i_001",
-            "question": "What are word embeddings in NLP?",
-            "options": [
-              "Vector representations of words capturing semantic meaning",
-              "Embedding words in sentences",
-              "Word formatting",
-              "Document embedding"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Word embeddings map words to dense vectors where similar words have similar representations."
-          }
-        ]
-      }
-    },
-    {
-      "category": "Product Analytics",
-      "questions": {
-        "entry": [
-          {
-            "id": "analytics_e_001",
-            "question": "What is product analytics?",
-            "options": [
-              "Analyzing user behavior and product usage data",
-              "Analyzing product prices",
-              "Product inventory analysis",
-              "Manufacturing analysis"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Product analytics tracks and analyzes how users interact with products to inform decisions."
-          }
-        ],
-        "intermediate": [
-          {
-            "id": "analytics_i_001",
-            "question": "What are leading vs lagging indicators in product metrics?",
-            "options": [
-              "Leading predict future performance, lagging measure past outcomes",
-              "Leading measure past, lagging predict future",
-              "They are the same",
-              "Leading are negative, lagging are positive"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Leading indicators predict future success; lagging indicators reflect historical performance."
-          }
-        ]
-      }
-    },
-    {
-      "category": "Roadmap Planning",
-      "questions": {
-        "entry": [
-          {
-            "id": "roadmap_e_001",
-            "question": "What is a product roadmap?",
-            "options": [
-              "A strategic document outlining product vision and direction",
-              "A map of product features",
-              "A technical diagram",
-              "A marketing plan"
-            ],
-            "correctAnswer": "A",
-            "explanation": "A roadmap communicates product strategy by showing planned work over time."
-          }
-        ],
-        "intermediate": [
-          {
-            "id": "roadmap_i_001",
-            "question": "What is the difference between outcome-based and feature-based roadmaps?",
-            "options": [
-              "Outcome-based focuses on goals, feature-based on specific deliverables",
-              "They are the same",
-              "Feature-based focuses on goals",
-              "Outcome-based is for stakeholders only"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Outcome-based roadmaps emphasize problems to solve; feature-based specify exact solutions."
-          }
-        ]
-      }
-    },
-    {
-      "category": "User Research",
-      "questions": {
-        "entry": [
-          {
-            "id": "userresearch_e_001",
-            "question": "What is the purpose of user research?",
-            "options": [
-              "To understand user needs, behaviors, and motivations",
-              "To test product performance",
-              "To market products",
-              "To hire users"
-            ],
-            "correctAnswer": "A",
-            "explanation": "User research uncovers insights about users to inform product design and strategy."
-          }
-        ],
-        "intermediate": [
-          {
-            "id": "userresearch_i_001",
-            "question": "What is the difference between qualitative and quantitative user research?",
-            "options": [
-              "Qualitative explores why, quantitative measures what/how many",
-              "Quantitative explores why, qualitative measures numbers",
-              "They are the same",
-              "Qualitative is better"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Qualitative provides rich insights into motivations; quantitative provides statistical evidence."
-          }
-        ]
-      }
-    },
-    {
-      "category": "Agile/Scrum",
-      "questions": {
-        "entry": [
-          {
-            "id": "agile_e_001",
-            "question": "What is the difference between Agile and Scrum?",
-            "options": [
-              "Agile is a methodology, Scrum is a framework implementing Agile principles",
-              "They are the same",
-              "Scrum is a methodology, Agile is a framework",
-              "Agile is for software only"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Agile is a set of principles; Scrum is a specific framework for implementing Agile."
-          }
-        ],
-        "intermediate": [
-          {
-            "id": "scrum_i_001",
-            "question": "What are the three pillars of Scrum?",
-            "options": [
-              "Transparency, Inspection, Adaptation",
-              "Plan, Execute, Review",
-              "Design, Develop, Deploy",
-              "Sprint, Daily, Retrospective"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Scrum pillars ensure visibility, frequent inspection, and continuous improvement through adaptation."
-          }
-        ]
-      }
-    },
-    {
-      "category": "Wireframing",
-      "questions": {
-        "entry": [
-          {
-            "id": "wireframe_e_001",
-            "question": "What is wireframing in product design?",
-            "options": [
-              "Creating low-fidelity layouts showing structure and functionality",
-              "Final visual design",
-              "Code implementation",
-              "User testing"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Wireframes are skeletal blueprints focusing on layout, content, and functionality without visual design."
-          }
-        ],
-        "intermediate": [
-          {
-            "id": "wireframe_i_001",
-            "question": "What is the difference between low-fidelity and high-fidelity wireframes?",
-            "options": [
-              "Low-fi is simple and quick, high-fi includes detailed visual elements",
-              "Low-fi is digital, high-fi is paper",
-              "They are the same",
-              "Low-fi is for mobile, high-fi for desktop"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Low-fidelity focuses on concepts; high-fidelity includes detailed design, interactions, and often looks final."
-          }
-        ]
-      }
-    },
-    {
-      "category": "A/B Testing",
-      "questions": {
-        "entry": [
-          {
-            "id": "abtest_e_001",
-            "question": "What is A/B testing in product management?",
-            "options": [
-              "Comparing two versions to determine which performs better",
-              "Testing with two users",
-              "Testing two products",
-              "Bug testing in pairs"
-            ],
-            "correctAnswer": "A",
-            "explanation": "A/B testing randomly shows variant A or B to users to measure impact on metrics."
-          }
-        ],
-        "intermediate": [
-          {
-            "id": "abtest_i_001",
-            "question": "What is statistical significance in A/B testing?",
-            "options": [
-              "Confidence that results are not due to random chance",
-              "The size of the effect",
-              "The number of users",
-              "The duration of test"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Statistical significance indicates the likelihood that observed differences are real, not random."
-          }
-        ]
-      }
-    },
-    {
-      "category": "Jira",
-      "questions": {
-        "entry": [
-          {
-            "id": "jira_e_001",
-            "question": "What is Jira primarily used for?",
-            "options": [
-              "Issue and project tracking",
-              "Code development",
-              "Design creation",
-              "Email marketing"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Jira is a project management tool for tracking issues, tasks, and agile projects."
-          }
-        ],
-        "intermediate": [
-          {
-            "id": "jira_i_001",
-            "question": "What is a Jira workflow?",
-            "options": [
-              "The lifecycle of an issue through statuses and transitions",
-              "A project timeline",
-              "A team schedule",
-              "A report template"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Workflows define the path an issue takes from creation to completion through statuses."
-          }
-        ]
-      }
-    },
-    {
-      "category": "Product Strategy",
-      "questions": {
-        "entry": [
-          {
-            "id": "strategy_e_001",
-            "question": "What is product strategy?",
-            "options": [
-              "High-level plan for product success aligned with business goals",
-              "Feature list",
-              "Technical architecture",
-              "Marketing campaign"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Product strategy defines the vision, target users, and how the product will achieve goals."
-          }
-        ],
-        "intermediate": [
-          {
-            "id": "strategy_i_001",
-            "question": "What is a product vision?",
-            "options": [
-              "The long-term aspirational goal for the product",
-              "Current feature set",
-              "Release schedule",
-              "Quarterly plan"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Product vision describes the future state and impact of the product over a long horizon."
-          }
-        ]
-      }
-    },
-    {
-      "category": "Stakeholder Management",
-      "questions": {
-        "entry": [
-          {
-            "id": "stakeholder_e_001",
-            "question": "What is stakeholder management in product management?",
-            "options": [
-              "Identifying and managing relationships with people invested in the product",
-              "Managing company shares",
-              "Employee management",
-              "Customer service"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Stakeholder management involves engaging, communicating, and aligning expectations with stakeholders."
-          }
-        ],
-        "intermediate": [
-          {
-            "id": "stakeholder_i_001",
-            "question": "How do you prioritize conflicting stakeholder requests?",
-            "options": [
-              "Using frameworks like RICE, MoSCoW aligned with product strategy",
-              "By whoever asks first",
-              "By seniority",
-              "By department size"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Effective prioritization uses frameworks and aligns decisions with product strategy and user needs."
-          }
-        ]
-      }
-    },
-    {
-      "category": "Figma",
-      "questions": {
-        "entry": [
-          {
-            "id": "figma_e_001",
-            "question": "What is Figma primarily used for?",
-            "options": [
-              "Collaborative interface design and prototyping",
-              "Code editing",
-              "Database management",
-              "Email marketing"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Figma is a cloud-based design tool for UI/UX design, prototyping, and collaboration."
-          }
-        ],
-        "intermediate": [
-          {
-            "id": "figma_i_001",
-            "question": "What are components in Figma?",
-            "options": [
-              "Reusable design elements that maintain consistency",
-              "Code components",
-              "Page templates",
-              "Color palettes"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Components are reusable elements; instances inherit changes from the main component."
-          }
-        ]
-      }
-    },
-    {
-      "category": "Sketch",
-      "questions": {
-        "entry": [
-          {
-            "id": "sketch_e_001",
-            "question": "What is Sketch used for in design?",
-            "options": [
-              "Vector-based digital design for UI/UX",
-              "3D modeling",
-              "Video editing",
-              "Photo manipulation"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Sketch is a Mac-only vector design tool for interface design and prototyping."
-          }
-        ],
-        "intermediate": [
-          {
-            "id": "sketch_i_001",
-            "question": "What are Symbols in Sketch?",
-            "options": [
-              "Reusable design components",
-              "Icons",
-              "Font characters",
-              "Mathematical symbols"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Symbols are master components that can be reused and synced across designs."
-          }
-        ]
-      }
-    },
-    {
-      "category": "Adobe XD",
-      "questions": {
-        "entry": [
-          {
-            "id": "adobe_xd_e_001",
-            "question": "What is Adobe XD?",
-            "options": [
-              "A vector-based tool for UI/UX design and prototyping",
-              "A photo editor",
-              "A video editor",
-              "A 3D modeling tool"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Adobe XD is a design and prototyping tool for websites, apps, and interfaces."
-          }
-        ],
-        "intermediate": [
-          {
-            "id": "adobe_xd_i_001",
-            "question": "What are responsive resize features in Adobe XD?",
-            "options": [
-              "Automatically adjusting layouts when resizing artboards",
-              "Manual resizing only",
-              "Code generation",
-              "Animation presets"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Responsive resize maintains relationships between elements when resizing groups or artboards."
-          }
-        ]
-      }
-    },
-    {
-      "category": "Prototyping",
-      "questions": {
-        "entry": [
-          {
-            "id": "prototyping_e_001",
-            "question": "What is prototyping in design?",
-            "options": [
-              "Creating early models to test concepts and interactions",
-              "Final production code",
-              "Market research",
-              "Brand design"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Prototypes simulate user interactions to test and validate design concepts before development."
-          }
-        ],
-        "intermediate": [
-          {
-            "id": "prototyping_i_001",
-            "question": "What is the difference between low-fidelity and high-fidelity prototypes?",
-            "options": [
-              "Low-fi is simple for concepts, high-fi looks and feels like final product",
-              "Low-fi is digital, high-fi is physical",
-              "They are the same",
-              "Low-fi is for developers, high-fi for users"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Low-fidelity focuses on flow and concepts; high-fidelity includes visual design and interactions."
-          }
-        ]
-      }
-    },
-    {
-      "category": "Design Systems",
-      "questions": {
-        "entry": [
-          {
-            "id": "designsystems_e_001",
-            "question": "What is a design system?",
-            "options": [
-              "A collection of reusable components and guidelines",
-              "A single color palette",
-              "A font family",
-              "A logo"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Design systems include components, patterns, and guidelines for consistent product design."
-          }
-        ],
-        "intermediate": [
-          {
-            "id": "designsystems_i_001",
-            "question": "What are the benefits of a design system?",
-            "options": [
-              "Consistency, efficiency, and scalability across products",
-              "Slows down design process",
-              "Limits creativity",
-              "Only for large teams"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Design systems improve consistency, speed up development, and facilitate scaling."
-          }
-        ]
-      }
-    },
-    {
-      "category": "Usability Testing",
-      "questions": {
-        "entry": [
-          {
-            "id": "usability_e_001",
-            "question": "What is usability testing?",
-            "options": [
-              "Evaluating product by testing with representative users",
-              "Testing code performance",
-              "Testing security",
-              "Testing compatibility"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Usability testing observes users completing tasks to identify issues and improvements."
-          }
-        ],
-        "intermediate": [
-          {
-            "id": "usability_i_001",
-            "question": "What is the difference between moderated and unmoderated usability testing?",
-            "options": [
-              "Moderated has facilitator guiding, unmoderated users complete independently",
-              "Moderated is online, unmoderated is in-person",
-              "They are the same",
-              "Moderated is cheaper"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Moderated provides real-time insights; unmoderated scales easily with automated tools."
-          }
-        ]
-      }
-    },
-    {
-      "category": "Interaction Design",
-      "questions": {
-        "entry": [
-          {
-            "id": "interaction_e_001",
-            "question": "What is interaction design?",
-            "options": [
-              "Designing how users interact with products",
-              "Designing physical buttons",
-              "3D modeling",
-              "Graphic design"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Interaction design focuses on creating engaging interfaces with well-thought-out behaviors."
-          }
-        ],
-        "intermediate": [
-          {
-            "id": "interaction_i_001",
-            "question": "What are the five dimensions of interaction design?",
-            "options": [
-              "Words, visuals, objects, time, behavior",
-              "Color, typography, space, shape, texture",
-              "Desktop, mobile, tablet, watch, TV",
-              "Research, design, test, build, launch"
-            ],
-            "correctAnswer": "A",
-            "explanation": "The dimensions model how users understand and interact with digital products."
-          }
-        ]
-      }
-    },
-    {
-      "category": "HTML/CSS",
-      "questions": {
-        "entry": [
-          {
-            "id": "htmlcss_e_001",
-            "question": "What is the difference between HTML and CSS?",
-            "options": [
-              "HTML provides structure, CSS provides styling",
-              "HTML provides styling, CSS provides structure",
-              "They are the same",
-              "HTML is for text, CSS for images"
-            ],
-            "correctAnswer": "A",
-            "explanation": "HTML defines content structure; CSS controls visual presentation and layout."
-          }
-        ],
-        "intermediate": [
-          {
-            "id": "css_i_001",
-            "question": "What is Flexbox in CSS?",
-            "options": [
-              "A layout module for distributing space and aligning content",
-              "A box model property",
-              "A font style",
-              "An animation property"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Flexbox provides efficient layout with alignment, direction, and space distribution capabilities."
-          }
-        ]
-      }
-    },
-    {
-      "category": "Accessibility",
-      "questions": {
-        "entry": [
-          {
-            "id": "a11y_e_001",
-            "question": "What is web accessibility?",
-            "options": [
-              "Making websites usable for people with disabilities",
-              "Making websites available 24/7",
-              "Mobile-friendly design",
-              "Fast loading websites"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Accessibility ensures people with disabilities can perceive, understand, navigate, and interact with websites."
-          }
-        ],
-        "intermediate": [
-          {
-            "id": "a11y_i_001",
-            "question": "What are WCAG guidelines?",
-            "options": [
-              "Web Content Accessibility Guidelines - standards for accessible content",
-              "Web Color Accessibility Guide",
-              "Worldwide Coding Access Group",
-              "Web Component Architecture Guide"
-            ],
-            "correctAnswer": "A",
-            "explanation": "WCAG provides international standards for making web content accessible to people with disabilities."
-          }
-        ]
-      }
-    },
-    {
-      "category": "SEO",
-      "questions": {
-        "entry": [
-          {
-            "id": "seo_e_001",
-            "question": "What is SEO?",
-            "options": [
-              "Search Engine Optimization - improving website visibility in search results",
-              "Social Engagement Optimization",
-              "Site Efficiency Optimization",
-              "Security Enhancement Operation"
-            ],
-            "correctAnswer": "A",
-            "explanation": "SEO improves website visibility and ranking in organic search engine results."
-          }
-        ],
-        "intermediate": [
-          {
-            "id": "seo_i_001",
-            "question": "What is the difference between on-page and off-page SEO?",
-            "options": [
-              "On-page optimizes content on website, off-page involves external signals",
-              "On-page is for mobile, off-page for desktop",
-              "They are the same",
-              "On-page is paid, off-page is organic"
-            ],
-            "correctAnswer": "A",
-            "explanation": "On-page SEO controls elements on your site; off-page SEO builds external authority through backlinks."
-          }
-        ]
-      }
-    },
-    {
-      "category": "SEM",
-      "questions": {
-        "entry": [
-          {
-            "id": "sem_e_001",
-            "question": "What is SEM in digital marketing?",
-            "options": [
-              "Search Engine Marketing - paid advertising in search results",
-              "Social Media Marketing",
-              "Site Engagement Metrics",
-              "Security Email Management"
-            ],
-            "correctAnswer": "A",
-            "explanation": "SEM uses paid advertising to increase visibility in search engine results pages."
-          }
-        ],
-        "intermediate": [
-          {
-            "id": "sem_i_001",
-            "question": "What is Google Ads Quality Score?",
-            "options": [
-              "Metric measuring ad relevance, CTR, and landing page experience",
-              "Ad budget score",
-              "Campaign performance score",
-              "Bid amount"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Quality Score affects ad rank and cost-per-click based on relevance and expected CTR."
-          }
-        ]
-      }
-    },
-    {
-      "category": "Email Marketing",
-      "questions": {
-        "entry": [
-          {
-            "id": "email_e_001",
-            "question": "What is email marketing?",
-            "options": [
-              "Using email to send commercial messages to audiences",
-              "Spamming random addresses",
-              "Email encryption",
-              "Email server management"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Email marketing nurtures leads and builds relationships through targeted email communications."
-          }
-        ],
-        "intermediate": [
-          {
-            "id": "email_i_001",
-            "question": "What is email deliverability?",
-            "options": [
-              "The ability to successfully land in subscribers' inboxes",
-              "Email design quality",
-              "Sending frequency",
-              "Email open rates"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Deliverability depends on sender reputation, content quality, and engagement metrics."
-          }
-        ]
-      }
-    },
-    {
-      "category": "Content Marketing",
-      "questions": {
-        "entry": [
-          {
-            "id": "content_e_001",
-            "question": "What is content marketing?",
-            "options": [
-              "Creating valuable content to attract and retain audiences",
-              "Copying content from other sites",
-              "Paid advertising",
-              "Social media posts only"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Content marketing provides relevant content to drive profitable customer action."
-          }
-        ],
-        "intermediate": [
-          {
-            "id": "content_i_001",
-            "question": "What is a content marketing funnel?",
-            "options": [
-              "Strategy to move audiences through awareness, consideration, decision stages",
-              "A tool to filter content",
-              "Email sequence",
-              "Social media schedule"
-            ],
-            "correctAnswer": "A",
-            "explanation": "The funnel guides users from discovery to conversion with appropriate content at each stage."
-          }
-        ]
-      }
-    },
-    {
-      "category": "Marketing Automation",
-      "questions": {
-        "entry": [
-          {
-            "id": "automation_e_001",
-            "question": "What is marketing automation?",
-            "options": [
-              "Software to automate repetitive marketing tasks",
-              "Automated email replies",
-              "AI content generation",
-              "Social media bots"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Marketing automation streamlines, automates, and measures marketing workflows and campaigns."
-          }
-        ],
-        "intermediate": [
-          {
-            "id": "automation_i_001",
-            "question": "What is lead scoring in marketing automation?",
-            "options": [
-              "Ranking leads based on perceived value to the business",
-              "Counting total leads",
-              "Measuring email opens",
-              "Tracking website visits"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Lead scoring assigns values to leads based on behavior and engagement to prioritize follow-up."
-          }
-        ]
-      }
-    },
-    {
-      "category": "CRO",
-      "questions": {
-        "entry": [
-          {
-            "id": "cro_e_001",
-            "question": "What is CRO in marketing?",
-            "options": [
-              "Conversion Rate Optimization - increasing percentage of users who take desired action",
-              "Customer Retention Operation",
-              "Content Review Organization",
-              "Campaign Reporting Objective"
-            ],
-            "correctAnswer": "A",
-            "explanation": "CRO systematically improves website performance to increase conversion rates."
-          }
-        ],
-        "intermediate": [
-          {
-            "id": "cro_i_001",
-            "question": "What is A/B testing in CRO?",
-            "options": [
-              "Comparing two versions to determine which performs better",
-              "Testing with two users",
-              "Testing two different products",
-              "Bug testing in pairs"
-            ],
-            "correctAnswer": "A",
-            "explanation": "A/B testing compares control vs. variation to statistically validate which performs better."
-          }
-        ]
-      }
-    },
-    {
-      "category": "PPC",
-      "questions": {
-        "entry": [
-          {
-            "id": "ppc_e_001",
-            "question": "What is PPC advertising?",
-            "options": [
-              "Pay-Per-Click - advertisers pay when users click their ads",
-              "Pay-Per-Customer",
-              "Product Placement Cost",
-              "Performance Per Click"
-            ],
-            "correctAnswer": "A",
-            "explanation": "PPC is an advertising model where advertisers pay each time their ad is clicked."
-          }
-        ],
-        "intermediate": [
-          {
-            "id": "ppc_i_001",
-            "question": "What is Quality Score in Google Ads?",
-            "options": [
-              "Google's rating of ad relevance and landing page experience",
-              "Ad budget quality",
-              "Campaign duration score",
-              "Number of keywords"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Quality Score estimates ad, keyword, and landing page quality, affecting CPC and ad position."
-          }
-        ]
-      }
-    },
-    {
-      "category": "Facebook Ads",
-      "questions": {
-        "entry": [
-          {
-            "id": "facebook_e_001",
-            "question": "What is Facebook Ads Manager?",
-            "options": [
-              "Tool for creating and managing Facebook ad campaigns",
-              "Facebook page manager",
-              "Social media scheduler",
-              "Analytics tool"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Ads Manager is the primary tool for creating, managing, and analyzing Facebook campaigns."
-          }
-        ],
-        "intermediate": [
-          {
-            "id": "facebook_i_001",
-            "question": "What is Facebook Pixel?",
-            "options": [
-              "Tracking code for measuring ad effectiveness and building audiences",
-              "Image pixel size",
-              "Ad design element",
-              "Campaign budget tool"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Facebook Pixel tracks conversions, optimizes ads, and builds remarketing audiences."
-          }
-        ]
-      }
-    },
-    {
-      "category": "Excel",
-      "questions": {
-        "entry": [
-          {
-            "id": "excel_e_001",
-            "question": "What is VLOOKUP in Excel?",
-            "options": [
-              "Function to search for a value in the leftmost column and return a value in the same row",
-              "Visual lookup tool",
-              "Data visualization feature",
-              "Chart creation tool"
-            ],
-            "correctAnswer": "A",
-            "explanation": "VLOOKUP searches vertically down the first column and returns a corresponding value."
-          }
-        ],
-        "intermediate": [
-          {
-            "id": "excel_i_001",
-            "question": "What is the difference between VLOOKUP and INDEX-MATCH?",
-            "options": [
-              "INDEX-MATCH is more flexible, can lookup left and handle column insertions",
-              "VLOOKUP is newer and better",
-              "They are identical",
-              "INDEX-MATCH is for vertical lookups only"
-            ],
-            "correctAnswer": "A",
-            "explanation": "INDEX-MATCH separates row and column lookup, offering more flexibility than VLOOKUP's limitations."
-          }
-        ]
-      }
-    },
-    {
-      "category": "Power BI",
-      "questions": {
-        "entry": [
-          {
-            "id": "powerbi_e_001",
-            "question": "What is Power BI?",
-            "options": [
-              "Business analytics tool for data visualization and reporting",
-              "Presentation software",
-              "Database management system",
-              "Programming language"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Power BI transforms data into interactive visualizations and business intelligence reports."
-          }
-        ],
-        "intermediate": [
-          {
-            "id": "powerbi_i_001",
-            "question": "What is DAX in Power BI?",
-            "options": [
-              "Data Analysis Expressions - formula language for calculations",
-              "Database Access XML",
-              "Data Analytics Extension",
-              "Design and XAML"
-            ],
-            "correctAnswer": "A",
-            "explanation": "DAX is a collection of functions and operators for data modeling and calculations."
-          }
-        ]
-      }
-    },
-    {
-      "category": "Tableau",
-      "questions": {
-        "entry": [
-          {
-            "id": "tableau_e_001",
-            "question": "What is Tableau?",
-            "options": [
-              "Data visualization tool for business intelligence",
-              "Spreadsheet software",
-              "Database",
-              "Programming language"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Tableau creates interactive, shareable dashboards illustrating data trends and insights."
-          }
-        ],
-        "intermediate": [
-          {
-            "id": "tableau_i_001",
-            "question": "What is the difference between Tableau Desktop and Tableau Public?",
-            "options": [
-              "Public is free with public sharing, Desktop can save locally and connect to more data",
-              "Desktop is free, Public is paid",
-              "They are the same",
-              "Public is for web only"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Tableau Public forces public workbook sharing; Desktop allows local saving and private sharing."
-          }
-        ]
-      }
-    },
-    {
-      "category": "Requirements Gathering",
-      "questions": {
-        "entry": [
-          {
-            "id": "requirements_e_001",
-            "question": "What is requirements gathering?",
-            "options": [
-              "Process of determining and documenting project requirements",
-              "Collecting software requirements",
-              "Hiring requirements",
-              "Budget planning"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Requirements gathering discovers, analyzes, defines, and documents stakeholder needs."
-          }
-        ],
-        "intermediate": [
-          {
-            "id": "requirements_i_001",
-            "question": "What are functional vs non-functional requirements?",
-            "options": [
-              "Functional describes what system does, non-functional describes how it performs",
-              "Functional is for users, non-functional for developers",
-              "They are the same",
-              "Functional is technical, non-functional is business"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Functional requirements specify behaviors; non-functional specify quality attributes like performance."
-          }
-        ]
-      }
-    },
-    {
-      "category": "Process Modeling",
-      "questions": {
-        "entry": [
-          {
-            "id": "process_e_001",
-            "question": "What is process modeling in business analysis?",
-            "options": [
-              "Creating visual representations of business processes",
-              "3D modeling",
-              "Product design",
-              "Software architecture"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Process modeling diagrams workflows to analyze, improve, and communicate processes."
-          }
-        ],
-        "intermediate": [
-          {
-            "id": "process_i_001",
-            "question": "What is BPMN in process modeling?",
-            "options": [
-              "Business Process Model and Notation - standard for process diagrams",
-              "Business Performance Management Network",
-              "Basic Process Modeling Notation",
-              "Business Process Monitoring"
-            ],
-            "correctAnswer": "A",
-            "explanation": "BPMN provides standardized notation for process modeling understandable by all stakeholders."
-          }
-        ]
-      }
-    },
-    {
-      "category": "Financial Analysis",
-      "questions": {
-        "entry": [
-          {
-            "id": "financial_e_001",
-            "question": "What is financial analysis in business?",
-            "options": [
-              "Evaluating businesses, projects, budgets for performance and suitability",
-              "Accounting",
-              "Tax preparation",
-              "Payroll management"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Financial analysis assesses viability, stability, and profitability of business activities."
-          }
-        ],
-        "intermediate": [
-          {
-            "id": "financial_i_001",
-            "question": "What is ROI analysis?",
-            "options": [
-              "Return on Investment - measuring gain relative to cost",
-              "Risk of Investment",
-              "Revenue Operating Income",
-              "Resource Optimization Index"
-            ],
-            "correctAnswer": "A",
-            "explanation": "ROI calculates efficiency of an investment by comparing return to cost."
-          }
-        ]
-      }
-    },
-    {
-      "category": "Documentation",
-      "questions": {
-        "entry": [
-          {
-            "id": "doc_e_001",
-            "question": "Why is documentation important in business analysis?",
-            "options": [
-              "Records decisions, ensures clarity, and maintains knowledge",
-              "Slows down projects",
-              "Only for compliance",
-              "Optional activity"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Documentation captures requirements, decisions, and processes for reference and knowledge transfer."
-          }
-        ],
-        "intermediate": [
-          {
-            "id": "doc_i_001",
-            "question": "What is a BRD in business analysis?",
-            "options": [
-              "Business Requirements Document - comprehensive requirements specification",
-              "Basic Requirement Definition",
-              "Business Research Document",
-              "Budget Requirement Document"
-            ],
-            "correctAnswer": "A",
-            "explanation": "BRD details business solutions, requirements, and stakeholder needs in one comprehensive document."
-          }
-        ]
-      }
-    },
-    {
-      "category": "Statistics",
-      "questions": {
-        "entry": [
-          {
-            "id": "stats_ba_e_001",
-            "question": "What is descriptive statistics?",
-            "options": [
-              "Summarizing and describing data characteristics",
-              "Making predictions about populations",
-              "Testing hypotheses",
-              "Building models"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Descriptive statistics summarize data through measures like mean, median, mode, and standard deviation."
-          }
-        ],
-        "intermediate": [
-          {
-            "id": "stats_ba_i_001",
-            "question": "What is correlation vs causation?",
-            "options": [
-              "Correlation shows relationship, causation proves one causes the other",
-              "They are the same",
-              "Causation shows relationship, correlation proves cause",
-              "Correlation is stronger than causation"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Correlation indicates variables move together; causation requires proving direct cause-effect relationship."
+        "expert": [
+          {
+            "id": 1,
+            "difficulty": "expert",
+            "question": "What is the Java Memory Model specification?",
+            "options": ["Happens-before", "Visibility rules", "JSR 133", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "JMM defines thread interaction through memory."
+          },
+          {
+            "id": 2,
+            "difficulty": "expert",
+            "question": "What is the happens-before relationship?",
+            "options": ["Memory visibility", "Ordering guarantee", "Thread semantics", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "Happens-before ensures memory operations ordering."
+          },
+          {
+            "id": 3,
+            "difficulty": "expert",
+            "question": "What is the double-checked locking pattern and its issues?",
+            "options": ["Singleton pattern", "volatile fix", "Memory model", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "Double-checked locking requires volatile for correct behavior."
+          },
+          {
+            "id": 4,
+            "difficulty": "expert",
+            "question": "What is the CAS (Compare-And-Swap) operation?",
+            "options": ["Atomic operation", "Lock-free", "Hardware support", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "CAS is a hardware-level atomic instruction used in lock-free programming."
+          },
+          {
+            "id": 5,
+            "difficulty": "expert",
+            "question": "What is the ABA problem in CAS?",
+            "options": ["Value changes A->B->A", "Detection difficulty", "Solution: AtomicStampedReference", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "ABA occurs when CAS can't detect intermediate changes."
+          },
+          {
+            "id": 6,
+            "difficulty": "expert",
+            "question": "What is the false sharing problem?",
+            "options": ["Cache line contention", "Performance issue", "Padding solution", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "False sharing occurs when threads modify variables in same cache line."
+          },
+          {
+            "id": 7,
+            "difficulty": "expert",
+            "question": "What is the @Contended annotation?",
+            "options": ["Cache line padding", "False sharing prevention", "JVM-specific", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "@Contended adds padding to avoid false sharing."
+          },
+          {
+            "id": 8,
+            "difficulty": "expert",
+            "question": "What is the memory consistency error?",
+            "options": ["Visibility issue", "Race condition", "Synchronization required", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "Memory consistency errors occur when threads have inconsistent views."
+          },
+          {
+            "id": 9,
+            "difficulty": "expert",
+            "question": "What is the reentrant lock vs synchronized?",
+            "options": ["ReentrantLock: more features", "Fairness", "Interruptible", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "ReentrantLock provides advanced lock capabilities."
+          },
+          {
+            "id": 10,
+            "difficulty": "expert",
+            "question": "What is the deadlock detection and prevention?",
+            "options": ["Lock ordering", "Timeout", "tryLock()", "All of the above"],
+            "correctAnswer": "All of the above",
+            "explanation": "Various strategies prevent or detect deadlocks."
           }
         ]
       }
