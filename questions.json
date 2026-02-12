@@ -3160,6 +3160,1075 @@
       }
     },
     {
+      "category": "React",
+      "questions": {
+        "entry": [
+          {
+            "id": "react_e_001",
+            "difficulty": "entry",
+            "question": "What is React?",
+            "options": [
+              "A JavaScript library for building user interfaces",
+              "A programming language",
+              "A database management system",
+              "A CSS framework"
+            ],
+            "correctAnswer": "A",
+            "explanation": "React is a JavaScript library for building user interfaces, developed and maintained by Facebook."
+          },
+          {
+            "id": "react_e_002",
+            "difficulty": "entry",
+            "question": "What is JSX in React?",
+            "options": [
+              "A syntax extension that allows writing HTML-like code in JavaScript",
+              "A templating language",
+              "A database query language",
+              "A CSS framework"
+            ],
+            "correctAnswer": "A",
+            "explanation": "JSX is a syntax extension that allows writing HTML-like code in JavaScript, which transpiles to React.createElement calls."
+          },
+          {
+            "id": "react_e_003",
+            "difficulty": "entry",
+            "question": "What is the difference between props and state in React?",
+            "options": [
+              "Props are read-only data passed from parent, state is mutable data managed within component",
+              "Props are mutable, state is immutable",
+              "Props are for styling, state is for data",
+              "There is no difference"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Props are read-only data passed from parent components; state is mutable data managed within the component itself."
+          },
+          {
+            "id": "react_e_004",
+            "difficulty": "entry",
+            "question": "What is the virtual DOM in React?",
+            "options": [
+              "A lightweight JavaScript representation of the actual DOM",
+              "A copy of the DOM stored in the database",
+              "A browser extension",
+              "A CSS preprocessor"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Virtual DOM is a lightweight JavaScript representation of the actual DOM, used for performance optimization through diffing and batching updates."
+          },
+          {
+            "id": "react_e_005",
+            "difficulty": "entry",
+            "question": "What is a component in React?",
+            "options": [
+              "A reusable piece of UI that can be either a function or a class",
+              "A CSS class",
+              "A JavaScript variable",
+              "A HTML element"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Components are reusable pieces of UI that can be defined as functions or classes, returning JSX to render."
+          },
+          {
+            "id": "react_e_006",
+            "difficulty": "entry",
+            "question": "What is the useState hook?",
+            "options": [
+              "A hook that adds state to functional components",
+              "A hook for side effects",
+              "A hook for context",
+              "A hook for refs"
+            ],
+            "correctAnswer": "A",
+            "explanation": "useState is a Hook that adds state to functional components, returning an array with the current state value and a setter function."
+          },
+          {
+            "id": "react_e_007",
+            "difficulty": "entry",
+            "question": "What is the useEffect hook?",
+            "options": [
+              "A hook for handling side effects in functional components",
+              "A hook for state management",
+              "A hook for styling",
+              "A hook for routing"
+            ],
+            "correctAnswer": "A",
+            "explanation": "useEffect handles side effects in functional components like data fetching, subscriptions, timers, and DOM manipulation."
+          },
+          {
+            "id": "react_e_008",
+            "difficulty": "entry",
+            "question": "What is the key prop in React?",
+            "options": [
+              "A special attribute that helps identify which items have changed in lists",
+              "A unique identifier for components",
+              "A CSS keyframe",
+              "An encryption key"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Keys help React identify which items have changed, are added, or are removed in lists, improving performance and preventing bugs."
+          },
+          {
+            "id": "react_e_009",
+            "difficulty": "entry",
+            "question": "What is the difference between functional and class components?",
+            "options": [
+              "Class components use ES6 classes and lifecycle methods, functional components are simpler and use hooks",
+              "Functional components are slower",
+              "Class components don't support props",
+              "There is no difference"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Class components use ES6 classes with lifecycle methods; functional components are simpler functions that can use hooks for state and effects."
+          },
+          {
+            "id": "react_e_010",
+            "difficulty": "entry",
+            "question": "What is the render method in class components?",
+            "options": [
+              "The only required method in a class component that returns JSX",
+              "A method for styling components",
+              "A method for handling events",
+              "A method for fetching data"
+            ],
+            "correctAnswer": "A",
+            "explanation": "The render method is the only required method in a class component and returns the JSX to display in the UI."
+          },
+          {
+            "id": "react_e_011",
+            "difficulty": "entry",
+            "question": "What is props drilling?",
+            "options": [
+              "Passing props through multiple levels of nested components",
+              "Creating new props",
+              "Deleting props",
+              "Styling props"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Props drilling is the process of passing data from a parent component down through multiple nested child components via props."
+          },
+          {
+            "id": "react_e_012",
+            "difficulty": "entry",
+            "question": "What is the Context API in React?",
+            "options": [
+              "A way to pass data through the component tree without props drilling",
+              "A state management library",
+              "A CSS framework",
+              "A routing library"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Context provides a way to share values like themes or user data between components without explicitly passing props through every level."
+          },
+          {
+            "id": "react_e_013",
+            "difficulty": "entry",
+            "question": "What is the useRef hook?",
+            "options": [
+              "A hook that creates mutable references that persist across renders",
+              "A hook for state management",
+              "A hook for effects",
+              "A hook for context"
+            ],
+            "correctAnswer": "A",
+            "explanation": "useRef returns a mutable ref object whose .current property persists for the lifetime of the component, useful for DOM access."
+          },
+          {
+            "id": "react_e_014",
+            "difficulty": "entry",
+            "question": "What is the difference between controlled and uncontrolled components?",
+            "options": [
+              "Controlled components have form data handled by React state, uncontrolled components manage their own state in the DOM",
+              "Controlled components are faster",
+              "Uncontrolled components use React state",
+              "There is no difference"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Controlled components have their state managed by React; uncontrolled components manage their own state internally in the DOM."
+          },
+          {
+            "id": "react_e_015",
+            "difficulty": "entry",
+            "question": "What is the React Fragment?",
+            "options": [
+              "A wrapper that groups multiple elements without adding an extra node to the DOM",
+              "A component fragment",
+              "A code fragment",
+              "A string fragment"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Fragments let you group a list of children without adding extra nodes to the DOM, using <></> or <Fragment> syntax."
+          },
+          {
+            "id": "react_e_016",
+            "difficulty": "entry",
+            "question": "What is the children prop?",
+            "options": [
+              "A special prop that contains content between opening and closing tags",
+              "A prop for child components",
+              "A prop for nested components",
+              "A prop for parent components"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Children is a special prop that passes components/data between opening and closing tags, enabling component composition."
+          },
+          {
+            "id": "react_e_017",
+            "difficulty": "entry",
+            "question": "What is event handling in React?",
+            "options": [
+              "React uses synthetic events that wrap native DOM events for cross-browser consistency",
+              "React uses native DOM events directly",
+              "React doesn't support events",
+              "Events are handled in CSS"
+            ],
+            "correctAnswer": "A",
+            "explanation": "SyntheticEvent is a cross-browser wrapper around the browser's native event with consistent properties across browsers."
+          },
+          {
+            "id": "react_e_018",
+            "difficulty": "entry",
+            "question": "What is conditional rendering in React?",
+            "options": [
+              "Rendering different UI elements based on conditions using if statements or ternary operators",
+              "Rendering with conditions in CSS",
+              "Rendering only on certain days",
+              "Rendering with animations"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Conditional rendering in React works the same way conditions work in JavaScript, using if, &&, or ternary operators."
+          },
+          {
+            "id": "react_e_019",
+            "difficulty": "entry",
+            "question": "What is list rendering in React?",
+            "options": [
+              "Using the map() function to transform arrays into elements",
+              "Using for loops in JSX",
+              "Using while loops in JSX",
+              "Using foreach in JSX"
+            ],
+            "correctAnswer": "A",
+            "explanation": "List rendering typically uses the map() function to transform arrays of data into arrays of React elements with keys."
+          },
+          {
+            "id": "react_e_020",
+            "difficulty": "entry",
+            "question": "What is create-react-app?",
+            "options": [
+              "An official React toolchain for creating single-page applications with no build configuration",
+              "A React component",
+              "A React library",
+              "A build tool"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Create React App is an officially supported CLI tool for creating React applications with no build configuration required."
+          }
+        ],
+        "intermediate": [
+          {
+            "id": "react_i_001",
+            "difficulty": "intermediate",
+            "question": "What is the useEffect cleanup function?",
+            "options": [
+              "A function that runs before component unmounts to prevent memory leaks",
+              "A function that runs on component mount",
+              "A function that cleans CSS",
+              "A function that clears state"
+            ],
+            "correctAnswer": "A",
+            "explanation": "The cleanup function in useEffect runs before the component unmounts to prevent memory leaks by canceling subscriptions or timers."
+          },
+          {
+            "id": "react_i_002",
+            "difficulty": "intermediate",
+            "question": "What is the difference between useEffect and useLayoutEffect?",
+            "options": [
+              "useLayoutEffect fires synchronously after DOM mutations, useEffect runs asynchronously after paint",
+              "useLayoutEffect is for layout only",
+              "They are identical",
+              "useEffect is synchronous"
+            ],
+            "correctAnswer": "A",
+            "explanation": "useLayoutEffect fires synchronously after all DOM mutations; useEffect runs asynchronously after paint, better for most side effects."
+          },
+          {
+            "id": "react_i_003",
+            "difficulty": "intermediate",
+            "question": "What is React.memo?",
+            "options": [
+              "A higher-order component that memoizes the result, skipping renders if props haven't changed",
+              "A hook for memoization",
+              "A state management tool",
+              "A component wrapper"
+            ],
+            "correctAnswer": "A",
+            "explanation": "React.memo is a higher-order component that memoizes the result, skipping renders if props haven't changed (shallow comparison)."
+          },
+          {
+            "id": "react_i_004",
+            "difficulty": "intermediate",
+            "question": "What is the useMemo hook?",
+            "options": [
+              "Memoizes expensive calculations, only recomputes when dependencies change",
+              "Creates memo",
+              "Stores memory",
+              "Caches components"
+            ],
+            "correctAnswer": "A",
+            "explanation": "useMemo returns a memoized value that only changes when dependencies change, optimizing performance for expensive computations."
+          },
+          {
+            "id": "react_i_005",
+            "difficulty": "intermediate",
+            "question": "What is the useCallback hook?",
+            "options": [
+              "Memoizes functions to prevent recreation on every render",
+              "Calls back",
+              "Callback handler",
+              "Event listener"
+            ],
+            "correctAnswer": "A",
+            "explanation": "useCallback returns a memoized callback that only changes if dependencies change, preventing unnecessary re-renders of child components."
+          },
+          {
+            "id": "react_i_006",
+            "difficulty": "intermediate",
+            "question": "What is the useReducer hook?",
+            "options": [
+              "A hook for complex state logic with actions and reducers",
+              "A hook for simple state",
+              "A hook for effects",
+              "A hook for context"
+            ],
+            "correctAnswer": "A",
+            "explanation": "useReducer is usually preferable to useState when you have complex state logic that involves multiple sub-values or next state depends on previous."
+          },
+          {
+            "id": "react_i_007",
+            "difficulty": "intermediate",
+            "question": "What is the Context API's performance characteristic?",
+            "options": [
+              "All consumers re-render when context value changes, regardless of memoization",
+              "Only direct children re-render",
+              "No re-renders",
+              "Always performant"
+            ],
+            "correctAnswer": "A",
+            "explanation": "All consumers of a Context re-render when the context value changes, regardless of memoization, which can impact performance."
+          },
+          {
+            "id": "react_i_008",
+            "difficulty": "intermediate",
+            "question": "How do you optimize Context API performance?",
+            "options": [
+              "Split contexts, memoize context values, use useMemo for provider value",
+              "Use more contexts",
+              "Remove Context",
+              "Use Redux"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Split contexts by concern, memoize context values with useMemo, and use memoization in consumers to prevent unnecessary re-renders."
+          },
+          {
+            "id": "react_i_009",
+            "difficulty": "intermediate",
+            "question": "What is code splitting in React?",
+            "options": [
+              "Splitting code into chunks that can be lazy-loaded on demand",
+              "Breaking components into files",
+              "Separating logic from UI",
+              "Module bundling"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Code splitting allows you to split your bundle into chunks that can be lazy-loaded on demand, reducing initial load time."
+          },
+          {
+            "id": "react_i_010",
+            "difficulty": "intermediate",
+            "question": "What is React.lazy?",
+            "options": [
+              "A function for code splitting that renders a dynamic import as a regular component",
+              "Lazy loading hook",
+              "Performance tool",
+              "Debugging utility"
+            ],
+            "correctAnswer": "A",
+            "explanation": "React.lazy enables you to render a dynamic import as a regular component, automatically loading the bundle when the component renders."
+          },
+          {
+            "id": "react_i_011",
+            "difficulty": "intermediate",
+            "question": "What is Suspense in React?",
+            "options": [
+              "A component that shows a fallback while children are loading",
+              "Error boundary",
+              "Loading state",
+              "Async handler"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Suspense lets you specify the loading state for components that are not yet ready to render, like lazy-loaded components."
+          },
+          {
+            "id": "react_i_012",
+            "difficulty": "intermediate",
+            "question": "What is an error boundary in React?",
+            "options": [
+              "A component that catches JavaScript errors in its child component tree",
+              "Try/catch block",
+              "Error handler",
+              "Debugging tool"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Error boundaries are React components that catch JavaScript errors anywhere in their child component tree and display fallback UI."
+          },
+          {
+            "id": "react_i_013",
+            "difficulty": "intermediate",
+            "question": "What are portals in React?",
+            "options": [
+              "A way to render children into a DOM node outside the parent hierarchy",
+              "Navigation component",
+              "Routing feature",
+              "Modal creator"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Portals provide a way to render children into a DOM node that exists outside the DOM hierarchy of the parent component."
+          },
+          {
+            "id": "react_i_014",
+            "difficulty": "intermediate",
+            "question": "What is forwardRef in React?",
+            "options": [
+              "A function that automatically passes ref through a component to its children",
+              "Creates ref",
+              "Forwarding props",
+              "Ref callback"
+            ],
+            "correctAnswer": "A",
+            "explanation": "forwardRef creates a React component that forwards the ref it receives to another component, useful for reusable component libraries."
+          },
+          {
+            "id": "react_i_015",
+            "difficulty": "intermediate",
+            "question": "What is the useImperativeHandle hook?",
+            "options": [
+              "Customizes the instance value exposed when using ref",
+              "Handles imperative code",
+              "Creates imperative methods",
+              "Ref handler"
+            ],
+            "correctAnswer": "A",
+            "explanation": "useImperativeHandle customizes the instance value that is exposed to parent components when using ref, often with forwardRef."
+          },
+          {
+            "id": "react_i_016",
+            "difficulty": "intermediate",
+            "question": "What are the rules of hooks in React?",
+            "options": [
+              "Only call hooks at the top level, only from React functions",
+              "Anywhere in code",
+              "Only in classes",
+              "Only in event handlers"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Hooks must be called at the top level (not inside loops, conditions, nested functions) and only from React function components or custom hooks."
+          },
+          {
+            "id": "react_i_017",
+            "difficulty": "intermediate",
+            "question": "What is a custom hook in React?",
+            "options": [
+              "A JavaScript function that uses other hooks to share reusable logic",
+              "Built-in hook",
+              "Component",
+              "Utility function"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Custom hooks are JavaScript functions that use other hooks to encapsulate and share reusable logic between components."
+          },
+          {
+            "id": "react_i_018",
+            "difficulty": "intermediate",
+            "question": "What is reconciliation in React?",
+            "options": [
+              "The algorithm React uses to diff one tree with another to determine which parts need to change",
+              "Component update process",
+              "State reconciliation",
+              "Prop comparison"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Reconciliation is the algorithm React uses to diff one tree with another to determine which parts need to change efficiently."
+          },
+          {
+            "id": "react_i_019",
+            "difficulty": "intermediate",
+            "question": "What is the diffing algorithm in React?",
+            "options": [
+              "A heuristic O(n) algorithm based on element type and keys",
+              "Sorting algorithm",
+              "Search algorithm",
+              "Compression algorithm"
+            ],
+            "correctAnswer": "A",
+            "explanation": "React's diffing algorithm implements heuristic O(n) complexity: different element types produce different trees, keys help identify children."
+          },
+          {
+            "id": "react_i_020",
+            "difficulty": "intermediate",
+            "question": "What is the render prop pattern?",
+            "options": [
+              "A technique for sharing code using a prop whose value is a function that returns JSX",
+              "Prop for rendering",
+              "Component render method",
+              "Function prop"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Render prop pattern uses a prop that is a function to control what a component renders, enabling code reuse across components."
+          }
+        ],
+        "senior": [
+          {
+            "id": "react_s_001",
+            "difficulty": "senior",
+            "question": "How would you optimize a React application's performance?",
+            "options": [
+              "Using memoization (React.memo, useMemo, useCallback), code splitting, virtualization, and avoiding unnecessary re-renders",
+              "Adding more components",
+              "Using class components only",
+              "Adding more state"
+            ],
+            "correctAnswer": "A",
+            "explanation": "React optimization involves React.memo, useMemo, useCallback, code splitting, virtualization, and avoiding unnecessary re-renders."
+          },
+          {
+            "id": "react_s_002",
+            "difficulty": "senior",
+            "question": "What is the React Fiber architecture?",
+            "options": [
+              "A complete rewrite of React's core algorithm for incremental rendering and better scheduling",
+              "A new component type",
+              "A CSS framework",
+              "A state management library"
+            ],
+            "correctAnswer": "A",
+            "explanation": "React Fiber is a reimplementation of React's core algorithm for incremental rendering, better scheduling, and prioritization of updates."
+          },
+          {
+            "id": "react_s_003",
+            "difficulty": "senior",
+            "question": "How does React handle concurrent mode?",
+            "options": [
+              "Interruptible rendering, priority scheduling, and preparing screens in the background",
+              "Synchronous rendering only",
+              "Multi-threading",
+              "Parallel processing"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Concurrent mode enables React to interrupt rendering, prioritize updates, and prepare new screens in the background without blocking."
+          },
+          {
+            "id": "react_s_004",
+            "difficulty": "senior",
+            "question": "What are the limitations of React hooks?",
+            "options": [
+              "Cannot be called conditionally, must be at top level, must be in React functions",
+              "No limitations",
+              "Hooks are slower",
+              "Hooks don't work with TypeScript"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Hooks have strict rules: only call at top level, only from React functions, and hooks must be called in the same order each render."
+          },
+          {
+            "id": "react_s_005",
+            "difficulty": "senior",
+            "question": "What is the closure trap in React hooks?",
+            "options": [
+              "Stale closures capturing old props/state in effects and callbacks",
+              "Memory leak",
+              "Security vulnerability",
+              "Syntax error"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Closures in hooks can capture stale values if dependencies aren't properly specified, leading to bugs with setTimeout or event handlers."
+          },
+          {
+            "id": "react_s_006",
+            "difficulty": "senior",
+            "question": "How do you handle stale closures in useEffect?",
+            "options": [
+              "Use proper dependency array, functional updates, useRef for mutable values",
+              "Ignore them",
+              "Use setInterval",
+              "Remove effect"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Stale closures are prevented by specifying correct dependencies, using functional updates, or useRef for mutable values that persist."
+          },
+          {
+            "id": "react_s_007",
+            "difficulty": "senior",
+            "question": "What is the purpose of the dependency array in useEffect?",
+            "options": [
+              "Tells React when to re-run the effect based on changed values",
+              "Array of variables",
+              "Configuration",
+              "Nothing"
+            ],
+            "correctAnswer": "A",
+            "explanation": "The dependency array specifies values that the effect depends on; React re-runs the effect when these values change between renders."
+          },
+          {
+            "id": "react_s_008",
+            "difficulty": "senior",
+            "question": "What happens if you omit the dependency array in useEffect?",
+            "options": [
+              "Effect runs after every render",
+              "Effect never runs",
+              "Effect runs once",
+              "Error"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Without dependency array, useEffect runs after every completed render, which can cause performance issues or infinite loops."
+          },
+          {
+            "id": "react_s_009",
+            "difficulty": "senior",
+            "question": "What happens if you pass an empty dependency array in useEffect?",
+            "options": [
+              "Effect runs only once after initial render",
+              "Effect never runs",
+              "Effect runs after every render",
+              "Error"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Empty dependency array means the effect has no dependencies and only runs once after mounting, with cleanup on unmount."
+          },
+          {
+            "id": "react_s_010",
+            "difficulty": "senior",
+            "question": "How do you implement shouldComponentUpdate with hooks?",
+            "options": [
+              "React.memo for components, useMemo for values, useCallback for functions",
+              "Cannot be done",
+              "useEffect",
+              "useReducer"
+            ],
+            "correctAnswer": "A",
+            "explanation": "React.memo is the hook equivalent of shouldComponentUpdate, preventing re-renders when props haven't changed via shallow comparison."
+          },
+          {
+            "id": "react_s_011",
+            "difficulty": "senior",
+            "question": "What is the difference between useMemo and useCallback?",
+            "options": [
+              "useMemo memoizes values, useCallback memoizes functions",
+              "Same thing",
+              "useMemo memoizes functions, useCallback memoizes values",
+              "useCallback is deprecated"
+            ],
+            "correctAnswer": "A",
+            "explanation": "useMemo returns a memoized value; useCallback returns a memoized function, equivalent to useMemo(() => fn, deps)."
+          },
+          {
+            "id": "react_s_012",
+            "difficulty": "senior",
+            "question": "How would you implement a singleton with hooks?",
+            "options": [
+              "useRef with lazy initialization to persist instance across renders",
+              "Global variable",
+              "useState",
+              "useEffect"
+            ],
+            "correctAnswer": "A",
+            "explanation": "useRef can maintain the same instance across renders with lazy initialization, useful for singleton patterns or third-party libraries."
+          },
+          {
+            "id": "react_s_013",
+            "difficulty": "senior",
+            "question": "How would you implement a custom hook for API calls?",
+            "options": [
+              "Create useFetch hook with useState, useEffect, loading/error/data states",
+              "Direct fetch in component",
+              "Global variable",
+              "Class component"
+            ],
+            "correctAnswer": "A",
+            "explanation": "A custom useFetch hook encapsulates loading, error, and data states with useEffect for API calls, promoting reusability."
+          },
+          {
+            "id": "react_s_014",
+            "difficulty": "senior",
+            "question": "What is the difference between Context and Redux?",
+            "options": [
+              "Context is for dependency injection, Redux is state management with devtools and middleware",
+              "Same thing",
+              "Context is newer",
+              "Redux is simpler"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Context passes data through component tree; Redux is a state management container with predictable updates, middleware, and devtools."
+          },
+          {
+            "id": "react_s_015",
+            "difficulty": "senior",
+            "question": "How do you handle authentication state in React?",
+            "options": [
+              "Context/Redux with tokens, protected routes, and axios interceptors",
+              "Local storage only",
+              "Session storage",
+              "Cookies only"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Auth state is typically stored in Context or Redux with tokens, protected routes, and API request interceptors for auth headers."
+          },
+          {
+            "id": "react_s_016",
+            "difficulty": "senior",
+            "question": "How do you implement role-based access control in React?",
+            "options": [
+              "Protected routes, permission checks, higher-order components or custom hooks",
+              "Conditional rendering only",
+              "CSS hiding",
+              "Local storage flags"
+            ],
+            "correctAnswer": "A",
+            "explanation": "RBAC implementation includes route protection, component-level permission checks, and often uses HOCs or custom hooks for authorization."
+          },
+          {
+            "id": "react_s_017",
+            "difficulty": "senior",
+            "question": "How do you prevent XSS attacks in React?",
+            "options": [
+              "React escapes by default, avoid dangerouslySetInnerHTML, sanitize user input",
+              "No prevention",
+              "Use innerHTML",
+              "Disable JavaScript"
+            ],
+            "correctAnswer": "A",
+            "explanation": "React automatically escapes content; avoid dangerousSetInnerHTML and sanitize any HTML that must be injected with DOMPurify."
+          },
+          {
+            "id": "react_s_018",
+            "difficulty": "senior",
+            "question": "What is server-side rendering with React?",
+            "options": [
+              "ReactDOMServer.renderToString() on server, hydrate() on client",
+              "Not possible",
+              "Use jQuery",
+              "PHP"
+            ],
+            "correctAnswer": "A",
+            "explanation": "SSR uses renderToString to generate HTML on server, then hydrate to make interactive on client, improving SEO and performance."
+          },
+          {
+            "id": "react_s_019",
+            "difficulty": "senior",
+            "question": "What is hydration in React?",
+            "options": [
+              "Attaching event listeners and React state to server-rendered HTML",
+              "Drink water",
+              "Loading data",
+              "Component mount"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Hydration is the process of attaching React event listeners and state to existing server-rendered HTML, making it interactive."
+          },
+          {
+            "id": "react_s_020",
+            "difficulty": "senior",
+            "question": "What are the benefits of SSR over CSR?",
+            "options": [
+              "Better SEO, faster initial paint, improved performance on slow devices",
+              "No benefits",
+              "Easier development",
+              "Smaller bundle"
+            ],
+            "correctAnswer": "A",
+            "explanation": "SSR provides better SEO, faster first contentful paint, and improved performance on low-powered devices by sending rendered HTML."
+          }
+        ],
+        "expert": [
+          {
+            "id": "react_ex_001",
+            "difficulty": "expert",
+            "question": "How would you implement a virtual DOM diffing algorithm from scratch?",
+            "options": [
+              "Using heuristic O(n) algorithm based on element type and keys for tree comparison",
+              "Full tree comparison",
+              "Random comparison",
+              "No algorithm"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Virtual DOM diffing uses heuristics: different element types produce different trees, same type updates attributes, keys identify children."
+          },
+          {
+            "id": "react_ex_002",
+            "difficulty": "expert",
+            "question": "What is the React Server Component architecture?",
+            "options": [
+              "Components that render on the server, reduce bundle size, access backend directly",
+              "Server-side rendering",
+              "API routes",
+              "Static site generation"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Server Components render on the server, have zero bundle size impact, and can access backend data directly without API layers."
+          },
+          {
+            "id": "react_ex_003",
+            "difficulty": "expert",
+            "question": "What are the key differences between Server and Client Components?",
+            "options": [
+              "Server: no state/effects, access backend; Client: interactive, useState/useEffect",
+              "Server: interactive; Client: static",
+              "They are same",
+              "Server: slower"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Server Components cannot use state or effects but can access backend; Client Components have full interactivity with hooks."
+          },
+          {
+            "id": "react_ex_004",
+            "difficulty": "expert",
+            "question": "How would you implement a concurrent rendering feature?",
+            "options": [
+              "Time slicing, interruptible rendering, priority-based scheduling",
+              "Synchronous rendering",
+              "Multi-threading",
+              "Parallel processing"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Concurrent rendering splits work into units and yields control to main thread, preventing UI freezes during large updates."
+          },
+          {
+            "id": "react_ex_005",
+            "difficulty": "expert",
+            "question": "What is the SuspenseList component?",
+            "options": [
+              "Controls loading order and behavior of multiple Suspense components",
+              "List of Suspense",
+              "Error boundary",
+              "Loading state"
+            ],
+            "correctAnswer": "A",
+            "explanation": "SuspenseList coordinates loading states of multiple nested Suspense components, controlling reveal order and behavior."
+          },
+          {
+            "id": "react_ex_006",
+            "difficulty": "expert",
+            "question": "How does React's event system work with synthetic events?",
+            "options": [
+              "Event delegation at root, pooled events, cross-browser normalization",
+              "Native events only",
+              "Direct binding",
+              "No events"
+            ],
+            "correctAnswer": "A",
+            "explanation": "React attaches event listeners at root and uses event pooling for performance with cross-browser synthetic event wrappers."
+          },
+          {
+            "id": "react_ex_007",
+            "difficulty": "expert",
+            "question": "What is the legacy context API vs modern Context?",
+            "options": [
+              "Legacy: getChildContext, childContextTypes; Modern: createContext, Provider, Consumer",
+              "Same thing",
+              "Modern is slower",
+              "Legacy is better"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Legacy context was implicit and error-prone; modern Context API is explicit, stable, and works with shouldComponentUpdate."
+          },
+          {
+            "id": "react_ex_008",
+            "difficulty": "expert",
+            "question": "How would you implement a state management library like Redux?",
+            "options": [
+              "Store with subscribe/dispatch, reducers as pure functions, middleware chain",
+              "Global variable",
+              "Context only",
+              "useState"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Redux-like implementation requires store with getState, subscribe, dispatch, reducer composition, and middleware for side effects."
+          },
+          {
+            "id": "react_ex_009",
+            "difficulty": "expert",
+            "question": "What are the performance implications of React.memo with complex props?",
+            "options": [
+              "Shallow comparison only, deep props cause re-renders, use useMemo for objects",
+              "Always prevents re-renders",
+              "No implications",
+              "Slows down rendering"
+            ],
+            "correctAnswer": "A",
+            "explanation": "React.memo only does shallow comparison; objects/arrays/functions create new references causing re-renders unless memoized."
+          },
+          {
+            "id": "react_ex_010",
+            "difficulty": "expert",
+            "question": "How would you debug memory leaks in React applications?",
+            "options": [
+              "Chrome Memory tab, heap snapshots, ensure cleanup in useEffect, use why-did-you-render",
+              "Console.log",
+              "Alert statements",
+              "Debugger"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Memory leaks are debugged with Chrome DevTools Memory tab, comparing heap snapshots, and checking cleanup functions in useEffect."
+          },
+          {
+            "id": "react_ex_011",
+            "difficulty": "expert",
+            "question": "What are common causes of re-renders in React?",
+            "options": [
+              "State changes, parent re-renders, context changes, hooks dependencies",
+              "CSS changes",
+              "HTML updates",
+              "No re-renders"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Re-renders are caused by state/setState, parent component re-rendering, context value changes, and hook dependency changes."
+          },
+          {
+            "id": "react_ex_012",
+            "difficulty": "expert",
+            "question": "What is the FLIP technique for animations in React?",
+            "options": [
+              "First, Last, Invert, Play - technique for performant layout animations using transforms",
+              "Flip animation",
+              "CSS transform",
+              "Transition"
+            ],
+            "correctAnswer": "A",
+            "explanation": "FLIP animates layout changes efficiently by measuring start/end positions and using transforms instead of expensive layout changes."
+          },
+          {
+            "id": "react_ex_013",
+            "difficulty": "expert",
+            "question": "How would you implement virtual scrolling from scratch?",
+            "options": [
+              "Measure item height, calculate visible range, absolute positioning, dynamic rendering",
+              "Render all items",
+              "CSS overflow",
+              "Pagination"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Virtual scrolling renders only visible items, calculates scroll position, and maintains performance for large lists with dynamic items."
+          },
+          {
+            "id": "react_ex_014",
+            "difficulty": "expert",
+            "question": "What is the micro-frontend architecture with React?",
+            "options": [
+              "Decomposing frontend into independent React applications with module federation or single-spa",
+              "Small components",
+              "Iframes",
+              "Single page application"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Micro-frontends split frontend by domain/feature, deployed independently and composed at runtime using module federation or single-spa."
+          },
+          {
+            "id": "react_ex_015",
+            "difficulty": "expert",
+            "question": "How does module federation enable micro-frontends?",
+            "options": [
+              "Exposes/consumes remote modules at runtime, independent deployment and versioning",
+              "Module bundling",
+              "Code splitting",
+              "Dependency injection"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Module federation allows separate builds to share modules at runtime via exposed/consumed containers, enabling micro-frontend architecture."
+          },
+          {
+            "id": "react_ex_016",
+            "difficulty": "expert",
+            "question": "What are the challenges with module federation?",
+            "options": [
+              "Version conflicts, shared dependencies, error handling; solved with singleton strategy, fallbacks",
+              "No challenges",
+              "Bundle size",
+              "Performance"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Challenges include dependency conflicts (solved with singleton sharing), version mismatches, and error handling across federated modules."
+          },
+          {
+            "id": "react_ex_017",
+            "difficulty": "expert",
+            "question": "How would you implement a design system in React?",
+            "options": [
+              "Component library, styled system, theming, prop variants, composition patterns",
+              "Single component",
+              "CSS file",
+              "Color palette"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Design system implementation includes reusable components, theming, variants, composition patterns, and documentation tools."
+          },
+          {
+            "id": "react_ex_018",
+            "difficulty": "expert",
+            "question": "What is the styled components theming mechanism?",
+            "options": [
+              "ThemeProvider with Context API, injects theme props into styled components",
+              "CSS variables",
+              "Global styles",
+              "Inline styles"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Styled-components uses ThemeProvider to inject theme objects via Context into component props for consistent theming."
+          },
+          {
+            "id": "react_ex_019",
+            "difficulty": "expert",
+            "question": "How would you implement internationalization in React?",
+            "options": [
+              "i18next, react-i18next, translation files, pluralization, locale switching",
+              "Hardcode strings",
+              "Google Translate",
+              "CSS"
+            ],
+            "correctAnswer": "A",
+            "explanation": "i18n libraries provide translation management, pluralization, locale switching, and interpolation in React applications."
+          },
+          {
+            "id": "react_ex_020",
+            "difficulty": "expert",
+            "question": "What are the challenges of i18n in React?",
+            "options": [
+              "String extraction, dynamic content, pluralization rules, RTL layout support",
+              "No challenges",
+              "Performance",
+              "Bundle size"
+            ],
+            "correctAnswer": "A",
+            "explanation": "i18n challenges include extracting strings from code, handling dynamic content, complex pluralization rules, and RTL layout support."
+          }
+        ]
+      }
+    }
+    
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
   "categories": [
     {
       "category": "React",
@@ -4215,1058 +5284,7 @@
       }
     },
     {
-      "category": "Node.js",
-      "questions": {
-        "entry": [
-          {
-            "id": "node_e_001",
-            "difficulty": "entry",
-            "question": "What is Node.js?",
-            "options": [
-              "A JavaScript runtime built on Chrome's V8 engine for server-side development",
-              "A JavaScript framework",
-              "A database",
-              "A CSS preprocessor"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine for building server-side and network applications."
-          },
-          {
-            "id": "node_e_002",
-            "difficulty": "entry",
-            "question": "What is npm?",
-            "options": [
-              "Node Package Manager - package manager for JavaScript",
-              "Node Process Manager",
-              "New Programming Model",
-              "Network Protocol Module"
-            ],
-            "correctAnswer": "A",
-            "explanation": "npm is the default package manager for Node.js, managing dependencies, scripts, and publishing packages."
-          },
-          {
-            "id": "node_e_003",
-            "difficulty": "entry",
-            "question": "What is the event-driven architecture in Node.js?",
-            "options": [
-              "A programming pattern where flow is determined by events using EventEmitter",
-              "Events are scheduled at specific times",
-              "Events are triggered by mouse clicks only",
-              "A debugging technique"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Node.js uses an event-driven architecture with EventEmitter for handling asynchronous operations and callbacks."
-          },
-          {
-            "id": "node_e_004",
-            "difficulty": "entry",
-            "question": "What is the global object in Node.js?",
-            "options": [
-              "global",
-              "window",
-              "document",
-              "root"
-            ],
-            "correctAnswer": "A",
-            "explanation": "In Node.js, the global object is called 'global' (unlike 'window' in browsers) and provides global variables and functions."
-          },
-          {
-            "id": "node_e_005",
-            "difficulty": "entry",
-            "question": "What is the require() function?",
-            "options": [
-              "Function to import modules in CommonJS",
-              "Function to require dependencies",
-              "Function to install packages",
-              "Function to export modules"
-            ],
-            "correctAnswer": "A",
-            "explanation": "require() is used in CommonJS to import modules, functions, properties from other files in Node.js."
-          },
-          {
-            "id": "node_e_006",
-            "difficulty": "entry",
-            "question": "What is the module.exports object?",
-            "options": [
-              "Object that defines what a module exports when required",
-              "Object that imports modules",
-              "Object that installs packages",
-              "Object that runs scripts"
-            ],
-            "correctAnswer": "A",
-            "explanation": "module.exports is a special object that defines what a module exports when it's required by another module."
-          },
-          {
-            "id": "node_e_007",
-            "difficulty": "entry",
-            "question": "What is the fs module in Node.js?",
-            "options": [
-              "File system module for working with files and directories",
-              "Function system",
-              "File stream",
-              "Fast system"
-            ],
-            "correctAnswer": "A",
-            "explanation": "The fs module provides an API for interacting with the file system, including reading, writing, and deleting files."
-          },
-          {
-            "id": "node_e_008",
-            "difficulty": "entry",
-            "question": "What is the http module in Node.js?",
-            "options": [
-              "Module for creating HTTP servers and making HTTP requests",
-              "Hypertext transfer module",
-              "HTML module",
-              "HTTP protocol module"
-            ],
-            "correctAnswer": "A",
-            "explanation": "The http module provides functionality for creating HTTP servers and making HTTP client requests."
-          },
-          {
-            "id": "node_e_009",
-            "difficulty": "entry",
-            "question": "What is the path module in Node.js?",
-            "options": [
-              "Module for working with file and directory paths",
-              "Routing module",
-              "Path finding module",
-              "URL module"
-            ],
-            "correctAnswer": "A",
-            "explanation": "The path module provides utilities for working with file and directory paths in a cross-platform way."
-          },
-          {
-            "id": "node_e_010",
-            "difficulty": "entry",
-            "question": "What is the os module in Node.js?",
-            "options": [
-              "Module for operating system-related utilities and information",
-              "Operating system module",
-              "Open source module",
-              "Object system"
-            ],
-            "correctAnswer": "A",
-            "explanation": "The os module provides operating system-related utility methods and properties for retrieving system information."
-          },
-          {
-            "id": "node_e_011",
-            "difficulty": "entry",
-            "question": "What is the difference between Node.js and browser JavaScript?",
-            "options": [
-              "Node.js has no DOM, BOM, uses CommonJS modules, has server-specific APIs",
-              "They are the same",
-              "Browser has fs module",
-              "Node.js has window object"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Node.js lacks DOM/BOM APIs, uses CommonJS modules instead of ES modules by default, and has server-specific modules like fs, http."
-          },
-          {
-            "id": "node_e_012",
-            "difficulty": "entry",
-            "question": "What is the package.json file?",
-            "options": [
-              "Manifest file with project metadata, dependencies, scripts",
-              "Package configuration",
-              "JSON data file",
-              "JavaScript file"
-            ],
-            "correctAnswer": "A",
-            "explanation": "package.json is the manifest file containing project metadata, dependencies, devDependencies, scripts, and version information."
-          },
-          {
-            "id": "node_e_013",
-            "difficulty": "entry",
-            "question": "What is the node_modules folder?",
-            "options": [
-              "Directory where npm installs project dependencies",
-              "Node.js modules",
-              "Core modules folder",
-              "Custom modules folder"
-            ],
-            "correctAnswer": "A",
-            "explanation": "node_modules is the directory where npm installs project dependencies and their sub-dependencies."
-          },
-          {
-            "id": "node_e_014",
-            "difficulty": "entry",
-            "question": "What is the process object in Node.js?",
-            "options": [
-              "Global object providing information about the current Node.js process",
-              "Processing module",
-              "Process manager",
-              "Thread object"
-            ],
-            "correctAnswer": "A",
-            "explanation": "The process object is a global that provides information about the current Node.js process and control over it."
-          },
-          {
-            "id": "node_e_015",
-            "difficulty": "entry",
-            "question": "What is process.argv in Node.js?",
-            "options": [
-              "Array containing command-line arguments passed to the process",
-              "Argument vector",
-              "Process arguments",
-              "Environment variables"
-            ],
-            "correctAnswer": "A",
-            "explanation": "process.argv returns an array containing command-line arguments passed when the Node.js process was launched."
-          },
-          {
-            "id": "node_e_016",
-            "difficulty": "entry",
-            "question": "What is the buffer module in Node.js?",
-            "options": [
-              "Global class for handling binary data directly",
-              "Memory buffer",
-              "Cache storage",
-              "Data stream"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Buffer is a global class in Node.js for handling binary data directly without streaming or encoding/decoding."
-          },
-          {
-            "id": "node_e_017",
-            "difficulty": "entry",
-            "question": "What is the __dirname variable in Node.js?",
-            "options": [
-              "Global variable that returns the directory name of the current module",
-              "Directory name",
-              "Current directory",
-              "Parent directory"
-            ],
-            "correctAnswer": "A",
-            "explanation": "__dirname is a global variable that returns the absolute path of the directory containing the current module."
-          },
-          {
-            "id": "node_e_018",
-            "difficulty": "entry",
-            "question": "What is the __filename variable in Node.js?",
-            "options": [
-              "Global variable that returns the absolute path of the current module file",
-              "File name",
-              "Current file",
-              "Module file"
-            ],
-            "correctAnswer": "A",
-            "explanation": "__filename is a global variable that returns the absolute path of the current module file."
-          },
-          {
-            "id": "node_e_019",
-            "difficulty": "entry",
-            "question": "What is Express.js?",
-            "options": [
-              "A minimal and flexible Node.js web application framework",
-              "Express module",
-              "HTTP framework",
-              "Routing library"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Express.js is a minimal and flexible Node.js web application framework providing robust features for web and mobile applications."
-          },
-          {
-            "id": "node_e_020",
-            "difficulty": "entry",
-            "question": "What is the event loop in Node.js?",
-            "options": [
-              "A mechanism that handles asynchronous callbacks and non-blocking I/O",
-              "A loop that creates events",
-              "A timing function",
-              "A debugging tool"
-            ],
-            "correctAnswer": "A",
-            "explanation": "The event loop is what allows Node.js to perform non-blocking I/O operations by offloading operations to the system kernel."
-          }
-        ],
-        "intermediate": [
-          {
-            "id": "node_i_001",
-            "difficulty": "intermediate",
-            "question": "Explain middleware in Express.js.",
-            "options": [
-              "Functions that have access to request and response objects in the request-response cycle",
-              "Middle layer of the application",
-              "Database connectors",
-              "Template engines"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Middleware functions execute during the request-response cycle and can modify request/response objects, end the cycle, or call next middleware."
-          },
-          {
-            "id": "node_i_002",
-            "difficulty": "intermediate",
-            "question": "What is the difference between process.nextTick() and setImmediate()?",
-            "options": [
-              "nextTick executes in current phase, setImmediate executes in check phase after I/O",
-              "They are identical",
-              "setImmediate runs before nextTick",
-              "nextTick is deprecated"
-            ],
-            "correctAnswer": "A",
-            "explanation": "nextTick executes at the start of the next event loop iteration; setImmediate executes in the check phase after I/O callbacks."
-          },
-          {
-            "id": "node_i_003",
-            "difficulty": "intermediate",
-            "question": "What are streams in Node.js?",
-            "options": [
-              "Objects that allow reading/writing data continuously in chunks",
-              "HTTP requests",
-              "File system operations",
-              "Database connections"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Streams are objects that allow you to read/write data continuously from a source in chunks, improving memory efficiency for large data."
-          },
-          {
-            "id": "node_i_004",
-            "difficulty": "intermediate",
-            "question": "What is the cluster module in Node.js?",
-            "options": [
-              "Module for creating child processes that share server ports",
-              "Database cluster module",
-              "Load balancer",
-              "Process manager"
-            ],
-            "correctAnswer": "A",
-            "explanation": "The cluster module allows you to create child processes that share server ports for load balancing across multiple CPU cores."
-          },
-          {
-            "id": "node_i_005",
-            "difficulty": "intermediate",
-            "question": "What are the different types of streams in Node.js?",
-            "options": [
-              "Readable, Writable, Duplex, Transform",
-              "Input, Output, Error",
-              "File, Network, Console",
-              "Sync, Async, Promise"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Node.js has four stream types: Readable (reading), Writable (writing), Duplex (both), and Transform (modify data)."
-          },
-          {
-            "id": "node_i_006",
-            "difficulty": "intermediate",
-            "question": "What is the difference between readFile and createReadStream?",
-            "options": [
-              "readFile loads entire file into memory, createReadStream streams chunks",
-              "They are the same",
-              "readFile streams data",
-              "createReadStream loads entire file"
-            ],
-            "correctAnswer": "A",
-            "explanation": "readFile reads entire file into memory before callback; createReadStream reads in chunks for memory efficiency with large files."
-          },
-          {
-            "id": "node_i_007",
-            "difficulty": "intermediate",
-            "question": "What is the crypto module in Node.js?",
-            "options": [
-              "Module for cryptographic functionality including hashing, encryption, and signing",
-              "Cryptocurrency module",
-              "Security module",
-              "Encoding module"
-            ],
-            "correctAnswer": "A",
-            "explanation": "The crypto module provides cryptographic functionality including OpenSSL's hash, HMAC, cipher, decipher, sign, and verify functions."
-          },
-          {
-            "id": "node_i_008",
-            "difficulty": "intermediate",
-            "question": "What is the difference between synchronous and asynchronous methods in fs?",
-            "options": [
-              "Sync methods block the event loop, async methods use callbacks/promises",
-              "Sync methods are faster",
-              "Async methods block",
-              "No difference"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Synchronous methods (e.g., readFileSync) block the event loop; asynchronous methods (e.g., readFile) are non-blocking."
-          },
-          {
-            "id": "node_i_009",
-            "difficulty": "intermediate",
-            "question": "What is the events module in Node.js?",
-            "options": [
-              "Module for working with the EventEmitter class for event-driven programming",
-              "Event handling module",
-              "DOM events",
-              "Custom events"
-            ],
-            "correctAnswer": "A",
-            "explanation": "The events module provides the EventEmitter class for implementing event-driven architecture with custom events."
-          },
-          {
-            "id": "node_i_010",
-            "difficulty": "intermediate",
-            "question": "What is the util module in Node.js?",
-            "options": [
-              "Module providing utility functions for debugging, formatting, and inheritance",
-              "Utilities module",
-              "Helper functions",
-              "Debugging tools"
-            ],
-            "correctAnswer": "A",
-            "explanation": "The util module provides utility functions like promisify, inherits, deprecate, and inspect for debugging."
-          },
-          {
-            "id": "node_i_011",
-            "difficulty": "intermediate",
-            "question": "What is util.promisify in Node.js?",
-            "options": [
-              "Converts callback-based functions to Promise-based",
-              "Creates promises",
-              "Async utility",
-              "Callback to async"
-            ],
-            "correctAnswer": "A",
-            "explanation": "util.promisify converts callback-based functions that follow error-first callback convention to Promise-based functions."
-          },
-          {
-            "id": "node_i_012",
-            "difficulty": "intermediate",
-            "question": "What is the error-first callback pattern in Node.js?",
-            "options": [
-              "Callback where first argument is error, remaining are results",
-              "Error handling pattern",
-              "First callback",
-              "Error priority"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Error-first callbacks (err, data) => {} have error as first parameter, null if no error, and results in subsequent parameters."
-          },
-          {
-            "id": "node_i_013",
-            "difficulty": "intermediate",
-            "question": "What is the query string module in Node.js?",
-            "options": [
-              "Module for parsing and formatting URL query strings",
-              "Database query module",
-              "SQL module",
-              "String query"
-            ],
-            "correctAnswer": "A",
-            "explanation": "The querystring module provides utilities for parsing and formatting URL query strings."
-          },
-          {
-            "id": "node_i_014",
-            "difficulty": "intermediate",
-            "question": "What is the url module in Node.js?",
-            "options": [
-              "Module for URL resolution and parsing",
-              "URL routing",
-              "HTTP module",
-              "Web socket module"
-            ],
-            "correctAnswer": "A",
-            "explanation": "The url module provides utilities for URL resolution, parsing, and formatting according to WHATWG URL API."
-          },
-          {
-            "id": "node_i_015",
-            "difficulty": "intermediate",
-            "question": "What is the zlib module in Node.js?",
-            "options": [
-              "Module for compression and decompression using Gzip, Deflate/Inflate",
-              "Zip module",
-              "Archive module",
-              "Compression utility"
-            ],
-            "correctAnswer": "A",
-            "explanation": "The zlib module provides compression functionality implemented using Gzip, Deflate/Inflate, and Brotli."
-          },
-          {
-            "id": "node_i_016",
-            "difficulty": "intermediate",
-            "question": "What is the net module in Node.js?",
-            "options": [
-              "Module for creating TCP servers and clients",
-              "Network module",
-              "HTTP module",
-              "Socket module"
-            ],
-            "correctAnswer": "A",
-            "explanation": "The net module provides an asynchronous network API for creating stream-based TCP or IPC servers and clients."
-          },
-          {
-            "id": "node_i_017",
-            "difficulty": "intermediate",
-            "question": "What is the dns module in Node.js?",
-            "options": [
-              "Module for performing DNS lookups and name resolution",
-              "Domain name module",
-              "Network module",
-              "Server module"
-            ],
-            "correctAnswer": "A",
-            "explanation": "The dns module provides functions for performing DNS lookups and name resolution operations."
-          },
-          {
-            "id": "node_i_018",
-            "difficulty": "intermediate",
-            "question": "What is the child_process module in Node.js?",
-            "options": [
-              "Module for spawning child processes",
-              "Child process management",
-              "Process module",
-              "Thread module"
-            ],
-            "correctAnswer": "A",
-            "explanation": "The child_process module enables spawning child processes and communicating with them via IPC."
-          },
-          {
-            "id": "node_i_019",
-            "difficulty": "intermediate",
-            "question": "What is the difference between spawn, exec, and fork?",
-            "options": [
-              "spawn: streams, exec: buffers, fork: new Node.js process with IPC",
-              "They are the same",
-              "exec: streams, spawn: buffers",
-              "fork: buffers"
-            ],
-            "correctAnswer": "A",
-            "explanation": "spawn streams I/O, exec buffers output, fork spawns new Node.js process with IPC channel for module execution."
-          },
-          {
-            "id": "node_i_020",
-            "difficulty": "intermediate",
-            "question": "What is the assert module in Node.js?",
-            "options": [
-              "Module for writing tests and making assertions",
-              "Assertion module",
-              "Testing module",
-              "Debug module"
-            ],
-            "correctAnswer": "A",
-            "explanation": "The assert module provides simple assertion testing utilities for verifying invariants in code."
-          }
-        ],
-        "senior": [
-          {
-            "id": "node_s_001",
-            "difficulty": "senior",
-            "question": "How does the Node.js event loop work?",
-            "options": [
-              "Phases: timers, pending callbacks, idle, poll, check, close",
-              "Single queue",
-              "Two-phase loop",
-              "Synchronous execution"
-            ],
-            "correctAnswer": "A",
-            "explanation": "The event loop has multiple phases: timers (setTimeout/setInterval), I/O callbacks, idle, poll, check (setImmediate), and close callbacks."
-          },
-          {
-            "id": "node_s_002",
-            "difficulty": "senior",
-            "question": "What is libuv in Node.js?",
-            "options": [
-              "C library that provides the event loop and asynchronous I/O",
-              "JavaScript library",
-              "HTTP library",
-              "Database library"
-            ],
-            "correctAnswer": "A",
-            "explanation": "libuv is a multi-platform C library that provides the event loop and asynchronous I/O operations (file, network, DNS) to Node.js."
-          },
-          {
-            "id": "node_s_003",
-            "difficulty": "senior",
-            "question": "How do you handle uncaught exceptions in Node.js?",
-            "options": [
-              "process.on('uncaughtException') and process.on('unhandledRejection')",
-              "try/catch blocks",
-              "console.error()",
-              "throw new Error()"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Uncaught exceptions and unhandled promise rejections can be caught using process event listeners, but it's better to exit and restart."
-          },
-          {
-            "id": "node_s_004",
-            "difficulty": "senior",
-            "question": "What are worker threads in Node.js?",
-            "options": [
-              "Separate threads for CPU-intensive JavaScript operations",
-              "I/O threads",
-              "Event loop threads",
-              "Database threads"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Worker threads enable running CPU-intensive JavaScript operations in parallel without blocking the event loop."
-          },
-          {
-            "id": "node_s_005",
-            "difficulty": "senior",
-            "question": "What is the thread pool in libuv?",
-            "options": [
-              "Pool of threads for file I/O, DNS, and user-defined asynchronous tasks",
-              "Thread scheduler",
-              "Process pool",
-              "Memory pool"
-            ],
-            "correctAnswer": "A",
-            "explanation": "libuv maintains a thread pool (default 4 threads) for file system operations, DNS lookups, and custom async tasks."
-          },
-          {
-            "id": "node_s_006",
-            "difficulty": "senior",
-            "question": "How do you increase the thread pool size in libuv?",
-            "options": [
-              "Set UV_THREADPOOL_SIZE environment variable",
-              "process.threadPoolSize",
-              "libuv.setThreadPool()",
-              "Cannot change"
-            ],
-            "correctAnswer": "A",
-            "explanation": "The UV_THREADPOOL_SIZE environment variable can be set to increase the libuv thread pool size up to 1024 threads."
-          },
-          {
-            "id": "node_s_007",
-            "difficulty": "senior",
-            "question": "What is the difference between setImmediate and setTimeout(fn, 0)?",
-            "options": [
-              "setImmediate in check phase, setTimeout in timers phase with minimum 1ms",
-              "They are the same",
-              "setTimeout is faster",
-              "setImmediate is deprecated"
-            ],
-            "correctAnswer": "A",
-            "explanation": "setImmediate executes in check phase, setTimeout executes in timers phase; setTimeout(fn, 0) has minimum 1ms delay."
-          },
-          {
-            "id": "node_s_008",
-            "difficulty": "senior",
-            "question": "What is the V8 memory limit in Node.js?",
-            "options": [
-              "~1.4GB for 64-bit, ~0.7GB for 32-bit by default",
-              "Unlimited",
-              "512MB",
-              "256MB"
-            ],
-            "correctAnswer": "A",
-            "explanation": "V8 memory limit is approximately 1.4GB for 64-bit and 0.7GB for 32-bit systems, adjustable with --max-old-space-size."
-          },
-          {
-            "id": "node_s_009",
-            "difficulty": "senior",
-            "question": "How do you debug memory leaks in Node.js?",
-            "options": [
-              "Heap snapshots, memory profiling, Chrome DevTools, process.memoryUsage()",
-              "console.log",
-              "Alert statements",
-              "Debugger"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Memory leaks are debugged using heap snapshots (--inspect), memory profiling, Chrome DevTools, and monitoring process.memoryUsage()."
-          },
-          {
-            "id": "node_s_010",
-            "difficulty": "senior",
-            "question": "What is the cluster module's load balancing strategy?",
-            "options": [
-              "Round-robin on non-Windows platforms",
-              "Least connections",
-              "Random",
-              "Weighted"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Cluster uses round-robin load balancing on non-Windows platforms to distribute incoming connections across worker processes."
-          },
-          {
-            "id": "node_s_011",
-            "difficulty": "senior",
-            "question": "What is the difference between process.nextTick and setImmediate?",
-            "options": [
-              "nextTick runs before I/O, setImmediate after I/O, different microtask queue",
-              "They are the same",
-              "nextTick is in check phase",
-              "setImmediate is in nextTick queue"
-            ],
-            "correctAnswer": "A",
-            "explanation": "nextTick executes in the current phase before I/O, setImmediate executes in check phase after I/O callbacks."
-          },
-          {
-            "id": "node_s_012",
-            "difficulty": "senior",
-            "question": "What is the purpose of the async_hooks module?",
-            "options": [
-              "Track lifetime of asynchronous resources for debugging and tracing",
-              "Async hooks",
-              "Promise hooks",
-              "Callback tracking"
-            ],
-            "correctAnswer": "A",
-            "explanation": "async_hooks provides an API to track the lifetime of asynchronous resources (promises, timers, etc.) for diagnostics."
-          },
-          {
-            "id": "node_s_013",
-            "difficulty": "senior",
-            "question": "What is the perf_hooks module in Node.js?",
-            "options": [
-              "Performance measurement APIs for timing operations",
-              "Performance hooks",
-              "Profiling module",
-              "Benchmarking"
-            ],
-            "correctAnswer": "A",
-            "explanation": "perf_hooks provides Performance Measurement APIs for timing operations and collecting performance metrics."
-          },
-          {
-            "id": "node_s_014",
-            "difficulty": "senior",
-            "question": "How do you implement graceful shutdown in Node.js?",
-            "options": [
-              "Listen to SIGTERM, SIGINT, close server, stop accepting new connections",
-              "process.exit()",
-              "throw error",
-              "Force kill"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Graceful shutdown: listen for termination signals, close server, stop accepting connections, complete pending requests, then exit."
-          },
-          {
-            "id": "node_s_015",
-            "difficulty": "senior",
-            "question": "What is the inspector module in Node.js?",
-            "options": [
-              "Module for interacting with the V8 inspector for debugging and profiling",
-              "Inspection module",
-              "Debug module",
-              "Testing module"
-            ],
-            "correctAnswer": "A",
-            "explanation": "The inspector module provides an API for interacting with the V8 inspector for debugging, profiling, and code coverage."
-          },
-          {
-            "id": "node_s_016",
-            "difficulty": "senior",
-            "question": "What is the difference between CommonJS and ES modules in Node.js?",
-            "options": [
-              "CommonJS: require, module.exports, synchronous; ES modules: import/export, asynchronous, static analysis",
-              "They are the same",
-              "CommonJS is newer",
-              "ES modules are synchronous"
-            ],
-            "correctAnswer": "A",
-            "explanation": "CommonJS uses require() and module.exports, dynamic loading; ES modules use import/export, static analysis, and top-level await."
-          },
-          {
-            "id": "node_s_017",
-            "difficulty": "senior",
-            "question": "How do you enable ES modules in Node.js?",
-            "options": [
-              "Set type: module in package.json or .mjs extension",
-              "Use --es-modules flag",
-              "Use import syntax",
-              "Enable in config"
-            ],
-            "correctAnswer": "A",
-            "explanation": "ES modules are enabled by setting 'type': 'module' in package.json or using .mjs file extension."
-          },
-          {
-            "id": "node_s_018",
-            "difficulty": "senior",
-            "question": "What is the diagnostic report in Node.js?",
-            "options": [
-              "JSON-formatted report containing diagnostics, stack traces, resource usage",
-              "Error log",
-              "Performance report",
-              "Security report"
-            ],
-            "correctAnswer": "A",
-            "explanation": "The diagnostic report provides detailed system and JavaScript runtime information for troubleshooting, including stack traces and resource usage."
-          },
-          {
-            "id": "node_s_019",
-            "difficulty": "senior",
-            "question": "What is the heap profiler in Node.js?",
-            "options": [
-              "Tool for analyzing memory allocation and heap usage",
-              "Heap analyzer",
-              "Memory profiler",
-              "Garbage collector"
-            ],
-            "correctAnswer": "A",
-            "explanation": "The heap profiler provides APIs for taking heap snapshots and tracking memory allocation for memory leak detection."
-          },
-          {
-            "id": "node_s_020",
-            "difficulty": "senior",
-            "question": "How do you profile CPU usage in Node.js?",
-            "options": [
-              "Use --cpu-prof flag, V8 CPU profiler, or clinic.js tools",
-              "Task manager",
-              "console.time",
-              "Performance.now()"
-            ],
-            "correctAnswer": "A",
-            "explanation": "CPU profiling uses --cpu-prof flag, V8 CPU profiler, clinic.js, or Chrome DevTools for flame graphs and performance analysis."
-          }
-        ],
-        "expert": [
-          {
-            "id": "node_ex_001",
-            "difficulty": "expert",
-            "question": "How does the Node.js C++ addon system work?",
-            "options": [
-              "Native modules written in C++ using N-API or Nan, compiled with node-gyp",
-              "JavaScript modules",
-              "Python modules",
-              "Ruby modules"
-            ],
-            "correctAnswer": "A",
-            "explanation": "C++ addons are native modules compiled with node-gyp, providing JavaScript bindings to C++ code via N-API or Nan."
-          },
-          {
-            "id": "node_ex_002",
-            "difficulty": "expert",
-            "question": "What is the V8 snapshots feature in Node.js?",
-            "options": [
-              "Pre-compiled heap snapshots for faster startup",
-              "Memory snapshots",
-              "CPU profiles",
-              "Debug snapshots"
-            ],
-            "correctAnswer": "A",
-            "explanation": "V8 snapshots serialize the initialized heap to improve startup time by restoring state without reinitializing core modules."
-          },
-          {
-            "id": "node_ex_003",
-            "difficulty": "expert",
-            "question": "How does the Node.js module resolution algorithm work?",
-            "options": [
-              "Core modules -> file modules -> node_modules -> NODE_PATH",
-              "node_modules only",
-              "Global modules only",
-              "Relative paths only"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Node.js resolves modules by checking core modules, then file paths, then node_modules directories recursively up the filesystem."
-          },
-          {
-            "id": "node_ex_004",
-            "difficulty": "expert",
-            "question": "What is the microtask queue in Node.js?",
-            "options": [
-              "Queue for promise callbacks and queueMicrotask, runs between each phase",
-              "Event queue",
-              "Callback queue",
-              "Timer queue"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Microtask queue handles Promise callbacks and queueMicrotask, executes after each phase before next event loop iteration."
-          },
-          {
-            "id": "node_ex_005",
-            "difficulty": "expert",
-            "question": "How does Node.js handle file system operations?",
-            "options": [
-              "Thread pool for most operations, non-blocking for some (open, close)",
-              "Event loop only",
-              "Synchronous only",
-              "Kernel only"
-            ],
-            "correctAnswer": "A",
-            "explanation": "FS operations use libuv's thread pool for most operations, while some (open, close) are non-blocking in the kernel."
-          },
-          {
-            "id": "node_ex_006",
-            "difficulty": "expert",
-            "question": "What is the TCP wrapper in Node.js?",
-            "options": [
-              "C++ binding that wraps libuv TCP handle for JavaScript",
-              "TCP module",
-              "Network wrapper",
-              "Socket wrapper"
-            ],
-            "correctAnswer": "A",
-            "explanation": "TCP wrapper is a C++ binding that exposes libuv TCP handle functionality to JavaScript through the net module."
-          },
-          {
-            "id": "node_ex_007",
-            "difficulty": "expert",
-            "question": "How does the HTTP parser work in Node.js?",
-            "options": [
-              "C library llhttp (formerly http_parser) for fast HTTP parsing",
-              "JavaScript parser",
-              "Regex parser",
-              "String parser"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Node.js uses llhttp, a high-performance C HTTP parser, for fast parsing of HTTP requests and responses."
-          },
-          {
-            "id": "node_ex_008",
-            "difficulty": "expert",
-            "question": "What is the TLS/SSL implementation in Node.js?",
-            "options": [
-              "Uses OpenSSL for crypto and TLS/SSL protocols",
-              "Custom implementation",
-              "CryptoJS",
-              "WebCrypto"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Node.js uses OpenSSL via the crypto module for TLS/SSL protocols, providing HTTPS, TLS, and cryptographic functions."
-          },
-          {
-            "id": "node_ex_009",
-            "difficulty": "expert",
-            "question": "How does the Node.js REPL work internally?",
-            "options": [
-              "Uses readline module, V8 evaluation, history management",
-              "Console API",
-              "Eval function",
-              "Process.stdin"
-            ],
-            "correctAnswer": "A",
-            "explanation": "REPL uses readline for input, V8 for evaluation, manages history, context, and built-in commands via Node.js REPLServer."
-          },
-          {
-            "id": "node_ex_010",
-            "difficulty": "expert",
-            "question": "What is the process.binding() function in Node.js?",
-            "options": [
-              "Internal API for accessing C++ bindings (deprecated, use internalBinding)",
-              "Process binding",
-              "Module binding",
-              "Native binding"
-            ],
-            "correctAnswer": "A",
-            "explanation": "process.binding() is an internal API that exposes C++ bindings to JavaScript, now replaced with internalBinding."
-          },
-          {
-            "id": "node_ex_011",
-            "difficulty": "expert",
-            "question": "How does Node.js implement the EventEmitter?",
-            "options": [
-              "Map of event names to arrays of listeners, emit iterates and calls",
-              "Observer pattern",
-              "Callback registry",
-              "Event queue"
-            ],
-            "correctAnswer": "A",
-            "explanation": "EventEmitter maintains a map of event names to arrays of listener functions, emit invokes listeners in order with arguments."
-          },
-          {
-            "id": "node_ex_012",
-            "difficulty": "expert",
-            "question": "What is the memory leak detection in EventEmitter?",
-            "options": [
-              "Warns when adding listener with >10 (configurable) listeners per event",
-              "No detection",
-              "Memory monitoring",
-              "Listener limit"
-            ],
-            "correctAnswer": "A",
-            "explanation": "EventEmitter warns of potential memory leaks when more than defaultMaxListeners (10) are added to a single event."
-          },
-          {
-            "id": "node_ex_013",
-            "difficulty": "expert",
-            "question": "How does the async/await transformation work in Node.js?",
-            "options": [
-              "Transpiled to generators + promises by V8, not Node.js",
-              "Node.js compiler",
-              "Babel",
-              "Custom implementation"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Async/await is implemented in V8, transforming async functions into generators with Promise-based execution."
-          },
-          {
-            "id": "node_ex_014",
-            "difficulty": "expert",
-            "question": "What is the VM module in Node.js?",
-            "options": [
-              "Module for running JavaScript code in isolated V8 contexts",
-              "Virtual machine",
-              "Process module",
-              "Sandbox module"
-            ],
-            "correctAnswer": "A",
-            "explanation": "The vm module provides APIs for compiling and running code within V8 Virtual Machine contexts for sandboxed execution."
-          },
-          {
-            "id": "node_ex_015",
-            "difficulty": "expert",
-            "question": "How does the inspector protocol work in Node.js?",
-            "options": [
-              "WebSocket-based protocol for debugging and profiling over Chrome DevTools",
-              "HTTP protocol",
-              "TCP protocol",
-              "IPC protocol"
-            ],
-            "correctAnswer": "A",
-            "explanation": "V8 inspector protocol uses WebSockets for communication between Node.js and debugging clients like Chrome DevTools."
-          },
-          {
-            "id": "node_ex_016",
-            "difficulty": "expert",
-            "question": "What is the Node.js embedded bootstrapping process?",
-            "options": [
-              "Startup: platform init, V8 init, Node.js binding, bootstrap.js, run user code",
-              "Module loading",
-              "Process start",
-              "Event loop start"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Bootstrapping: initialize platform and V8, create environment, execute bootstrap.js to setup globals, load modules, run user code."
-          },
-          {
-            "id": "node_ex_017",
-            "difficulty": "expert",
-            "question": "How does Node.js handle non-JavaScript threads?",
-            "options": [
-              "Worker threads for JavaScript, libuv thread pool for I/O, no multi-threading for JS",
-              "Multi-threading",
-              "Processes only",
-              "Fiber threads"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Node.js uses worker threads for parallel JavaScript execution, libuv thread pool for I/O, main thread runs event loop."
-          },
-          {
-            "id": "node_ex_018",
-            "difficulty": "expert",
-            "question": "What is the performance impact of the async_hooks module?",
-            "options": [
-              "Significant overhead, use with caution in production",
-              "No overhead",
-              "Minimal impact",
-              "Optimized"
-            ],
-            "correctAnswer": "A",
-            "explanation": "async_hooks adds significant performance overhead due to tracking all async resources and is not recommended for production."
-          },
-          {
-            "id": "node_ex_019",
-            "difficulty": "expert",
-            "question": "How does the npm install algorithm work?",
-            "options": [
-              "Construct dependency graph, dedupe, flatten, hoist to minimize nesting",
-              "Install sequentially",
-              "Copy modules",
-              "Download and extract"
-            ],
-            "correctAnswer": "A",
-            "explanation": "npm installs: resolve dependency tree, deduplicate, flatten node_modules where possible, hoist common dependencies."
-          },
-          {
-            "id": "node_ex_020",
-            "difficulty": "expert",
-            "question": "What is the lockfile in npm/yarn?",
-            "options": [
-              "Pinned versions of entire dependency tree for deterministic installs",
-              "Locked packages",
-              "Version lock",
-              "Install lock"
-            ],
-            "correctAnswer": "A",
-            "explanation": "package-lock.json or yarn.lock records exact version of every dependency and sub-dependency for reproducible builds."
-          }
-        ]
-      }
-    },
+      
     {
       "category": "SQL/Databases",
       "questions": {
@@ -6320,7 +6338,5 @@
         ]
       }
     }
-  ]
-}
   ]
 }
