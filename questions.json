@@ -4818,6 +4818,981 @@
           }
         ]
       }
-    }
+    },
+    {
+  "category": "Java",
+  "questions": {
+    "entry": [
+      {
+        "id": "java_e_001",
+        "question": "What is the difference between JDK, JRE, and JVM?",
+        "options": [
+          "They are the same thing",
+          "JVM executes bytecode, JRE contains JVM and libraries, JDK contains JRE and development tools",
+          "JDK is for development, JRE is for running, JVM doesn't exist",
+          "JVM is for Windows only"
+        ],
+        "correctAnswer": "B",
+        "explanation": "JVM runs bytecode, JRE provides runtime environment, JDK includes development tools and JRE."
+      },
+      {
+        "id": "java_e_002",
+        "question": "What is the main method signature in Java?",
+        "options": [
+          "public void main(String[] args)",
+          "public static void main(String[] args)",
+          "static void main(String args)",
+          "public static int main(String[] args)"
+        ],
+        "correctAnswer": "B",
+        "explanation": "The entry point must be public static void main(String[] args)."
+      },
+      {
+        "id": "java_e_003",
+        "question": "Which keyword is used to inherit a class in Java?",
+        "options": [
+          "extends",
+          "implements",
+          "inherits",
+          "super"
+        ],
+        "correctAnswer": "A",
+        "explanation": "extends is used for class inheritance in Java."
+      },
+      {
+        "id": "java_e_004",
+        "question": "Which of these is not a primitive data type?",
+        "options": [
+          "String",
+          "int",
+          "boolean",
+          "double"
+        ],
+        "correctAnswer": "A",
+        "explanation": "String is a class, not a primitive type."
+      },
+      {
+        "id": "java_e_005",
+        "question": "Which keyword creates an object?",
+        "options": [
+          "new",
+          "create",
+          "object",
+          "instantiate"
+        ],
+        "correctAnswer": "A",
+        "explanation": "new instantiates a class to create an object."
+      },
+      {
+        "id": "java_e_006",
+        "question": "What is the size of int in Java?",
+        "options": [
+          "32 bits",
+          "16 bits",
+          "64 bits",
+          "8 bits"
+        ],
+        "correctAnswer": "A",
+        "explanation": "int is a 32-bit signed integer in Java."
+      },
+      {
+        "id": "java_e_007",
+        "question": "Which package contains the Scanner class?",
+        "options": [
+          "java.util",
+          "java.io",
+          "java.lang",
+          "java.scanner"
+        ],
+        "correctAnswer": "A",
+        "explanation": "Scanner is in java.util package."
+      },
+      {
+        "id": "java_e_008",
+        "question": "What is the default value of a boolean variable?",
+        "options": [
+          "false",
+          "true",
+          "null",
+          "0"
+        ],
+        "correctAnswer": "A",
+        "explanation": "Boolean instance variables default to false."
+      },
+      {
+        "id": "java_e_009",
+        "question": "What is the range of byte data type?",
+        "options": [
+          "-128 to 127",
+          "-32768 to 32767",
+          "-2147483648 to 2147483647",
+          "0 to 65535"
+        ],
+        "correctAnswer": "A",
+        "explanation": "byte is 8-bit signed integer from -128 to 127."
+      },
+      {
+        "id": "java_e_010",
+        "question": "How do you declare a constant in Java?",
+        "options": [
+          "final",
+          "const",
+          "static",
+          "constant"
+        ],
+        "correctAnswer": "A",
+        "explanation": "final keyword makes variable constant."
+      },
+      {
+        "id": "java_e_011",
+        "question": "What is the parent class of all classes?",
+        "options": [
+          "Object",
+          "Class",
+          "Main",
+          "Super"
+        ],
+        "correctAnswer": "A",
+        "explanation": "Object is the root class in Java."
+      },
+      {
+        "id": "java_e_012",
+        "question": "Which loop is guaranteed to execute at least once?",
+        "options": [
+          "do-while",
+          "while",
+          "for",
+          "for-each"
+        ],
+        "correctAnswer": "A",
+        "explanation": "do-while executes body before condition check."
+      },
+      {
+        "id": "java_e_013",
+        "question": "What is the output of 10 % 3?",
+        "options": [
+          "1",
+          "3",
+          "0",
+          "3.33"
+        ],
+        "correctAnswer": "A",
+        "explanation": "% returns remainder: 10 ÷ 3 = 3 remainder 1."
+      },
+      {
+        "id": "java_e_014",
+        "question": "How do you convert String to int?",
+        "options": [
+          "Integer.parseInt()",
+          "Integer.toString()",
+          "String.valueOf()",
+          "(int)"
+        ],
+        "correctAnswer": "A",
+        "explanation": "parseInt converts String to primitive int."
+      },
+      {
+        "id": "java_e_015",
+        "question": "What is the default value of an int variable in class?",
+        "options": [
+          "0",
+          "null",
+          "undefined",
+          "false"
+        ],
+        "correctAnswer": "A",
+        "explanation": "int instance variables default to 0."
+      },
+      {
+        "id": "java_e_016",
+        "question": "What is method overloading?",
+        "options": [
+          "Same name, different parameters",
+          "Same name, same parameters",
+          "Different class",
+          "Different return type"
+        ],
+        "correctAnswer": "A",
+        "explanation": "Overloading uses same method name with different parameters."
+      },
+      {
+        "id": "java_e_017",
+        "question": "What is a constructor?",
+        "options": [
+          "Special method to initialize objects",
+          "Regular method",
+          "Variable",
+          "Class"
+        ],
+        "correctAnswer": "A",
+        "explanation": "Constructor initializes new objects."
+      },
+      {
+        "id": "java_e_018",
+        "question": "Does Java support multiple inheritance?",
+        "options": [
+          "No",
+          "Yes",
+          "Through interfaces only",
+          "Through classes only"
+        ],
+        "correctAnswer": "C",
+        "explanation": "Java doesn't support multiple class inheritance but multiple interfaces."
+      },
+      {
+        "id": "java_e_019",
+        "question": "What is the index of first array element?",
+        "options": [
+          "0",
+          "1",
+          "-1",
+          "null"
+        ],
+        "correctAnswer": "A",
+        "explanation": "Java arrays are zero-indexed."
+      },
+      {
+        "id": "java_e_020",
+        "question": "What does the static keyword mean?",
+        "options": [
+          "Class-level member",
+          "Instance-level",
+          "Constant",
+          "Local"
+        ],
+        "correctAnswer": "A",
+        "explanation": "static members belong to class, not instance."
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "java_i_001",
+        "question": "Which is an unchecked exception?",
+        "options": [
+          "NullPointerException",
+          "IOException",
+          "SQLException",
+          "FileNotFoundException"
+        ],
+        "correctAnswer": "A",
+        "explanation": "NullPointerException is a runtime exception (unchecked)."
+      },
+      {
+        "id": "java_i_002",
+        "question": "Which collection avoids duplicates?",
+        "options": [
+          "Set",
+          "List",
+          "Map",
+          "Queue"
+        ],
+        "correctAnswer": "A",
+        "explanation": "Set stores unique elements only."
+      },
+      {
+        "id": "java_i_003",
+        "question": "What is polymorphism?",
+        "options": [
+          "Many forms",
+          "Single form",
+          "Data hiding",
+          "Encapsulation"
+        ],
+        "correctAnswer": "A",
+        "explanation": "Polymorphism allows objects to take multiple forms."
+      },
+      {
+        "id": "java_i_004",
+        "question": "What is the difference between abstract class and interface?",
+        "options": [
+          "Abstract classes can have implementation, interfaces cannot (pre-Java 8)",
+          "Interfaces can have implementation, abstract classes cannot",
+          "There is no difference",
+          "Abstract classes are faster"
+        ],
+        "correctAnswer": "A",
+        "explanation": "Abstract classes can have implemented methods and state; interfaces traditionally had only abstract methods (pre-Java 8)."
+      },
+      {
+        "id": "java_i_005",
+        "question": "What is method overriding?",
+        "options": [
+          "Child redefines parent method",
+          "Same method name different parameters",
+          "Multiple methods in same class",
+          "Private method redefinition"
+        ],
+        "correctAnswer": "A",
+        "explanation": "Overriding provides specific implementation in subclass."
+      },
+      {
+        "id": "java_i_006",
+        "question": "What is the final keyword used for?",
+        "options": [
+          "Constant variable, prevent inheritance, prevent overriding",
+          "Only constant variable",
+          "Only prevent inheritance",
+          "Only prevent overriding"
+        ],
+        "correctAnswer": "A",
+        "explanation": "final prevents modification, inheritance, and overriding."
+      },
+      {
+        "id": "java_i_007",
+        "question": "What is the difference between throw and throws?",
+        "options": [
+          "throw: explicitly throw exception, throws: declare exceptions",
+          "throw: declare exceptions, throws: throw exception",
+          "They are same",
+          "throw is for checked, throws for unchecked"
+        ],
+        "correctAnswer": "A",
+        "explanation": "throw explicitly throws; throws declares possible exceptions."
+      },
+      {
+        "id": "java_i_008",
+        "question": "What is the difference between ArrayList and LinkedList?",
+        "options": [
+          "ArrayList: array-based, fast random access; LinkedList: doubly-linked, fast insertions/deletions",
+          "ArrayList: linked, LinkedList: array",
+          "They are same",
+          "ArrayList is faster always"
+        ],
+        "correctAnswer": "A",
+        "explanation": "ArrayList fast for random access; LinkedList fast for insertions/deletions."
+      },
+      {
+        "id": "java_i_009",
+        "question": "What is the difference between HashMap and Hashtable?",
+        "options": [
+          "HashMap: non-synchronized, allows null; Hashtable: synchronized, no null",
+          "HashMap: synchronized, Hashtable: non-synchronized",
+          "They are same",
+          "HashMap is older"
+        ],
+        "correctAnswer": "A",
+        "explanation": "Hashtable is thread-safe; HashMap is not but more efficient and allows null."
+      },
+      {
+        "id": "java_i_010",
+        "question": "What is the Comparable interface?",
+        "options": [
+          "Natural ordering, compareTo() method",
+          "Custom ordering",
+          "Sorting algorithm",
+          "Comparator"
+        ],
+        "correctAnswer": "A",
+        "explanation": "Comparable defines natural order for objects."
+      },
+      {
+        "id": "java_i_011",
+        "question": "What is the Comparator interface?",
+        "options": [
+          "Custom ordering, compare() method",
+          "Natural ordering",
+          "Same as Comparable",
+          "Sorting algorithm"
+        ],
+        "correctAnswer": "A",
+        "explanation": "Comparator defines custom order independent of object."
+      },
+      {
+        "id": "java_i_012",
+        "question": "What is the difference between Iterator and ListIterator?",
+        "options": [
+          "ListIterator bidirectional, more methods; Iterator unidirectional",
+          "Iterator bidirectional, ListIterator unidirectional",
+          "They are same",
+          "ListIterator is older"
+        ],
+        "correctAnswer": "A",
+        "explanation": "ListIterator extends Iterator with bidirectional traversal."
+      },
+      {
+        "id": "java_i_013",
+        "question": "What is the difference between StringBuffer and StringBuilder?",
+        "options": [
+          "StringBuffer: synchronized, StringBuilder: not synchronized",
+          "StringBuilder: synchronized, StringBuffer: not synchronized",
+          "They are same",
+          "StringBuffer is faster"
+        ],
+        "correctAnswer": "A",
+        "explanation": "StringBuffer is thread-safe; StringBuilder is faster but not thread-safe."
+      },
+      {
+        "id": "java_i_014",
+        "question": "What is the equals() method?",
+        "options": [
+          "Compare object content, overridden from Object",
+          "Compare references",
+          "Same as ==",
+          "Hash code"
+        ],
+        "correctAnswer": "A",
+        "explanation": "equals() compares object content, not references."
+      },
+      {
+        "id": "java_i_015",
+        "question": "What is the hashCode() method?",
+        "options": [
+          "Integer representation, contract with equals(), used in hash-based collections",
+          "Unique identifier",
+          "Memory address",
+          "Object id"
+        ],
+        "correctAnswer": "A",
+        "explanation": "hashCode() returns hash code; must be consistent with equals()."
+      },
+      {
+        "id": "java_i_016",
+        "question": "What is the transient keyword?",
+        "options": [
+          "Skip serialization, don't persist",
+          "Make variable serializable",
+          "Make variable constant",
+          "Make variable volatile"
+        ],
+        "correctAnswer": "A",
+        "explanation": "transient variables are not serialized."
+      },
+      {
+        "id": "java_i_017",
+        "question": "What is the volatile keyword?",
+        "options": [
+          "Thread visibility, prevent caching, no atomicity",
+          "Thread safety",
+          "Atomic operations",
+          "Synchronization"
+        ],
+        "correctAnswer": "A",
+        "explanation": "volatile ensures variable changes are visible across threads."
+      },
+      {
+        "id": "java_i_018",
+        "question": "What is the synchronized keyword?",
+        "options": [
+          "Thread safety, lock mechanism, prevent interference",
+          "Async execution",
+          "Parallel processing",
+          "Thread creation"
+        ],
+        "correctAnswer": "A",
+        "explanation": "synchronized controls access to code blocks by threads."
+      },
+      {
+        "id": "java_i_019",
+        "question": "What is the lambda expression?",
+        "options": [
+          "Anonymous function, concise syntax, functional interface",
+          "Named function",
+          "Class method",
+          "Instance method"
+        ],
+        "correctAnswer": "A",
+        "explanation": "Lambda provides implementation of functional interfaces."
+      },
+      {
+        "id": "java_i_020",
+        "question": "What is the Stream API?",
+        "options": [
+          "Functional operations, processing sequences, map/filter/reduce",
+          "I/O operations",
+          "File operations",
+          "Network operations"
+        ],
+        "correctAnswer": "A",
+        "explanation": "Stream API provides functional-style operations on collections."
+      }
+    ],
+    "senior": [
+      {
+        "id": "java_s_001",
+        "question": "Where are objects stored in Java?",
+        "options": [
+          "Heap",
+          "Stack",
+          "Method area",
+          "Register"
+        ],
+        "correctAnswer": "A",
+        "explanation": "Objects are allocated on the heap memory."
+      },
+      {
+        "id": "java_s_002",
+        "question": "What is the Java Memory Model?",
+        "options": [
+          "Heap/Stack/Method area, PC registers, Native method stacks",
+          "Only heap and stack",
+          "Only method area",
+          "Only registers"
+        ],
+        "correctAnswer": "A",
+        "explanation": "JMM defines runtime memory areas in JVM."
+      },
+      {
+        "id": "java_s_003",
+        "question": "What is the difference between HashMap and ConcurrentHashMap?",
+        "options": [
+          "ConcurrentHashMap: thread-safe, segmented locking, better performance",
+          "HashMap: thread-safe",
+          "ConcurrentHashMap: non-thread-safe",
+          "They are same"
+        ],
+        "correctAnswer": "A",
+        "explanation": "ConcurrentHashMap allows concurrent reads/writes without full lock."
+      },
+      {
+        "id": "java_s_004",
+        "question": "What are the garbage collection algorithms?",
+        "options": [
+          "Mark-Sweep, Mark-Compact, Generational, G1, ZGC, Shenandoah",
+          "Only Mark-Sweep",
+          "Only Generational",
+          "No GC"
+        ],
+        "correctAnswer": "A",
+        "explanation": "JVM uses various GC algorithms for different generations and use cases."
+      },
+      {
+        "id": "java_s_005",
+        "question": "What is the difference between minor and major GC?",
+        "options": [
+          "Minor: young generation; Major: old generation",
+          "Minor: old; Major: young",
+          "They are same",
+          "Minor: faster; Major: slower"
+        ],
+        "correctAnswer": "A",
+        "explanation": "Minor GC collects young space; Major/Old GC collects tenured space."
+      },
+      {
+        "id": "java_s_006",
+        "question": "What is the G1 garbage collector?",
+        "options": [
+          "Garbage-First, region-based, low pause, concurrent",
+          "Serial collector",
+          "Parallel collector",
+          "CMS collector"
+        ],
+        "correctAnswer": "A",
+        "explanation": "G1 is a parallel, concurrent, generational GC designed for low pause times."
+      },
+      {
+        "id": "java_s_007",
+        "question": "What is the reflection API?",
+        "options": [
+          "Examine/modify runtime behavior, access private members",
+          "Compile-time analysis",
+          "Static code analysis",
+          "Bytecode manipulation"
+        ],
+        "correctAnswer": "A",
+        "explanation": "Reflection enables inspection and modification of class behavior at runtime."
+      },
+      {
+        "id": "java_s_008",
+        "question": "What is the Java Module System?",
+        "options": [
+          "JPMS, strong encapsulation, module descriptors, Project Jigsaw",
+          "Package system",
+          "Class loader",
+          "JAR files"
+        ],
+        "correctAnswer": "A",
+        "explanation": "Java Platform Module System provides modularization of applications."
+      },
+      {
+        "id": "java_s_009",
+        "question": "What is the module-info.java?",
+        "options": [
+          "Module descriptor, declare dependencies, export packages",
+          "Package descriptor",
+          "Class descriptor",
+          "Manifest file"
+        ],
+        "correctAnswer": "A",
+        "explanation": "module-info.java defines module requirements and exports."
+      },
+      {
+        "id": "java_s_010",
+        "question": "What is the Service Provider Interface?",
+        "options": [
+          "ServiceLoader, plugin architecture, decouple modules",
+          "Service implementation",
+          "Service registry",
+          "Service locator"
+        ],
+        "correctAnswer": "A",
+        "explanation": "SPI allows discovering and loading service implementations."
+      },
+      {
+        "id": "java_s_011",
+        "question": "What is the Phaser class?",
+        "options": [
+          "Reusable synchronization barrier, dynamic party count",
+          "Fixed barrier",
+          "Count down latch",
+          "Cyclic barrier"
+        ],
+        "correctAnswer": "A",
+        "explanation": "Phaser is a flexible thread synchronization barrier."
+      },
+      {
+        "id": "java_s_012",
+        "question": "What is the StampedLock?",
+        "options": [
+          "Read/write lock, optimistic read, better performance",
+          "Reentrant lock",
+          "Read write lock",
+          "Semaphore"
+        ],
+        "correctAnswer": "A",
+        "explanation": "StampedLock provides optimistic locking with capabilities."
+      },
+      {
+        "id": "java_s_013",
+        "question": "What is the VarHandle?",
+        "options": [
+          "Variable references, memory ordering, atomic operations, Java 9+",
+          "Variable handler",
+          "Atomic reference",
+          "Method handle"
+        ],
+        "correctAnswer": "A",
+        "explanation": "VarHandle provides access to variable under specified memory semantics."
+      },
+      {
+        "id": "java_s_014",
+        "question": "What is the MethodHandle?",
+        "options": [
+          "Callable method reference, bytecode-level, performance",
+          "Method reflection",
+          "Method reference",
+          "Lambda expression"
+        ],
+        "correctAnswer": "A",
+        "explanation": "MethodHandle is a typed, directly executable reference to method."
+      },
+      {
+        "id": "java_s_015",
+        "question": "What is the invokedynamic?",
+        "options": [
+          "Dynamic method invocation, bytecode instruction, lambda implementation",
+          "Static invocation",
+          "Virtual invocation",
+          "Interface invocation"
+        ],
+        "correctAnswer": "A",
+        "explanation": "invokedynamic enables dynamic language support on JVM."
+      },
+      {
+        "id": "java_s_016",
+        "question": "What is the GraalVM?",
+        "options": [
+          "Polyglot VM, high performance, native image, JVM alternative",
+          "Java VM",
+          "JavaScript VM",
+          "Python VM"
+        ],
+        "correctAnswer": "A",
+        "explanation": "GraalVM enables polyglot programming and native compilation."
+      },
+      {
+        "id": "java_s_017",
+        "question": "What is the Fork/Join framework?",
+        "options": [
+          "Parallel processing, divide and conquer, work stealing",
+          "Single thread processing",
+          "Thread pool only",
+          "Executor service"
+        ],
+        "correctAnswer": "A",
+        "explanation": "Fork/Join enables efficient parallel processing with work stealing."
+      },
+      {
+        "id": "java_s_018",
+        "question": "What is work stealing in Fork/Join?",
+        "options": [
+          "Idle threads steal tasks from busy threads' queues",
+          "Threads share tasks equally",
+          "Central task queue",
+          "No stealing"
+        ],
+        "correctAnswer": "A",
+        "explanation": "Work stealing balances load by having idle threads take tasks from others."
+      },
+      {
+        "id": "java_s_019",
+        "question": "What is the CompletableFuture?",
+        "options": [
+          "Async programming, composable futures, callback chaining",
+          "Simple future",
+          "Sync future",
+          "Immediate future"
+        ],
+        "correctAnswer": "A",
+        "explanation": "CompletableFuture provides async computation with functional composition."
+      },
+      {
+        "id": "java_s_020",
+        "question": "What is the difference between thenApply() and thenCompose()?",
+        "options": [
+          "thenApply: map, returns CompletableFuture; thenCompose: flatMap, flattens nested futures",
+          "thenApply: flatMap; thenCompose: map",
+          "They are same",
+          "thenApply: async; thenCompose: sync"
+        ],
+        "correctAnswer": "A",
+        "explanation": "thenApply transforms result; thenCompose flattens nested CompletableFutures."
+      }
+    ],
+    "expert": [
+      {
+        "id": "java_ex_001",
+        "question": "What is the Java Memory Model specification?",
+        "options": [
+          "Happens-before, visibility rules, JSR 133",
+          "Only heap and stack",
+          "Only GC",
+          "Only threading"
+        ],
+        "correctAnswer": "A",
+        "explanation": "JMM defines thread interaction through memory."
+      },
+      {
+        "id": "java_ex_002",
+        "question": "What is the happens-before relationship?",
+        "options": [
+          "Memory visibility, ordering guarantee, thread semantics",
+          "Time ordering",
+          "Event ordering",
+          "Code ordering"
+        ],
+        "correctAnswer": "A",
+        "explanation": "Happens-before ensures memory operations ordering."
+      },
+      {
+        "id": "java_ex_003",
+        "question": "What is the double-checked locking pattern and its issues?",
+        "options": [
+          "Singleton pattern, volatile fix, memory model issues",
+          "Thread-safe pattern",
+          "Lock pattern",
+          "No issues"
+        ],
+        "correctAnswer": "A",
+        "explanation": "Double-checked locking requires volatile for correct behavior in Java 5+."
+      },
+      {
+        "id": "java_ex_004",
+        "question": "What is the CAS (Compare-And-Swap) operation?",
+        "options": [
+          "Atomic operation, lock-free, hardware support",
+          "Synchronized operation",
+          "Lock operation",
+          "Volatile operation"
+        ],
+        "correctAnswer": "A",
+        "explanation": "CAS is a hardware-level atomic instruction used in lock-free programming."
+      },
+      {
+        "id": "java_ex_005",
+        "question": "What is the ABA problem in CAS?",
+        "options": [
+          "Value changes A->B->A, detection difficulty, AtomicStampedReference solution",
+          "Value stays same",
+          "No problem",
+          "Synchronization issue"
+        ],
+        "correctAnswer": "A",
+        "explanation": "ABA occurs when CAS can't detect intermediate changes."
+      },
+      {
+        "id": "java_ex_006",
+        "question": "What is the false sharing problem?",
+        "options": [
+          "Cache line contention, performance issue, padding solution",
+          "Memory sharing",
+          "Thread sharing",
+          "Data sharing"
+        ],
+        "correctAnswer": "A",
+        "explanation": "False sharing occurs when threads modify variables in same cache line."
+      },
+      {
+        "id": "java_ex_007",
+        "question": "What is the @Contended annotation?",
+        "options": [
+          "Cache line padding, false sharing prevention, JVM-specific",
+          "Thread annotation",
+          "Lock annotation",
+          "Sync annotation"
+        ],
+        "correctAnswer": "A",
+        "explanation": "@Contended adds padding to avoid false sharing."
+      },
+      {
+        "id": "java_ex_008",
+        "question": "What is the memory consistency error?",
+        "options": [
+          "Visibility issue, race condition, synchronization required",
+          "Memory leak",
+          "Stack overflow",
+          "Heap error"
+        ],
+        "correctAnswer": "A",
+        "explanation": "Memory consistency errors occur when threads have inconsistent views."
+      },
+      {
+        "id": "java_ex_009",
+        "question": "What is the reentrant lock vs synchronized?",
+        "options": [
+          "ReentrantLock: more features, fairness, interruptible",
+          "Synchronized: more features",
+          "They are same",
+          "ReentrantLock is older"
+        ],
+        "correctAnswer": "A",
+        "explanation": "ReentrantLock provides advanced lock capabilities beyond synchronized."
+      },
+      {
+        "id": "java_ex_010",
+        "question": "What is the deadlock detection and prevention?",
+        "options": [
+          "Lock ordering, timeout, tryLock()",
+          "Only timeout",
+          "Only ordering",
+          "No prevention"
+        ],
+        "correctAnswer": "A",
+        "explanation": "Various strategies prevent or detect deadlocks."
+      },
+      {
+        "id": "java_ex_011",
+        "question": "What is the Java bytecode verification?",
+        "options": [
+          "Security, type checking, stack overflow prevention",
+          "Code execution",
+          "Compilation",
+          "Interpretation"
+        ],
+        "correctAnswer": "A",
+        "explanation": "Bytecode verifier ensures code adheres to JVM constraints."
+      },
+      {
+        "id": "java_ex_012",
+        "question": "What is the class loading delegation model?",
+        "options": [
+          "Parent-first, Bootstrap/Extension/System",
+          "Child-first",
+          "Random order",
+          "No delegation"
+        ],
+        "correctAnswer": "A",
+        "explanation": "Class loaders delegate to parent before loading classes."
+      },
+      {
+        "id": "java_ex_013",
+        "question": "What is the custom class loader?",
+        "options": [
+          "Load classes from custom sources, encrypted classes, dynamic reloading",
+          "Default loader",
+          "System loader",
+          "Bootstrap loader"
+        ],
+        "correctAnswer": "A",
+        "explanation": "Custom class loaders extend ClassLoader to define loading behavior."
+      },
+      {
+        "id": "java_ex_014",
+        "question": "What is the JVM TI (Tool Interface)?",
+        "options": [
+          "Native programming interface, agents, profiling/debugging",
+          "Java API",
+          "Debug API",
+          "Profiling API"
+        ],
+        "correctAnswer": "A",
+        "explanation": "JVMTI allows development of JVM agents."
+      },
+      {
+        "id": "java_ex_015",
+        "question": "What is the JDI (Java Debug Interface)?",
+        "options": [
+          "Debugging interface, high-level debugger, JDPA component",
+          "Debug API",
+          "Profiling API",
+          "Monitoring API"
+        ],
+        "correctAnswer": "A",
+        "explanation": "JDI provides high-level debugging interfaces."
+      },
+      {
+        "id": "java_ex_016",
+        "question": "What is the JMX (Java Management Extensions)?",
+        "options": [
+          "Monitoring, MBeans, management",
+          "Debugging",
+          "Profiling",
+          "Compilation"
+        ],
+        "correctAnswer": "A",
+        "explanation": "JMX provides tools for managing and monitoring applications."
+      },
+      {
+        "id": "java_ex_017",
+        "question": "What is the JVM option -Xmx and -Xms?",
+        "options": [
+          "Heap size, initial and maximum, memory tuning",
+          "Stack size",
+          "Thread count",
+          "GC algorithm"
+        ],
+        "correctAnswer": "A",
+        "explanation": "-Xms initial heap, -Xmx maximum heap size."
+      },
+      {
+        "id": "java_ex_018",
+        "question": "What is the Safepoint in JVM?",
+        "options": [
+          "GC/optimization point, all threads paused, JIT compilation",
+          "Thread creation",
+          "Object allocation",
+          "Method call"
+        ],
+        "correctAnswer": "A",
+        "explanation": "Safepoints allow JVM operations requiring threads to pause."
+      },
+      {
+        "id": "java_ex_019",
+        "question": "What is the OSR (On-Stack Replacement)?",
+        "options": [
+          "Replace running code, JIT optimization, deoptimization",
+          "Stack trace",
+          "Thread replacement",
+          "Method replacement"
+        ],
+        "correctAnswer": "A",
+        "explanation": "OSR replaces interpreted method with compiled version."
+      },
+      {
+        "id": "java_ex_020",
+        "question": "What is the deoptimization?",
+        "options": [
+          "Revert optimizations, profile speculation, rare path",
+          "Optimization",
+          "Compilation",
+          "Interpretation"
+        ],
+        "correctAnswer": "A",
+        "explanation": "Deoptimization reverts to interpreter when assumptions break."
+      }
+    ]
+  }
+},
+
+    
   ]
 }
