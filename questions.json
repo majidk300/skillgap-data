@@ -5792,7 +5792,979 @@
     ]
   }
 },
-
+{
+  "category": "Python",
+  "questions": {
+    "entry": [
+      {
+        "id": "py_e_001",
+        "question": "What is the difference between a list and a tuple in Python?",
+        "options": [
+          "Lists are immutable, tuples are mutable",
+          "Lists are mutable, tuples are immutable",
+          "Lists can only store numbers, tuples can store any type",
+          "There is no difference"
+        ],
+        "correctAnswer": "B",
+        "explanation": "Lists are mutable (can be changed), tuples are immutable (cannot be changed after creation)."
+      },
+      {
+        "id": "py_e_002",
+        "question": "How do you handle exceptions in Python?",
+        "options": [
+          "Using try/except blocks",
+          "Using if/else statements",
+          "Using catch/throw",
+          "Using error handlers"
+        ],
+        "correctAnswer": "A",
+        "explanation": "Python uses try/except blocks for exception handling, optionally with else and finally clauses."
+      },
+      {
+        "id": "py_e_003",
+        "question": "What is a dictionary in Python?",
+        "options": [
+          "A list of words and definitions",
+          "A collection of key-value pairs",
+          "An ordered sequence of elements",
+          "A type of loop"
+        ],
+        "correctAnswer": "B",
+        "explanation": "A dictionary is a mutable collection of key-value pairs, optimized for fast lookup by key."
+      },
+      {
+        "id": "py_e_004",
+        "question": "What is the purpose of the '__init__' method in Python classes?",
+        "options": [
+          "To initialize the class definition",
+          "To create a new instance of the class",
+          "The constructor method called when creating an object",
+          "To delete an object"
+        ],
+        "correctAnswer": "C",
+        "explanation": "__init__ is the constructor method that initializes a new instance when the class is instantiated."
+      },
+      {
+        "id": "py_e_005",
+        "question": "What are list comprehensions in Python?",
+        "options": [
+          "A way to understand lists better",
+          "A concise syntax for creating lists based on existing iterables",
+          "List documentation",
+          "List debugging tools"
+        ],
+        "correctAnswer": "B",
+        "explanation": "List comprehensions provide a concise way to create lists by iterating over sequences and optionally filtering."
+      },
+      {
+        "id": "py_e_006",
+        "question": "What is a module in Python?",
+        "options": [
+          "A hardware component",
+          "A file containing Python code with functions, classes, and variables",
+          "A type of loop",
+          "A data structure"
+        ],
+        "correctAnswer": "B",
+        "explanation": "A module is a file containing Python definitions and statements, which can be imported and used in other Python files."
+      },
+      {
+        "id": "py_e_007",
+        "question": "What is the difference between '==' and 'is' in Python?",
+        "options": [
+          "'==' compares values, 'is' compares identity",
+          "'is' compares values, '==' compares identity",
+          "They are identical",
+          "'==' is for numbers only"
+        ],
+        "correctAnswer": "A",
+        "explanation": "'==' compares if two objects have the same value, 'is' checks if they are the same object in memory."
+      },
+      {
+        "id": "py_e_008",
+        "question": "What is a virtual environment in Python?",
+        "options": [
+          "A VR simulation",
+          "An isolated environment for Python projects with their own dependencies",
+          "A cloud computing service",
+          "A virtual machine"
+        ],
+        "correctAnswer": "B",
+        "explanation": "Virtual environments create isolated Python environments, allowing different projects to have different dependencies without conflicts."
+      },
+      {
+        "id": "py_e_009",
+        "question": "What is pip in Python?",
+        "options": [
+          "Python Imaging Processor",
+          "Package installer for Python",
+          "Python Interactive Prompt",
+          "Performance Improvement Program"
+        ],
+        "correctAnswer": "B",
+        "explanation": "pip is the standard package manager for Python, used to install and manage software packages from PyPI."
+      },
+      {
+        "id": "py_e_010",
+        "question": "What is a lambda function in Python?",
+        "options": [
+          "A function that calculates lambda calculus",
+          "A small anonymous function defined with lambda keyword",
+          "A built-in function",
+          "A recursive function"
+        ],
+        "correctAnswer": "B",
+        "explanation": "A lambda function is a small anonymous function that can take any number of arguments but has only one expression."
+      },
+      {
+        "id": "py_e_011",
+        "question": "What is a set in Python?",
+        "options": [
+          "A collection of ordered elements",
+          "An unordered collection of unique elements",
+          "A key-value store",
+          "A sorted list"
+        ],
+        "correctAnswer": "B",
+        "explanation": "A set is an unordered collection of unique, hashable objects, useful for membership testing and deduplication."
+      },
+      {
+        "id": "py_e_012",
+        "question": "What is a string in Python?",
+        "options": [
+          "A number wrapped in quotes",
+          "An immutable sequence of characters",
+          "A mutable sequence of characters",
+          "A special data type only for text files"
+        ],
+        "correctAnswer": "B",
+        "explanation": "Strings in Python are immutable sequences of Unicode characters, created with single, double, or triple quotes."
+      },
+      {
+        "id": "py_e_013",
+        "question": "What is the range() function in Python?",
+        "options": [
+          "Returns a range of IP addresses",
+          "Generates a sequence of numbers",
+          "Creates an array of strings",
+          "Measures the range of a list"
+        ],
+        "correctAnswer": "B",
+        "explanation": "range() returns an immutable sequence of numbers, commonly used for looping a specific number of times."
+      },
+      {
+        "id": "py_e_014",
+        "question": "What is a docstring in Python?",
+        "options": [
+          "Documentation string as the first statement in a module, function, or class",
+          "A string that contains documents",
+          "A string with special characters",
+          "A commented string"
+        ],
+        "correctAnswer": "A",
+        "explanation": "A docstring is a string literal that appears as the first statement in a module, function, class, or method definition, used for documentation."
+      },
+      {
+        "id": "py_e_015",
+        "question": "What is the difference between append() and extend() for lists?",
+        "options": [
+          "append() adds one element, extend() adds multiple elements from an iterable",
+          "append() adds multiple, extend() adds one",
+          "They are the same",
+          "append() works on strings, extend() on lists"
+        ],
+        "correctAnswer": "A",
+        "explanation": "append() adds its argument as a single element; extend() iterates over its argument and adds each element to the list."
+      },
+      {
+        "id": "py_e_016",
+        "question": "What is a break statement in Python?",
+        "options": [
+          "Stops the program",
+          "Terminates the current loop",
+          "Pauses execution",
+          "Breaks the code into pieces"
+        ],
+        "correctAnswer": "B",
+        "explanation": "The break statement terminates the current loop and resumes execution at the next statement after the loop."
+      },
+      {
+        "id": "py_e_017",
+        "question": "What is a continue statement in Python?",
+        "options": [
+          "Continues the program indefinitely",
+          "Skips the rest of the current iteration and moves to the next",
+          "Restarts the loop from beginning",
+          "Continues to the next line"
+        ],
+        "correctAnswer": "B",
+        "explanation": "The continue statement skips the remaining code in the current iteration and moves to the next iteration of the loop."
+      },
+      {
+        "id": "py_e_018",
+        "question": "What is a pass statement in Python?",
+        "options": [
+          "Skips the current iteration",
+          "A null operation, does nothing when executed",
+          "Passes control to another function",
+          "Exits the program"
+        ],
+        "correctAnswer": "B",
+        "explanation": "The pass statement is a placeholder that does nothing, used when syntax requires a statement but no action is needed."
+      },
+      {
+        "id": "py_e_019",
+        "question": "What is a global variable in Python?",
+        "options": [
+          "A variable accessible everywhere in the universe",
+          "A variable defined outside any function",
+          "A variable shared across all Python programs",
+          "A variable with the name 'global'"
+        ],
+        "correctAnswer": "B",
+        "explanation": "A global variable is defined at the module level, accessible throughout the module unless shadowed by local variables."
+      },
+      {
+        "id": "py_e_020",
+        "question": "What is the main function in Python?",
+        "options": [
+          "The most important function",
+          "A convention for the entry point, defined as if __name__ == '__main__'",
+          "A mandatory function in every script",
+          "A built-in function"
+        ],
+        "correctAnswer": "B",
+        "explanation": "The if __name__ == '__main__' block is used to define executable code that runs only when the file is executed directly."
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "py_i_001",
+        "question": "Explain decorators in Python.",
+        "options": [
+          "Functions that add CSS styling",
+          "Functions that modify the behavior of other functions",
+          "HTML elements",
+          "Database connectors"
+        ],
+        "correctAnswer": "B",
+        "explanation": "Decorators are functions that take another function and extend its behavior without explicitly modifying it."
+      },
+      {
+        "id": "py_i_002",
+        "question": "What are generators in Python?",
+        "options": [
+          "Functions that generate random numbers",
+          "Functions that yield values one at a time, preserving state",
+          "Code generators",
+          "Random number generators"
+        ],
+        "correctAnswer": "B",
+        "explanation": "Generators use yield to produce a sequence of values lazily, maintaining state between iterations."
+      },
+      {
+        "id": "py_i_003",
+        "question": "How does context manager work in Python?",
+        "options": [
+          "Using the 'with' statement to manage resources",
+          "Using the 'context' keyword",
+          "Global variable manager",
+          "Thread context manager"
+        ],
+        "correctAnswer": "A",
+        "explanation": "Context managers, used with 'with', set up and tear down resources automatically (e.g., file operations)."
+      },
+      {
+        "id": "py_i_004",
+        "question": "What are metaclasses in Python?",
+        "options": [
+          "Classes that are meta",
+          "Classes of classes that define how classes behave",
+          "Abstract base classes",
+          "Class factories"
+        ],
+        "correctAnswer": "B",
+        "explanation": "Metaclasses are the 'classes of classes' that define how a class behaves, controlling class creation and modification."
+      },
+      {
+        "id": "py_i_005",
+        "question": "What is the difference between deep copy and shallow copy?",
+        "options": [
+          "Shallow copy copies references, deep copy recursively copies nested objects",
+          "Deep copy copies references, shallow copy creates independent objects",
+          "They are the same",
+          "Shallow copy is for lists only"
+        ],
+        "correctAnswer": "A",
+        "explanation": "Shallow copy creates a new object but inserts references to objects found in original; deep copy recursively copies all nested objects."
+      },
+      {
+        "id": "py_i_006",
+        "question": "What are *args and **kwargs in Python?",
+        "options": [
+          "Special syntax for passing variable-length arguments to functions",
+          "Mathematical operators",
+          "List and dictionary comprehensions",
+          "Argument types"
+        ],
+        "correctAnswer": "A",
+        "explanation": "*args allows variable number of positional arguments; **kwargs allows variable number of keyword arguments."
+      },
+      {
+        "id": "py_i_007",
+        "question": "What is the Global Interpreter Lock (GIL) in Python?",
+        "options": [
+          "A lock that prevents code execution",
+          "A mutex that allows only one thread to execute Python bytecode at a time",
+          "A security feature",
+          "A debugging tool"
+        ],
+        "correctAnswer": "B",
+        "explanation": "The GIL is a mutex that protects access to Python objects, limiting multi-threading but simplifying memory management."
+      },
+      {
+        "id": "py_i_008",
+        "question": "What is monkey patching in Python?",
+        "options": [
+          "Patching monkeys with Python",
+          "Dynamically modifying classes or modules at runtime",
+          "A debugging technique",
+          "A version control strategy"
+        ],
+        "correctAnswer": "B",
+        "explanation": "Monkey patching refers to dynamic modifications of classes or modules at runtime, often used for testing or fixing third-party code."
+      },
+      {
+        "id": "py_i_009",
+        "question": "What is the difference between @staticmethod and @classmethod?",
+        "options": [
+          "staticmethod has no self/cls parameter; classmethod receives class as first parameter",
+          "They are identical",
+          "classmethod has no parameters",
+          "staticmethod receives class as first parameter"
+        ],
+        "correctAnswer": "A",
+        "explanation": "@staticmethod defines a method that doesn't receive self or cls; @classmethod receives the class as first parameter."
+      },
+      {
+        "id": "py_i_010",
+        "question": "What are Python's Abstract Base Classes (ABC)?",
+        "options": [
+          "Classes that cannot be instantiated",
+          "Classes that define interfaces that subclasses must implement",
+          "Base classes for abstract art",
+          "Classes without methods"
+        ],
+        "correctAnswer": "B",
+        "explanation": "ABCs define abstract methods that subclasses must implement, enforcing interface contracts and providing virtual subclasses."
+      },
+      {
+        "id": "py_i_011",
+        "question": "What is the difference between a list and a generator?",
+        "options": [
+          "List stores all values in memory, generator computes values on-the-fly",
+          "Generator stores all values, list computes on-the-fly",
+          "They are the same",
+          "List is for numbers only"
+        ],
+        "correctAnswer": "A",
+        "explanation": "Lists store all elements in memory; generators yield one value at a time, using less memory for large sequences."
+      },
+      {
+        "id": "py_i_012",
+        "question": "What is the purpose of __slots__ in Python?",
+        "options": [
+          "Reserves memory slots for attributes",
+          "Optimizes memory usage by preventing __dict__ creation",
+          "Creates class slots for methods",
+          "A scheduling mechanism"
+        ],
+        "correctAnswer": "B",
+        "explanation": "__slots__ reduces memory overhead by preventing the creation of instance __dict__ and __weakref__, limiting attribute assignment."
+      },
+      {
+        "id": "py_i_013",
+        "question": "What is the difference between asyncio and threading?",
+        "options": [
+          "Threading uses OS threads with GIL limitations; asyncio uses single-threaded cooperative multitasking",
+          "They are the same",
+          "asyncio uses OS threads, threading uses cooperative multitasking",
+          "asyncio is for sync code only"
+        ],
+        "correctAnswer": "A",
+        "explanation": "Threading runs concurrent code using OS threads but limited by GIL; asyncio uses event loop for single-threaded concurrency with async/await."
+      },
+      {
+        "id": "py_i_014",
+        "question": "What is the Walrus operator (:=) in Python 3.8+?",
+        "options": [
+          "A walrus emoji",
+          "Assignment expression that assigns and returns value in an expression",
+          "Comparison operator",
+          "Bitwise operator"
+        ],
+        "correctAnswer": "B",
+        "explanation": "The walrus operator assigns values to variables as part of a larger expression, useful for while loops and comprehensions."
+      },
+      {
+        "id": "py_i_015",
+        "question": "What are data classes in Python 3.7+?",
+        "options": [
+          "Classes that store data in databases",
+          "Decorator that generates boilerplate code for classes primarily storing data",
+          "Classes for data visualization",
+          "Abstract data type classes"
+        ],
+        "correctAnswer": "B",
+        "explanation": "@dataclass automatically generates __init__, __repr__, __eq__, and other methods for classes that primarily store data."
+      },
+      {
+        "id": "py_i_016",
+        "question": "What is the difference between @property and regular attributes?",
+        "options": [
+          "@property defines getter/setter methods accessed like attributes",
+          "Regular attributes are faster",
+          "They are identical",
+          "@property is for class attributes only"
+        ],
+        "correctAnswer": "A",
+        "explanation": "@property decorator allows method to be accessed as attribute, enabling computed attributes and controlled access."
+      },
+      {
+        "id": "py_i_017",
+        "question": "What is the typing module in Python?",
+        "options": [
+          "Module for typing text",
+          "Support for type hints and static type checking",
+          "Keyboard input module",
+          "Type conversion utilities"
+        ],
+        "correctAnswer": "B",
+        "explanation": "The typing module provides support for type hints, allowing optional static type checking with tools like mypy."
+      },
+      {
+        "id": "py_i_018",
+        "question": "What are Python's special/magic methods?",
+        "options": [
+          "Methods that perform magic tricks",
+          "Methods with double underscores for operator overloading and protocol implementation",
+          "Secret methods",
+          "Encrypted methods"
+        ],
+        "correctAnswer": "B",
+        "explanation": "Magic methods (__init__, __add__, __len__, etc.) define behavior for built-in operations and implement protocols."
+      },
+      {
+        "id": "py_i_019",
+        "question": "What is the difference between iterative and recursive functions?",
+        "options": [
+          "Iterative uses loops, recursive calls itself",
+          "Recursive uses loops, iterative calls itself",
+          "They are the same",
+          "Recursive is always faster"
+        ],
+        "correctAnswer": "A",
+        "explanation": "Iterative functions use loops to repeat execution; recursive functions call themselves with different arguments."
+      },
+      {
+        "id": "py_i_020",
+        "question": "What is a closure in Python?",
+        "options": [
+          "A function that closes files",
+          "A nested function that remembers variables from its enclosing scope",
+          "A function that ends execution",
+          "A way to close connections"
+        ],
+        "correctAnswer": "B",
+        "explanation": "A closure is a nested function that captures and remembers variables from its enclosing lexical scope even when called outside."
+      }
+    ],
+    "senior": [
+      {
+        "id": "py_s_001",
+        "question": "How would you implement a metaclass in Python?",
+        "options": [
+          "By inheriting from 'object'",
+          "By inheriting from 'type' and overriding __new__ or __init__",
+          "By using the @metaclass decorator",
+          "By using inheritance from ABC"
+        ],
+        "correctAnswer": "B",
+        "explanation": "Metaclasses are classes of classes, created by subclassing 'type' and customizing class creation by overriding __new__ or __init__."
+      },
+      {
+        "id": "py_s_002",
+        "question": "How does Python's import system work internally?",
+        "options": [
+          "Copies file contents into current namespace",
+          "Finder finds module, loader executes code, cache stores result in sys.modules",
+          "Compiles to bytecode then executes",
+          "Searches PATH and executes file"
+        ],
+        "correctAnswer": "B",
+        "explanation": "Import uses sys.meta_path finders to locate modules, loaders to execute module code, and sys.modules cache to store results and prevent duplicate imports."
+      },
+      {
+        "id": "py_s_003",
+        "question": "What are the memory management strategies in Python?",
+        "options": [
+          "Manual memory allocation with malloc/free",
+          "Private heap, reference counting, generational garbage collection for cycles",
+          "Stack-only allocation",
+          "Automatic with no developer control"
+        ],
+        "correctAnswer": "B",
+        "explanation": "Python uses a private heap, maintains reference counts for objects, and has a generational garbage collector for detecting and collecting reference cycles."
+      },
+      {
+        "id": "py_s_004",
+        "question": "How would you optimize a CPU-bound Python application?",
+        "options": [
+          "Use threading for parallelism",
+          "Use multiprocessing, C extensions (Cython), NumPy, Numba, or PyPy JIT",
+          "Increase recursion limit",
+          "Use asyncio"
+        ],
+        "correctAnswer": "B",
+        "explanation": "CPU-bound optimization uses multiprocessing (bypasses GIL), C extensions, vectorization with NumPy, JIT compilation with Numba, or PyPy interpreter."
+      },
+      {
+        "id": "py_s_005",
+        "question": "How does Python's descriptor protocol work?",
+        "options": [
+          "Describes class metadata",
+          "Protocol with __get__, __set__, __delete__ controlling attribute access",
+          "Documentation generator",
+          "Serialization protocol"
+        ],
+        "correctAnswer": "B",
+        "explanation": "Descriptors define how attributes are accessed; property, classmethod, staticmethod, and slots are implemented with descriptors."
+      },
+      {
+        "id": "py_s_006",
+        "question": "What are the security implications of pickle deserialization?",
+        "options": [
+          "Pickle is completely safe",
+          "Pickle can execute arbitrary code during unpickling via __reduce__ exploit",
+          "Only crashes on invalid data",
+          "Pickle is encrypted"
+        ],
+        "correctAnswer": "B",
+        "explanation": "Unpickling can execute arbitrary functions specified in the pickle stream, leading to remote code execution vulnerabilities. Never unpickle untrusted data."
+      },
+      {
+        "id": "py_s_007",
+        "question": "How would you implement a custom async/await protocol?",
+        "options": [
+          "Cannot implement custom async",
+          "Define __await__ method returning iterator; create coroutine-compatible objects",
+          "Use threading and callbacks",
+          "Use yield from"
+        ],
+        "correctAnswer": "B",
+        "explanation": "Custom awaitable objects implement __await__ returning iterator; coroutine protocol requires send/throw/close methods for generator-based coroutines."
+      },
+      {
+        "id": "py_s_008",
+        "question": "What are the differences between WSGI and ASGI?",
+        "options": [
+          "WSGI is async, ASGI is sync",
+          "WSGI: synchronous, one request per thread; ASGI: async, WebSocket, HTTP/2, lifespan protocol",
+          "They are identical",
+          "ASGI is deprecated"
+        ],
+        "correctAnswer": "B",
+        "explanation": "WSGI is synchronous, blocking, one request per thread; ASGI handles async protocols, WebSockets, HTTP/2, and long-lived connections with event-driven architecture."
+      },
+      {
+        "id": "py_s_009",
+        "question": "How does Python handle cyclic references in garbage collection?",
+        "options": [
+          "Cyclic references never get collected",
+          "Generational GC detects and collects unreachable cycles using tri-color marking",
+          "Reference counting handles cycles",
+          "Manual deletion required"
+        ],
+        "correctAnswer": "B",
+        "explanation": "Python's cyclic garbage collector (gc module) periodically detects container objects involved in reference cycles and collects unreachable cycles."
+      },
+      {
+        "id": "py_s_010",
+        "question": "What are the best practices for Python project structuring?",
+        "options": [
+          "All files in one directory",
+          "src layout, separation of concerns, __init__.py, entry points, proper packaging with pyproject.toml",
+          "No structure needed",
+          "One file per project"
+        ],
+        "correctAnswer": "B",
+        "explanation": "Best practices include src layout, separation of test/production code, proper packaging with setup.py/pyproject.toml, and namespace packages for plugins."
+      },
+      {
+        "id": "py_s_011",
+        "question": "How does Python's super() work with multiple inheritance?",
+        "options": [
+          "Calls parent classes in arbitrary order",
+          "Uses MRO (Method Resolution Order) with C3 linearization algorithm",
+          "Only calls first parent",
+          "Calls all parents simultaneously"
+        ],
+        "correctAnswer": "B",
+        "explanation": "super() delegates to next class in MRO, following C3 linearization order to ensure each parent is called once in deterministic, monotonic order."
+      },
+      {
+        "id": "py_s_012",
+        "question": "How would you implement a distributed lock in Python?",
+        "options": [
+          "Using threading.Lock",
+          "Using Redis Redlock algorithm, ZooKeeper, or database advisory locks with retry mechanisms",
+          "Using multiprocessing.Lock",
+          "Using file locks"
+        ],
+        "correctAnswer": "B",
+        "explanation": "Distributed locks use Redis SET NX EX with timeout, ZooKeeper ephemeral nodes, or PostgreSQL advisory locks with fencing tokens for safety."
+      },
+      {
+        "id": "py_s_013",
+        "question": "What are the memory implications of __slots__ in Python?",
+        "options": [
+          "Uses more memory",
+          "Eliminates __dict__ and __weakref__, reduces memory overhead by ~40-50% per instance",
+          "Same memory usage",
+          "Only works for built-in types"
+        ],
+        "correctAnswer": "B",
+        "explanation": "__slots__ prevents __dict__ creation, saving memory (8 bytes per slot vs 56+ bytes for dict), but restricts dynamic attribute assignment."
+      },
+      {
+        "id": "py_s_014",
+        "question": "How would you implement a rate limiter in Python?",
+        "options": [
+          "Using time.sleep()",
+          "Token bucket or sliding window algorithm with timestamps and Redis for distributed systems",
+          "Counting requests only",
+          "Using while loops"
+        ],
+        "correctAnswer": "B",
+        "explanation": "Rate limiters use token bucket (refill rate, capacity) or sliding window with timestamps; distributed implementations use Redis atomic operations."
+      },
+      {
+        "id": "py_s_015",
+        "question": "What are the differences between Cython, PyPy, and CPython?",
+        "options": [
+          "They are all the same Python implementation",
+          "CPython: reference interpreter; PyPy: JIT-compiled; Cython: superset for C extensions",
+          "Cython is faster than PyPy",
+          "PyPy is the official implementation"
+        ],
+        "correctAnswer": "B",
+        "explanation": "CPython: default interpreter in C; PyPy: Python with JIT compiler (faster for long-running); Cython: Python with C-like types compiling to C extensions."
+      },
+      {
+        "id": "py_s_016",
+        "question": "How would you profile and debug memory leaks in Python?",
+        "options": [
+          "Restart frequently",
+          "tracemalloc, objgraph, heapy, gc module, and memory_profiler",
+          "Use print statements",
+          "Add more RAM"
+        ],
+        "correctAnswer": "B",
+        "explanation": "Memory leak debugging uses tracemalloc for allocation traces, objgraph for reference graphs, gc module for cycle detection, and heapy for heap analysis."
+      },
+      {
+        "id": "py_s_017",
+        "question": "How does Python's asyncio event loop work?",
+        "options": [
+          "Uses multiple threads",
+          "Single-threaded event loop with cooperative multitasking, tasks yield control via await",
+          "Uses multiple processes",
+          "Uses green threads"
+        ],
+        "correctAnswer": "B",
+        "explanation": "asyncio uses a single-threaded event loop that schedules coroutines, which voluntarily yield control at await points, enabling concurrent I/O."
+      },
+      {
+        "id": "py_s_018",
+        "question": "What are the design patterns commonly used in Python?",
+        "options": [
+          "Design patterns don't apply to Python",
+          "Singleton (module), Factory (__init_subclass__), Observer (signals), Strategy (functions)",
+          "Only MVC pattern",
+          "Only Singleton"
+        ],
+        "correctAnswer": "B",
+        "explanation": "Python implements patterns uniquely: module as Singleton, functions as Strategy, decorators as Wrapper, signals as Observer, context managers for Resource Acquisition."
+      },
+      {
+        "id": "py_s_019",
+        "question": "How would you implement a retry decorator with exponential backoff?",
+        "options": [
+          "Using while True with fixed delay",
+          "Decorator catching exceptions, waiting with increasing delays, adding jitter for distributed systems",
+          "Using recursion",
+          "Using time.sleep()"
+        ],
+        "correctAnswer": "B",
+        "explanation": "Retry decorator catches specified exceptions, waits increasing duration between attempts (exponential), adds random jitter to avoid thundering herd problem."
+      },
+      {
+        "id": "py_s_020",
+        "question": "What are the challenges with Python's GIL in multi-threaded applications?",
+        "options": [
+          "No challenges",
+          "Prevents true parallel execution of CPU-bound threads, but I/O-bound threads still benefit",
+          "Only affects Windows",
+          "GIL improves performance"
+        ],
+        "correctAnswer": "B",
+        "explanation": "The GIL allows only one thread to execute Python bytecode at a time, limiting CPU-bound threading but I/O-bound threads release GIL during blocking operations."
+      }
+    ],
+    "expert": [
+      {
+        "id": "py_ex_001",
+        "question": "How would you implement a custom garbage collector in Python?",
+        "options": [
+          "Use gc module only",
+          "Implement reference counting with weakref callbacks and cycle detection algorithm",
+          "Cannot implement custom GC",
+          "Use tracemalloc"
+        ],
+        "correctAnswer": "B",
+        "explanation": "Custom GC requires implementing reference counting, tracking container objects, cycle detection (e.g., tri-color marking), and finalization with weakref callbacks."
+      },
+      {
+        "id": "py_ex_002",
+        "question": "How does Python's bytecode compiler work?",
+        "options": [
+          "Direct interpretation of source",
+          "Parse -> AST -> compile to bytecode -> store in .pyc -> interpreter loop",
+          "Just-in-time compilation",
+          "Source to machine code directly"
+        ],
+        "correctAnswer": "B",
+        "explanation": "Python compiles source to AST, then to bytecode (stored in .pyc files), which is executed by the interpreter loop (ceval.c) in CPython."
+      },
+      {
+        "id": "py_ex_003",
+        "question": "How would you implement a Python profiler from scratch?",
+        "options": [
+          "Use time module",
+          "Set sys.setprofile/settrace, record function calls/exits with timestamps, aggregate statistics",
+          "Use cProfile only",
+          "Use decorators"
+        ],
+        "correctAnswer": "B",
+        "explanation": "Profiler implements sys.setprofile to intercept function calls/returns and exceptions, records timestamps, builds call graphs, and aggregates cumulative times."
+      },
+      {
+        "id": "py_ex_004",
+        "question": "What are the internal differences between CPython, PyPy, and Jython?",
+        "options": [
+          "They are identical",
+          "CPython: C interpreter; PyPy: Python JIT; Jython: Java bytecode compilation",
+          "Only syntax differs",
+          "All compile to machine code"
+        ],
+        "correctAnswer": "B",
+        "explanation": "CPython interprets bytecode in C; PyPy traces execution and JIT-compiles hot paths to machine code; Jython compiles to Java bytecode for JVM."
+      },
+      {
+        "id": "py_ex_005",
+        "question": "How would you implement a distributed tracing system for Python microservices?",
+        "options": [
+          "Using logging",
+          "Propagate trace context (trace_id, span_id) via headers, export to Jaeger/OpenTelemetry",
+          "Using print statements",
+          "Using datetime"
+        ],
+        "correctAnswer": "B",
+        "explanation": "Distributed tracing injects trace context into request headers, creates spans for operations, and exports to collectors with sampling and aggregation strategies."
+      },
+      {
+        "id": "py_ex_006",
+        "question": "How does Python's C API handle exception propagation?",
+        "options": [
+          "C++ exceptions",
+          "Global error indicator per thread, checked via PyErr_Occurred, set with PyErr_SetString",
+          "Return codes only",
+          "Signals"
+        ],
+        "correctAnswer": "B",
+        "explanation": "C extensions use thread-local error indicator, functions return NULL for exceptions, caller checks PyErr_Occurred() and propagates with PyErr_Set* functions."
+      },
+      {
+        "id": "py_ex_007",
+        "question": "How would you implement a Python debugger similar to pdb?",
+        "options": [
+          "Use print statements",
+          "Set sys.settrace per thread, inspect frames, handle breakpoints, REPL interface",
+          "Use eval()",
+          "Use subprocess"
+        ],
+        "correctAnswer": "B",
+        "explanation": "Debugger implements sys.settrace to receive line events, stores breakpoints, allows frame inspection, variable modification, and provides interactive command loop."
+      },
+      {
+        "id": "py_ex_008",
+        "question": "What are the memory model guarantees in Python?",
+        "options": [
+          "No memory model",
+          "GIL provides atomicity for certain operations, but no visibility guarantees without locks",
+          "Sequential consistency",
+          "Strong memory model"
+        ],
+        "correctAnswer": "B",
+        "explanation": "Python's GIL makes bytecode execution atomic but doesn't guarantee visibility across threads; operations like list.append are atomic, but += on ints is not."
+      },
+      {
+        "id": "py_ex_009",
+        "question": "How would you implement a coroutine scheduler without asyncio?",
+        "options": [
+          "Use threading",
+          "Event loop with run queue, awaitable objects with __await__, send() for resumption",
+          "Use multiprocessing",
+          "Use greenlet"
+        ],
+        "correctAnswer": "B",
+        "explanation": "Custom scheduler maintains queue of coroutines, uses generator.send() to resume, catches StopIteration, implements sleep, I/O readiness with selectors."
+      },
+      {
+        "id": "py_ex_010",
+        "question": "How does Python's multiprocessing module implement shared memory?",
+        "options": [
+          "Thread-local storage",
+          "mmap with copy-on-write, shared memory objects via pickle serialization",
+          "Network sockets",
+          "Global variables"
+        ],
+        "correctAnswer": "B",
+        "explanation": "multiprocessing uses shared memory via mmap for Value/Array, pickle serialization for passing objects, and pipes/sockets for synchronization."
+      },
+      {
+        "id": "py_ex_011",
+        "question": "What are the challenges of implementing PEP 554 - Multiple Interpreters?",
+        "options": [
+          "No challenges",
+          "Isolated GILs, object sharing, C extension compatibility, subinterpreter API limitations",
+          "Easy to implement",
+          "Already implemented"
+        ],
+        "correctAnswer": "B",
+        "explanation": "Multiple interpreters require per-interpreter GIL, object sharing across boundaries, C extension thread-safety, and modifications to interpreter lifecycle."
+      },
+      {
+        "id": "py_ex_012",
+        "question": "How would you implement a Python AST transformer for optimization?",
+        "options": [
+          "Use regex",
+          "Parse to AST with ast.parse, traverse with NodeTransformer, constant folding, dead code elimination",
+          "Use inspect module",
+          "Use bytecode manipulation"
+        ],
+        "correctAnswer": "B",
+        "explanation": "AST optimization parses source, walks AST with custom visitor, replaces nodes (constant folding, inlining), then compiles modified AST to code."
+      },
+      {
+        "id": "py_ex_013",
+        "question": "How does Python's import system handle namespace packages?",
+        "options": [
+          "Requires __init__.py",
+          "PEP 420: automatic namespace packages without __init__.py, merged from multiple locations",
+          "Not supported",
+          "Only in Python 2"
+        ],
+        "correctAnswer": "B",
+        "explanation": "Namespace packages allow splitting package across multiple directories using PEP 420; finders return multiple portions merged into single namespace."
+      },
+      {
+        "id": "py_ex_014",
+        "question": "What are the performance characteristics of Python's dict implementation?",
+        "options": [
+          "O(n) always",
+          "O(1) average with compact sparse table, key sharing, ordered since 3.7",
+          "O(log n)",
+          "O(n²)"
+        ],
+        "correctAnswer": "B",
+        "explanation": "Python dict uses sparse table with pseudo-random probing, O(1) average, compact storage (PEP 393), key-sharing dict for instances, insertion-ordered since 3.7."
+      },
+      {
+        "id": "py_ex_015",
+        "question": "How would you implement a Python JIT compiler?",
+        "options": [
+          "Use eval()",
+          "Trace execution, identify hot paths, generate machine code with LLVM, handle deoptimization",
+          "Interpret faster",
+          "Use C extensions"
+        ],
+        "correctAnswer": "B",
+        "explanation": "JIT implementation traces bytecode execution, compiles hot traces to IR, optimizes, generates machine code (LLVM/assembly), and handles guard failures."
+      },
+      {
+        "id": "py_ex_016",
+        "question": "What are the atomic operations guaranteed by Python?",
+        "options": [
+          "All operations are atomic",
+          "Reading/writing simple types, list.append/pop, dict get/set, but not augmented assignments",
+          "No atomic operations",
+          "Only with locks"
+        ],
+        "correctAnswer": "B",
+        "explanation": "GIL makes certain operations atomic: reading/writing built-in types, list.append, dict __getitem__; but x += 1 is not atomic (load, add, store)."
+      },
+      {
+        "id": "py_ex_017",
+        "question": "How would you implement a custom memory allocator in Python C extension?",
+        "options": [
+          "Use malloc",
+          "Implement PyMem_Allocator API with custom arena, pooling, and garbage collection hooks",
+          "Use mmap",
+          "Use garbage collector"
+        ],
+        "correctAnswer": "B",
+        "explanation": "Custom allocator implements PyMem_AllocatorEx structure, provides malloc/realloc/free functions, can use arenas, object pooling, and integrates with GC."
+      },
+      {
+        "id": "py_ex_018",
+        "question": "What are the challenges of implementing Python on WebAssembly?",
+        "options": [
+          "No challenges",
+          "Missing system calls, dynamic code execution (eval), threading, C extension portability",
+          "Easy port",
+          "Already complete"
+        ],
+        "correctAnswer": "B",
+        "explanation": "Pyodide/PyScript challenges: missing POSIX APIs, no fork/processes, eval restrictions, WASM limitations, large runtime size, and extension module compatibility."
+      },
+      {
+        "id": "py_ex_019",
+        "question": "How does Python's frame object work internally?",
+        "options": [
+          "Stores function name only",
+          "C struct with code object, instruction pointer, value stack, local variables, and block stack",
+          "Python dict",
+          "List of instructions"
+        ],
+        "correctAnswer": "B",
+        "explanation": "Frame object (PyFrameObject) contains f_code (code object), f_lasti (instruction index), f_locals/f_globals, value stack, block stack for exception handling."
+      },
+      {
+        "id": "py_ex_020",
+        "question": "How would you implement a Python-compatible bytecode interpreter?",
+        "options": [
+          "Use Python's eval",
+          "Implement stack-based VM with dispatch loop, opcode handlers, frame management, and object model",
+          "Compile to C",
+          "Use subprocess"
+        ],
+        "correctAnswer": "B",
+        "explanation": "Bytecode VM implements infinite dispatch loop, switches on opcode, manipulates value stack, handles frame creation/destruction, and implements Python object semantics."
+      }
+    ]
+  }
+},
     
   ]
 }
